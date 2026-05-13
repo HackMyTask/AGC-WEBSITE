@@ -1,18 +1,2 @@
-# Ignore these files and directories from Astro asset processing
-.DS_Store
-Thumbs.db
-*.log
-node_modules/
-.git/
-.env
-.env.*
-*.tmp
-*.temp
-test/
-tests/
-__tests__/
-coverage/
-dist/
-build/
-.cache
-.astro/
+_worker.js
+_routes.json

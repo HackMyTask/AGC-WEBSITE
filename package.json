@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "npm run build && wrangler dev",
     "generate": "python scripts/generate.py",
     "generate:batch": "python scripts/generate.py --batch 20",
     "generate:batch:10": "python scripts/generate.py --batch 10",
@@ -19,16 +19,20 @@
     "generate:random:50": "python scripts/generate.py --random 50",
     "generate:single": "python scripts/generate.py --term",
     "generate:dry-run": "python scripts/generate.py --dry-run",
-    "links": "python scripts/internal_links.py"
+    "links": "python scripts/internal_links.py",
+    "deploy": "npm run build && wrangler deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@astrojs/cloudflare": "12",
     "@astrojs/tailwind": "^5.0.0",
     "astro": "^5.18.1",
     "tailwindcss": "^3.4.19"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "wrangler": "^4.90.1"
+  }
 }
