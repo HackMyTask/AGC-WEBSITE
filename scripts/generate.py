@@ -10,6 +10,7 @@ from pathlib import Path
 from api_client import AIClient
 from quality_gate import QualityGate
 from markdown_writer import MarkdownWriter
+from telegram_notifier import TelegramNotifier
 
 logging.basicConfig(
     level=logging.INFO,
@@ -23,6 +24,7 @@ class ContentGenerator:
         self.ai_client = AIClient()
         self.quality_gate = QualityGate()
         self.markdown_writer = MarkdownWriter()
+        self.notifier = TelegramNotifier()
         self.terms_csv = "data/terms.csv"
         self.prompt_template = self._load_prompt_template()
 
@@ -85,11 +87,17 @@ class ContentGenerator:
 
         if not pending:
             logger.info("No pending terms to generate")
+            self.notifier.send_message("⚠️ No pending terms to generate")
             return
 
         logger.info(f"Found {len(pending)} pending terms. Generating {min(batch_size, len(pending))}...")
+        self.notifier.notify_generation_start(batch_size, priority)
 
         generated_count = 0
+        failed_count = 0
+        quality_failures = []
+        total_tokens = 0
+
         for term_data in pending[:batch_size]:
             term = term_data["term"]
             slug = term_data["slug"]
@@ -109,12 +117,16 @@ class ContentGenerator:
             content = self.ai_client.generate(prompt, term)
             if not content:
                 logger.error(f"Failed to generate {term}")
+                failed_count += 1
+                quality_failures.append(f"{term}: Generation failed")
                 continue
 
             # Validate quality
             passed, errors = self.quality_gate.validate(content, term)
             if not passed:
                 logger.warning(f"Quality gate failed for {term}: {errors}")
+                failed_count += 1
+                quality_failures.append(f"{term}: {errors[0]}")
                 continue
 
             # Write file
@@ -127,11 +139,20 @@ class ContentGenerator:
                         if t["slug"] == slug:
                             t["status"] = "done"
                     generated_count += 1
+                    # Estimate tokens
+                    total_tokens += len(content.split()) + len(prompt.split())
 
         # Write updated CSV
         if not dry_run and generated_count > 0:
             self._write_terms(terms)
             logger.info(f"Generated {generated_count} articles")
+
+        # Send notifications
+        if generated_count > 0:
+            self.notifier.notify_generation_success(generated_count, batch_size, total_tokens)
+
+        if failed_count > 0:
+            self.notifier.notify_quality_failures(failed_count, quality_failures)
 
     def generate_single(self, slug: str, dry_run: bool = False):
         """Regenerate a single term."""
