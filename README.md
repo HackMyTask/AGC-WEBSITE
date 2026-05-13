@@ -197,6 +197,32 @@ GEMINI_API_KEY=your_key
 
 Model: `gemini-2.0-flash`
 
+### Multiple API Keys (Rotation)
+
+To avoid rate limits, configure multiple API keys separated by commas or pipes:
+
+```bash
+# Comma-separated
+GROQ_API_KEY=key1,key2,key3
+
+# Pipe-separated
+GROQ_API_KEY=key1|key2|key3
+```
+
+**How it works:**
+1. Starts with first key
+2. On rate limit, automatically rotates to next key
+3. Retries with new key
+4. Cycles through all keys
+5. Logs all rotations to `logs/api_rotation.log`
+
+**Example with 3 Groq keys:**
+```bash
+GROQ_API_KEY=gsk_abc123,gsk_def456,gsk_ghi789
+```
+
+Each key gets its own quota, so 3 keys = 3x the generation capacity.
+
 ## Logging
 
 - `logs/usage.log` — Token usage per generation

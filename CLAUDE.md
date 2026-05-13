@@ -100,9 +100,27 @@ Every glossary article has:
 ### API Client (`api_client.py`)
 
 - Abstracts Groq and Gemini behind unified interface
+- **Multiple API key rotation** — Automatically rotate between keys on rate limit
 - Retry logic: 3 retries with exponential backoff on rate limits
 - Token usage logging to `logs/usage.log`
+- API rotation logging to `logs/api_rotation.log`
 - Daily limit enforcement (default 100 tokens/day, configurable)
+
+**Multiple API Key Configuration:**
+
+Single key (default):
+```bash
+GROQ_API_KEY=your_key
+GEMINI_API_KEY=your_key
+```
+
+Multiple keys (comma or pipe separated):
+```bash
+GROQ_API_KEY=key1,key2,key3
+GEMINI_API_KEY=key1|key2|key3
+```
+
+When rate limited, automatically rotates to next key in the list.
 
 ### Markdown Writer (`markdown_writer.py`)
 
