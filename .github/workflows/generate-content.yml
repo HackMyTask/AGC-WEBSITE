@@ -1,4 +1,5 @@
 name: Generate Content
+# refresh workflow to trigger manual button appearance
 
 on:
   schedule:
@@ -46,12 +47,18 @@ jobs:
 
       - name: Generate content
         env:
-          AI_PROVIDER: ${{ secrets.AI_PROVIDER || 'groq' }}
+          AI_PROVIDER: ${{ secrets.AI_PROVIDER }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          DAILY_LIMIT: ${{ secrets.DAILY_LIMIT || '100' }}
+          DAILY_LIMIT: ${{ secrets.DAILY_LIMIT }}
         run: |
-          BATCH_SIZE="${{ github.event.inputs.batch_size || '20' }}"
+          # Set defaults for environment variables
+          AI_PROVIDER="${AI_PROVIDER:-groq}"
+          DAILY_LIMIT="${DAILY_LIMIT:-100}"
+
+          # Set defaults for workflow inputs
+          BATCH_SIZE="${{ github.event.inputs.batch_size }}"
+          BATCH_SIZE="${BATCH_SIZE:-20}"
           PRIORITY="${{ github.event.inputs.priority }}"
           RANDOM="${{ github.event.inputs.random }}"
 
