@@ -7,11 +7,14 @@ on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: 'Number of terms to generate'
+        description: 'Number of terms to generate (10-50)'
         required: false
         default: '20'
       priority:
         description: 'Priority level (1 or 2, leave empty for all)'
+        required: false
+      random:
+        description: 'Generate random N articles (10-50, overrides batch_size)'
         required: false
 
 jobs:
@@ -47,12 +50,36 @@ jobs:
         run: |
           BATCH_SIZE="${{ github.event.inputs.batch_size || '20' }}"
           PRIORITY="${{ github.event.inputs.priority }}"
+          RANDOM="${{ github.event.inputs.random }}"
 
-          if [ -z "$PRIORITY" ]; then
-            python scripts/generate.py --batch $BATCH_SIZE
-          else
-            python scripts/generate.py --batch $BATCH_SIZE --priority $PRIORITY
+          # Validate batch size
+          if [ "$BATCH_SIZE" -lt 10 ] || [ "$BATCH_SIZE" -gt 50 ]; then
+            echo "Error: Batch size must be between 10-50, got $BATCH_SIZE"
+            exit 1
           fi
+
+          # Build command
+          CMD="python scripts/generate.py --batch $BATCH_SIZE"
+
+          # Add priority if specified
+          if [ -n "$PRIORITY" ]; then
+            CMD="$CMD --priority $PRIORITY"
+          fi
+
+          # Use random if specified (overrides batch_size)
+          if [ -n "$RANDOM" ]; then
+            if [ "$RANDOM" -lt 10 ] || [ "$RANDOM" -gt 50 ]; then
+              echo "Error: Random batch size must be between 10-50, got $RANDOM"
+              exit 1
+            fi
+            CMD="python scripts/generate.py --random $RANDOM"
+            if [ -n "$PRIORITY" ]; then
+              CMD="$CMD --priority $PRIORITY"
+            fi
+          fi
+
+          echo "Running: $CMD"
+          $CMD
 
       - name: Update internal links
         run: python scripts/internal_links.py
@@ -90,9 +117,20 @@ jobs:
         run: |
           echo "## Generation Stats" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Batch Size:** ${{ github.event.inputs.batch_size || '20' }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Priority:** ${{ github.event.inputs.priority || 'All' }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Random:** ${{ github.event.inputs.random || 'No' }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Token Usage:**" >> $GITHUB_STEP_SUMMARY
           if [ -f logs/usage.log ]; then
             tail -5 logs/usage.log >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**API Rotations:**" >> $GITHUB_STEP_SUMMARY
+          if [ -f logs/api_rotation.log ]; then
+            tail -3 logs/api_rotation.log >> $GITHUB_STEP_SUMMARY
+          else
+            echo "None" >> $GITHUB_STEP_SUMMARY
           fi
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Files Written:**" >> $GITHUB_STEP_SUMMARY
@@ -106,3 +144,4 @@ jobs:
           else
             echo "None" >> $GITHUB_STEP_SUMMARY
           fi
+

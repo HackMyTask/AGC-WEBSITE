@@ -171,19 +171,52 @@ class ContentGenerator:
 
 def main():
     parser = argparse.ArgumentParser(description="Generate AI glossary content")
-    parser.add_argument("--batch", type=int, default=20, help="Number of terms to generate")
-    parser.add_argument("--term", type=str, help="Regenerate single term by slug")
-    parser.add_argument("--dry-run", action="store_true", help="Preview without writing files")
-    parser.add_argument("--priority", type=int, help="Only generate priority N terms")
+    parser.add_argument(
+        "--batch",
+        type=int,
+        default=20,
+        help="Number of terms to generate (10-50, default 20)"
+    )
+    parser.add_argument(
+        "--term",
+        type=str,
+        help="Regenerate single term by slug"
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Preview without writing files"
+    )
+    parser.add_argument(
+        "--priority",
+        type=int,
+        help="Only generate priority N terms (1 or 2)"
+    )
+    parser.add_argument(
+        "--random",
+        type=int,
+        help="Generate random N articles (10-50)"
+    )
 
     args = parser.parse_args()
+
+    # Validate batch size
+    batch_size = args.batch
+    if batch_size < 10 or batch_size > 50:
+        logger.error(f"Batch size must be between 10-50, got {batch_size}")
+        sys.exit(1)
 
     generator = ContentGenerator()
 
     if args.term:
         generator.generate_single(args.term, dry_run=args.dry_run)
+    elif args.random:
+        if args.random < 10 or args.random > 50:
+            logger.error(f"Random batch size must be between 10-50, got {args.random}")
+            sys.exit(1)
+        generator.generate_batch(batch_size=args.random, priority=args.priority, dry_run=args.dry_run)
     else:
-        generator.generate_batch(batch_size=args.batch, priority=args.priority, dry_run=args.dry_run)
+        generator.generate_batch(batch_size=batch_size, priority=args.priority, dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

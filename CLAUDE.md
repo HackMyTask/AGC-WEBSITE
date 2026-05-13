@@ -45,20 +45,50 @@ AGC-WEBSITE/
 ### Content Generation
 
 ```bash
-npm run generate:batch          # Generate next 20 pending terms
-npm run generate:priority1      # Generate only priority 1 terms
-npm run generate:single -- <slug>  # Regenerate single term
-npm run generate:dry-run        # Preview without writing
-npm run links                   # Update internal links
+# Generate next 20 pending terms (default)
+npm run generate:batch
+
+# Generate specific batch sizes (10-50)
+npm run generate:batch:10          # Generate 10 articles
+npm run generate:batch:30          # Generate 30 articles
+npm run generate:batch:50          # Generate 50 articles
+
+# Generate random N articles (10-50)
+npm run generate:random:10         # Random 10 articles
+npm run generate:random:30         # Random 30 articles
+npm run generate:random:50         # Random 50 articles
+
+# Generate only priority 1 terms
+npm run generate:priority1         # 20 priority 1 terms
+npm run generate:priority1:50      # 50 priority 1 terms
+
+# Regenerate single term
+npm run generate:single -- what-is-rag
+
+# Preview without writing files
+npm run generate:dry-run
+
+# Update internal links
+npm run links
 ```
 
-### Site Development
+### Batch Size Configuration
 
+**Range:** 10-50 articles per run  
+**Default:** 20 articles  
+**Validation:** Enforced in both CLI and GitHub Actions
+
+**CLI Usage:**
 ```bash
-npm run dev                     # Start dev server (localhost:3000)
-npm run build                   # Build for production
-npm run preview                 # Preview production build
+python scripts/generate.py --batch 30          # Generate 30 articles
+python scripts/generate.py --batch 50 --priority 1  # 50 priority 1 terms
+python scripts/generate.py --random 25         # Random 25 articles
 ```
+
+**GitHub Actions:**
+- Manual trigger with `batch_size` input (10-50)
+- Manual trigger with `random` input (10-50)
+- Scheduled daily with default 20 articles
 
 ## Architecture & Key Concepts
 

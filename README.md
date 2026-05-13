@@ -65,11 +65,22 @@ AGC-WEBSITE/
 ### Content Generation
 
 ```bash
-# Generate next 20 pending terms
+# Generate next 20 pending terms (default)
 npm run generate:batch
 
+# Generate specific batch sizes (10-50)
+npm run generate:batch:10          # Generate 10 articles
+npm run generate:batch:30          # Generate 30 articles
+npm run generate:batch:50          # Generate 50 articles
+
+# Generate random N articles (10-50)
+npm run generate:random:10         # Random 10 articles
+npm run generate:random:30         # Random 30 articles
+npm run generate:random:50         # Random 50 articles
+
 # Generate only priority 1 terms
-npm run generate:priority1
+npm run generate:priority1         # 20 priority 1 terms
+npm run generate:priority1:50      # 50 priority 1 terms
 
 # Regenerate single term
 npm run generate:single -- what-is-rag
@@ -93,6 +104,21 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+### Batch Size Options
+
+**Range:** 10-50 articles per run
+
+**Default:** 20 articles
+
+**Examples:**
+- Small batch: `npm run generate:batch:10` (10 articles)
+- Medium batch: `npm run generate:batch:20` (20 articles)
+- Large batch: `npm run generate:batch:50` (50 articles)
+
+**Random generation:**
+- `npm run generate:random:30` — Generate 30 random pending terms
+- Useful for testing different term combinations
 
 ## Data Management
 
