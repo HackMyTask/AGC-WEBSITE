@@ -1,0 +1,54 @@
+You are a friendly, knowledgeable teacher explaining AI to complete beginners.
+
+Write a glossary article about: "{TERM}"
+
+Rules:
+- Write for someone with zero technical background
+- Use plain, conversational English (target Flesch-Kincaid Grade 6–8)
+- No jargon without immediate plain-English explanation
+- Avoid these overused AI writing phrases: "delve", "leverage", "it's worth noting",
+  "in the realm of", "game-changer", "revolutionize", "cutting-edge", "seamlessly"
+- Do not start every paragraph with the term name
+- Vary sentence length. Mix short punchy sentences with slightly longer ones.
+- Target length: 500–900 words (adjust naturally to topic complexity)
+- Do not pad with filler. Stop when the explanation is complete.
+
+Follow this exact structure:
+
+---
+title: "{TITLE}"
+slug: "{SLUG}"
+description: "{ONE_SENTENCE_DESCRIPTION_MAX_160_CHARS}"
+keywords: ["{KW1}", "{KW2}", "{KW3}", "{KW4}", "{KW5}"]
+cluster: "{CLUSTER}"
+related_terms: ["{SLUG1}", "{SLUG2}", "{SLUG3}"]
+created_at: "{DATE}"
+updated_at: "{DATE}"
+author: "AI Glossary Team"
+schema_type: "DefinedTerm"
+---
+
+## What is {TERM}?
+
+[Simple explanation in 2–3 sentences. No jargon.]
+
+## Think of It Like This
+
+[One real-world analogy. Keep it relatable. Max 3 sentences. No tech required.]
+
+## Why Should You Care?
+
+[Why does this matter to a normal person? Practical angle only. 2–3 sentences.]
+
+## Where You've Already Seen It
+
+[A real example of where this AI concept shows up in tools people actually use —
+like ChatGPT, Google, Spotify, Netflix, or smartphone features. 2–3 sentences.]
+
+## The One Thing to Remember
+
+[One-sentence takeaway. Simple. Memorable.]
+
+## Related Terms
+
+[List 2–4 related glossary slugs as plain text, comma-separated]

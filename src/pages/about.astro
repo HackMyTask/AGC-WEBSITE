@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "About AI Glossary";
+const description = "Learn about our mission to explain AI simply for everyone.";
+---
+
+<Layout title={title} description={description}>
+  <article class="max-w-2xl">
+    <h1 class="text-4xl font-bold mb-8">About AI Glossary</h1>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Our Mission</h2>
+      <p class="text-lg text-slate-300 mb-4">
+        AI Glossary exists to explain artificial intelligence in plain language for people with no technical background.
+      </p>
+      <p class="text-slate-300 mb-4">
+        We believe AI shouldn't be intimidating. Every term, every concept, every tool can be understood by normal humans.
+        We're here to prove it.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">How We Write</h2>
+      <ul class="text-slate-300 space-y-3">
+        <li>✓ No jargon without explanation</li>
+        <li>✓ Real-world examples you already know</li>
+        <li>✓ Short, clear sentences</li>
+        <li>✓ Friendly, conversational tone</li>
+        <li>✓ Focus on the "why" not the "how"</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Who We Are</h2>
+      <p class="text-slate-300 mb-4">
+        AI Glossary is maintained by the AI Glossary Team. All articles are reviewed for clarity and accuracy before publishing.
+      </p>
+      <p class="text-slate-300">
+        Have feedback? Found an error? <a href="mailto:hello@ai-glossary.example.com" class="text-accent hover:underline">Get in touch</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-bold mb-4">Privacy & Terms</h2>
+      <p class="text-slate-300 mb-2">
+        <a href="/privacy" class="text-accent hover:underline">Privacy Policy</a>
+      </p>
+      <p class="text-slate-300">
+        <a href="/terms" class="text-accent hover:underline">Terms of Service</a>
+      </p>
+    </section>
+  </article>
+</Layout>

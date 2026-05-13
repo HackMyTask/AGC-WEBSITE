@@ -1,0 +1,26 @@
+{
+  "name": "agc-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "generate": "python scripts/generate.py",
+    "generate:batch": "python scripts/generate.py --batch 20",
+    "generate:priority1": "python scripts/generate.py --priority 1",
+    "generate:single": "python scripts/generate.py --term",
+    "generate:dry-run": "python scripts/generate.py --dry-run",
+    "links": "python scripts/internal_links.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^6.3.1",
+    "tailwindcss": "^3.4.19"
+  }
+}

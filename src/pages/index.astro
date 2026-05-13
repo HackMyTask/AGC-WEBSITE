@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "AI Glossary for Beginners";
+const description = "AI explained simply for normal humans. Learn AI concepts in plain language.";
+
+const clusters = [
+  { id: 'ai-basics', name: 'AI Basics', icon: '🧠' },
+  { id: 'llms', name: 'LLMs & Models', icon: '🤖' },
+  { id: 'prompt-engineering', name: 'Prompt Engineering', icon: '✍️' },
+  { id: 'ai-tools', name: 'AI Tools & Apps', icon: '🛠️' },
+];
+
+const featuredTerms = [
+  { slug: 'what-is-an-llm', title: 'What is an LLM?' },
+  { slug: 'what-is-prompt-engineering', title: 'What is Prompt Engineering?' },
+  { slug: 'what-is-rag', title: 'What is RAG?' },
+  { slug: 'what-is-an-ai-agent', title: 'What is an AI Agent?' },
+];
+---
+
+<Layout title={title} description={description}>
+  <section class="mb-16">
+    <h1 class="text-5xl font-bold mb-4 text-white">AI Explained Simply</h1>
+    <p class="text-xl text-slate-300 mb-8">
+      Learn AI concepts in plain language. No jargon. No intimidation. Just clear explanations for normal humans.
+    </p>
+    <div class="flex gap-4">
+      <a href="/search" class="px-6 py-3 bg-accent text-slate-950 font-semibold rounded hover:bg-blue-400 transition">
+        Search Terms
+      </a>
+      <a href="/glossary/a" class="px-6 py-3 border border-slate-700 rounded hover:border-accent transition">
+        Browse A–Z
+      </a>
+    </div>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="text-2xl font-bold mb-8">Start Here</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {featuredTerms.map(term => (
+        <a href={`/glossary/${term.slug}`} class="p-4 bg-slate-900 border border-slate-800 rounded hover:border-accent transition">
+          <h3 class="font-semibold text-accent">{term.title}</h3>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="mb-16">
+    <h2 class="text-2xl font-bold mb-8">Topics</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {clusters.map(cluster => (
+        <a href={`/topics/${cluster.id}`} class="p-6 bg-slate-900 border border-slate-800 rounded hover:border-accent transition">
+          <div class="text-3xl mb-2">{cluster.icon}</div>
+          <h3 class="font-semibold text-lg">{cluster.name}</h3>
+          <p class="text-sm text-slate-400 mt-2">Explore this topic</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-2xl font-bold mb-8">Browse Alphabetically</h2>
+    <div class="flex flex-wrap gap-2">
+      {Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZ').map(letter => (
+        <a href={`/glossary/${letter.toLowerCase()}`} class="px-3 py-2 bg-slate-900 border border-slate-800 rounded hover:border-accent transition text-sm font-medium">
+          {letter}
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

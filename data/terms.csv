@@ -1,0 +1,51 @@
+term,slug,cluster,status,priority
+What is RAG,what-is-rag,llms,pending,1
+What is an AI Agent,what-is-an-ai-agent,ai-agents,pending,1
+What is an LLM,what-is-an-llm,ai-basics,pending,1
+What is MCP,what-is-mcp,ai-infrastructure,pending,2
+What is Prompt Engineering,what-is-prompt-engineering,prompt-engineering,pending,1
+What is Fine Tuning,what-is-fine-tuning,llms,pending,1
+What is a Vector Database,what-is-a-vector-database,ai-infrastructure,pending,2
+What is Hallucination in AI,what-is-hallucination-in-ai,ai-basics,pending,1
+What is Machine Learning,what-is-machine-learning,ai-basics,pending,1
+What is Deep Learning,what-is-deep-learning,ai-basics,pending,1
+What is Neural Network,what-is-neural-network,ai-basics,pending,1
+What is Transformer Architecture,what-is-transformer-architecture,llms,pending,1
+What is Tokenization,what-is-tokenization,llms,pending,1
+What is Embedding,what-is-embedding,ai-infrastructure,pending,2
+What is Attention Mechanism,what-is-attention-mechanism,llms,pending,1
+What is Temperature in AI,what-is-temperature-in-ai,prompt-engineering,pending,1
+What is Top-K Sampling,what-is-top-k-sampling,prompt-engineering,pending,2
+What is Chain of Thought,what-is-chain-of-thought,prompt-engineering,pending,1
+What is Few Shot Prompting,what-is-few-shot-prompting,prompt-engineering,pending,1
+What is Zero Shot Prompting,what-is-zero-shot-prompting,prompt-engineering,pending,1
+What is ChatGPT,what-is-chatgpt,ai-tools,pending,1
+What is Claude,what-is-claude,ai-tools,pending,1
+What is Gemini,what-is-gemini,ai-tools,pending,1
+What is DALL-E,what-is-dall-e,ai-tools,pending,1
+What is Midjourney,what-is-midjourney,ai-tools,pending,1
+What is Stable Diffusion,what-is-stable-diffusion,ai-tools,pending,1
+What is Copilot,what-is-copilot,ai-tools,pending,1
+What is Perplexity AI,what-is-perplexity-ai,ai-tools,pending,2
+What is Retrieval Augmented Generation,what-is-retrieval-augmented-generation,llms,pending,1
+What is Semantic Search,what-is-semantic-search,ai-infrastructure,pending,2
+What is Model Quantization,what-is-model-quantization,llms,pending,2
+What is Inference,what-is-inference,ai-basics,pending,1
+What is Training Data,what-is-training-data,ai-basics,pending,1
+What is Overfitting,what-is-overfitting,ai-basics,pending,1
+What is Underfitting,what-is-underfitting,ai-basics,pending,1
+What is Bias in AI,what-is-bias-in-ai,ai-basics,pending,1
+What is Accuracy in AI,what-is-accuracy-in-ai,ai-basics,pending,1
+What is Precision and Recall,what-is-precision-and-recall,ai-basics,pending,1
+What is Loss Function,what-is-loss-function,ai-basics,pending,1
+What is Gradient Descent,what-is-gradient-descent,ai-basics,pending,1
+What is Backpropagation,what-is-backpropagation,ai-basics,pending,1
+What is Activation Function,what-is-activation-function,ai-basics,pending,1
+What is Batch Size,what-is-batch-size,prompt-engineering,pending,2
+What is Learning Rate,what-is-learning-rate,ai-basics,pending,1
+What is Epoch in Machine Learning,what-is-epoch-in-machine-learning,ai-basics,pending,1
+What is Hyperparameter Tuning,what-is-hyperparameter-tuning,ai-basics,pending,1
+What is Cross Validation,what-is-cross-validation,ai-basics,pending,1
+What is Regularization,what-is-regularization,ai-basics,pending,1
+What is Dropout,what-is-dropout,ai-basics,pending,1
+What is Batch Normalization,what-is-batch-normalization,ai-basics,pending,1
