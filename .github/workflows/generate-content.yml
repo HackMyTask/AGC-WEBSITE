@@ -1,0 +1,108 @@
+name: Generate Content
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of terms to generate'
+        required: false
+        default: '20'
+      priority:
+        description: 'Priority level (1 or 2, leave empty for all)'
+        required: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          pip install anthropic google-generativeai
+
+      - name: Generate content
+        env:
+          AI_PROVIDER: ${{ secrets.AI_PROVIDER || 'groq' }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DAILY_LIMIT: ${{ secrets.DAILY_LIMIT || '100' }}
+        run: |
+          BATCH_SIZE="${{ github.event.inputs.batch_size || '20' }}"
+          PRIORITY="${{ github.event.inputs.priority }}"
+
+          if [ -z "$PRIORITY" ]; then
+            python scripts/generate.py --batch $BATCH_SIZE
+          else
+            python scripts/generate.py --batch $BATCH_SIZE --priority $PRIORITY
+          fi
+
+      - name: Update internal links
+        run: python scripts/internal_links.py
+
+      - name: Check for failures
+        run: |
+          if [ -f logs/quality_failures.log ] && [ -s logs/quality_failures.log ]; then
+            echo "⚠️ Quality gate failures detected:"
+            cat logs/quality_failures.log
+            echo "::warning::Some articles failed quality gate validation"
+          fi
+
+      - name: Commit and push changes
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Check if there are changes
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add content/glossary/ data/terms.csv logs/
+          git commit -m "chore: auto-generate glossary content
+
+- Generated $(ls -1 content/glossary/*.md 2>/dev/null | wc -l) articles
+- Updated internal links
+- Timestamp: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
+
+      - name: Log generation stats
+        if: always()
+        run: |
+          echo "## Generation Stats" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Token Usage:**" >> $GITHUB_STEP_SUMMARY
+          if [ -f logs/usage.log ]; then
+            tail -5 logs/usage.log >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Files Written:**" >> $GITHUB_STEP_SUMMARY
+          if [ -f logs/writes.log ]; then
+            grep "WRITTEN" logs/writes.log | wc -l | xargs echo "Articles written:" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Quality Failures:**" >> $GITHUB_STEP_SUMMARY
+          if [ -f logs/quality_failures.log ] && [ -s logs/quality_failures.log ]; then
+            wc -l logs/quality_failures.log >> $GITHUB_STEP_SUMMARY
+          else
+            echo "None" >> $GITHUB_STEP_SUMMARY
+          fi

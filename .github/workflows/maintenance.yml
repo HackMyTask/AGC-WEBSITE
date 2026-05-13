@@ -1,0 +1,189 @@
+name: Maintenance
+
+on:
+  schedule:
+    # Run weekly on Sunday at 3 AM UTC
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Scan for duplicate slugs
+        run: |
+          echo "## Duplicate Slug Scan" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          python3 << 'EOF'
+          import csv
+          from collections import Counter
+
+          with open('data/terms.csv', 'r') as f:
+              reader = csv.DictReader(f)
+              slugs = [row['slug'] for row in reader]
+
+          duplicates = [slug for slug, count in Counter(slugs).items() if count > 1]
+
+          if duplicates:
+              print(f"⚠️ Found {len(duplicates)} duplicate slugs:")
+              for slug in duplicates:
+                  print(f"  - {slug}")
+          else:
+              print("✓ No duplicate slugs found")
+          EOF
+
+      - name: Check for broken related_terms links
+        run: |
+          echo "## Broken Links Check" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          python3 << 'EOF'
+          import csv
+          import os
+          from pathlib import Path
+
+          # Read all valid slugs
+          valid_slugs = set()
+          with open('data/terms.csv', 'r') as f:
+              reader = csv.DictReader(f)
+              for row in reader:
+                  valid_slugs.add(row['slug'])
+
+          # Check all markdown files
+          broken_links = []
+          glossary_dir = Path('content/glossary')
+
+          if glossary_dir.exists():
+              for md_file in glossary_dir.glob('*.md'):
+                  with open(md_file, 'r') as f:
+                      content = f.read()
+                      # Extract related_terms from frontmatter
+                      if 'related_terms:' in content:
+                          start = content.find('related_terms:') + len('related_terms:')
+                          end = content.find('\n', start)
+                          related_str = content[start:end].strip()
+                          # Parse list format
+                          related = [s.strip().strip('[]"\'') for s in related_str.split(',')]
+                          for term in related:
+                              if term and term not in valid_slugs:
+                                  broken_links.append((md_file.stem, term))
+
+          if broken_links:
+              print(f"⚠️ Found {len(broken_links)} broken links:")
+              for source, target in broken_links:
+                  print(f"  - {source} → {target}")
+          else:
+              print("✓ No broken links found")
+          EOF
+
+      - name: Validate CSV format
+        run: |
+          echo "## CSV Validation" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          python3 << 'EOF'
+          import csv
+          import re
+
+          errors = []
+
+          with open('data/terms.csv', 'r') as f:
+              reader = csv.DictReader(f)
+              for i, row in enumerate(reader, start=2):
+                  # Check required fields
+                  if not row.get('term'):
+                      errors.append(f"Row {i}: missing term")
+                  if not row.get('slug'):
+                      errors.append(f"Row {i}: missing slug")
+
+                  # Validate slug format
+                  slug = row.get('slug', '')
+                  if slug and not re.match(r'^[a-z0-9-]+$', slug):
+                      errors.append(f"Row {i}: invalid slug format '{slug}'")
+
+                  # Validate status
+                  status = row.get('status', '')
+                  if status not in ['pending', 'done', 'skip']:
+                      errors.append(f"Row {i}: invalid status '{status}'")
+
+                  # Validate priority
+                  priority = row.get('priority', '')
+                  if priority not in ['1', '2']:
+                      errors.append(f"Row {i}: invalid priority '{priority}'")
+
+          if errors:
+              print(f"⚠️ Found {len(errors)} CSV errors:")
+              for error in errors[:10]:
+                  print(f"  - {error}")
+              if len(errors) > 10:
+                  print(f"  ... and {len(errors) - 10} more")
+          else:
+              print("✓ CSV format is valid")
+          EOF
+
+      - name: Generate statistics
+        run: |
+          echo "## Content Statistics" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          python3 << 'EOF'
+          import csv
+          from pathlib import Path
+          from collections import defaultdict
+
+          # Read CSV stats
+          status_count = defaultdict(int)
+          priority_count = defaultdict(int)
+          cluster_count = defaultdict(int)
+
+          with open('data/terms.csv', 'r') as f:
+              reader = csv.DictReader(f)
+              for row in reader:
+                  status_count[row['status']] += 1
+                  priority_count[row['priority']] += 1
+                  cluster_count[row['cluster']] += 1
+
+          # Count generated files
+          glossary_dir = Path('content/glossary')
+          generated_count = len(list(glossary_dir.glob('*.md'))) if glossary_dir.exists() else 0
+
+          print("**Terms by Status:**")
+          for status in ['done', 'pending', 'skip']:
+              print(f"  - {status}: {status_count[status]}")
+
+          print("\n**Terms by Priority:**")
+          for priority in ['1', '2']:
+              print(f"  - Priority {priority}: {priority_count[priority]}")
+
+          print("\n**Terms by Cluster:**")
+          for cluster in sorted(cluster_count.keys()):
+              print(f"  - {cluster}: {cluster_count[cluster]}")
+
+          print(f"\n**Generated Articles:** {generated_count}")
+          EOF
+
+      - name: Commit maintenance logs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git add logs/
+          git commit -m "chore: maintenance check - $(date -u +'%Y-%m-%d')" || true
+          git push || true
