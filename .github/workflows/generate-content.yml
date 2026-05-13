@@ -5,6 +5,9 @@ on:
     # Run daily at 2 AM UTC
     - cron: '0 2 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
     inputs:
       batch_size:
         description: 'Number of terms to generate (10-50)'
@@ -39,7 +42,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          pip install anthropic google-generativeai
+          pip install requests
 
       - name: Generate content
         env:
@@ -105,11 +108,13 @@ jobs:
           fi
 
           git add content/glossary/ data/terms.csv logs/
+          ARTICLES_COUNT=$(ls -1 content/glossary/*.md 2>/dev/null | wc -l)
+          TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
           git commit -m "chore: auto-generate glossary content
 
-- Generated $(ls -1 content/glossary/*.md 2>/dev/null | wc -l) articles
+- Generated $ARTICLES_COUNT articles
 - Updated internal links
-- Timestamp: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+- Timestamp: $TIMESTAMP"
           git push
 
       - name: Log generation stats
