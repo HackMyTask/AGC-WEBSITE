@@ -64,6 +64,13 @@ class ContentGenerator:
         """Check if markdown file already exists for slug."""
         return os.path.exists(f"src/content/glossary/{slug}.md")
 
+    def _update_status(self, terms: list, slug: str, status: str):
+        """Update status of a term in the terms list."""
+        for t in terms:
+            if t["slug"] == slug:
+                t["status"] = status
+                break
+
     def _build_prompt(self, term: str, slug: str, cluster: str) -> str:
         """Build AI prompt from template."""
         prompt = self.prompt_template
@@ -103,6 +110,7 @@ class ContentGenerator:
         failed_count = 0
         quality_failures = []
         total_tokens = 0
+        csv_changed = False
 
         for term_data in pending[:batch_size]:
             term = term_data["term"]
@@ -112,6 +120,8 @@ class ContentGenerator:
             # Skip if already exists
             if self._slug_exists(slug):
                 logger.info(f"Skipping {slug}: file already exists")
+                self._update_status(terms, slug, "done")
+                csv_changed = True
                 continue
 
             logger.info(f"Generating: {term}")
@@ -122,15 +132,25 @@ class ContentGenerator:
             # Generate content
             content = self.ai_client.generate(prompt, term)
             if not content:
-                logger.error(f"Failed to generate {term}")
+                # Check if it's a daily limit issue (all subsequent will fail too)
+                if not self.ai_client._check_daily_limit():
+                    logger.error(f"Daily token limit reached. Stopping batch.")
+                    break
+                # API failure (all keys exhausted for this term) → mark failed
+                logger.error(f"Failed to generate {term} — marking as failed")
+                self._update_status(terms, slug, "failed")
+                csv_changed = True
                 failed_count += 1
-                quality_failures.append(f"{term}: Generation failed")
+                quality_failures.append(f"{term}: API generation failed")
                 continue
 
             # Validate quality
             passed, errors = self.quality_gate.validate(content, term)
             if not passed:
                 logger.warning(f"Quality gate failed for {term}: {errors}")
+                # Mark as failed so it won't retry endlessly
+                self._update_status(terms, slug, "failed")
+                csv_changed = True
                 failed_count += 1
                 quality_failures.append(f"{term}: {errors[0]}")
                 continue
@@ -140,18 +160,15 @@ class ContentGenerator:
                 logger.info(f"[DRY RUN] Would write {slug}.md")
             else:
                 if self.markdown_writer.write(slug, content):
-                    # Update CSV status
-                    for t in terms:
-                        if t["slug"] == slug:
-                            t["status"] = "done"
+                    self._update_status(terms, slug, "done")
+                    csv_changed = True
                     generated_count += 1
-                    # Estimate tokens
                     total_tokens += len(content.split()) + len(prompt.split())
 
-        # Write updated CSV
-        if not dry_run and generated_count > 0:
+        # Write updated CSV (always, if any status changed)
+        if not dry_run and csv_changed:
             self._write_terms(terms)
-            logger.info(f"Generated {generated_count} articles")
+            logger.info(f"CSV updated: {generated_count} done, {failed_count} failed")
 
         # Send notifications
         if generated_count > 0:
@@ -161,7 +178,7 @@ class ContentGenerator:
             self.notifier.notify_quality_failures(failed_count, quality_failures)
 
     def generate_single(self, slug: str, dry_run: bool = False):
-        """Regenerate a single term."""
+        """Regenerate a single term (resets failed status)."""
         terms = self._read_terms()
         term_data = next((t for t in terms if t["slug"] == slug), None)
 

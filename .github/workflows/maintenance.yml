@@ -114,7 +114,7 @@ jobs:
 
                   # Validate status
                   status = row.get('status', '')
-                  if status not in ['pending', 'done', 'skip']:
+                  if status not in ['pending', 'done', 'skip', 'failed']:
                       errors.append(f"Row {i}: invalid status '{status}'")
 
                   # Validate priority
