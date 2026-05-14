@@ -1,0 +1,68 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const clusterMeta: Record<string, { name: string; icon: string; description: string }> = {
+  'ai-basics': { name: 'AI Basics', icon: '🧠', description: 'Fundamental AI concepts explained for beginners.' },
+  'llms': { name: 'LLMs & Models', icon: '🤖', description: 'Large Language Models and how they work.' },
+  'prompt-engineering': { name: 'Prompt Engineering', icon: '✍️', description: 'Techniques for getting better results from AI.' },
+  'ai-tools': { name: 'AI Tools & Apps', icon: '🛠️', description: 'Popular AI tools and applications you can use today.' },
+  'ai-agents': { name: 'AI Agents', icon: '🕵️', description: 'Autonomous AI systems that can take actions.' },
+  'ai-infrastructure': { name: 'AI Infrastructure', icon: '⚙️', description: 'The technology behind AI systems.' },
+  'ai-safety': { name: 'AI Safety', icon: '🛡️', description: 'Keeping AI safe, ethical, and trustworthy.' },
+};
+
+export async function getStaticPaths() {
+  return Object.keys({
+    'ai-basics': true,
+    'llms': true,
+    'prompt-engineering': true,
+    'ai-tools': true,
+    'ai-agents': true,
+    'ai-infrastructure': true,
+    'ai-safety': true,
+  }).map(cluster => ({
+    params: { cluster },
+  }));
+}
+
+const { cluster } = Astro.params;
+const meta = clusterMeta[cluster!] || { name: cluster, icon: '📚', description: '' };
+
+const allArticles = await getCollection('glossary');
+const articles = allArticles.filter(a => a.data.cluster === cluster);
+---
+
+<Layout title={meta.name} description={meta.description}>
+  <section class="mb-12">
+    <div class="flex items-center gap-2 text-sm text-slate-400 mb-4">
+      <a href="/" class="hover:text-accent">Home</a>
+      <span>/</span>
+      <span>Topics</span>
+      <span>/</span>
+      <span>{meta.name}</span>
+    </div>
+
+    <div class="text-5xl mb-4">{meta.icon}</div>
+    <h1 class="text-4xl font-bold mb-4 text-white">{meta.name}</h1>
+    <p class="text-lg text-slate-300 mb-2">{meta.description}</p>
+    <p class="text-sm text-slate-500">{articles.length} articles</p>
+  </section>
+
+  {articles.length > 0 ? (
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {articles.map(article => (
+          <a href={`/glossary/${article.id}`} class="p-4 bg-slate-900 border border-slate-800 rounded hover:border-accent transition">
+            <h3 class="font-semibold text-accent">{article.data.title}</h3>
+            <p class="text-sm text-slate-400 mt-1">{article.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  ) : (
+    <section>
+      <p class="text-slate-400">Articles coming soon. Check back later!</p>
+    </section>
+  )}
+</Layout>

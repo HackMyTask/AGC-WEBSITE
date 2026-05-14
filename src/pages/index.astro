@@ -18,6 +18,14 @@ const clusters = [
 const allArticles = await getCollection('glossary');
 const latestArticles = allArticles.slice(0, 4);
 const totalCount = allArticles.length;
+
+// Group articles by first letter for alphabetical browse
+const articlesByLetter: Record<string, typeof allArticles> = {};
+allArticles.forEach(article => {
+  const firstChar = article.data.title.charAt(0).toUpperCase();
+  if (!articlesByLetter[firstChar]) articlesByLetter[firstChar] = [];
+  articlesByLetter[firstChar].push(article);
+});
 ---
 
 <Layout title={title} description={description}>
@@ -56,13 +64,13 @@ const totalCount = allArticles.length;
     <h2 class="text-2xl font-bold mb-8">Topics</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {clusters.map(cluster => (
-        <div class="p-6 bg-slate-900 border border-slate-800 rounded">
+        <a href={`/topics/${cluster.id}`} class="p-6 bg-slate-900 border border-slate-800 rounded hover:border-accent transition block">
           <div class="text-3xl mb-2">{cluster.icon}</div>
           <h3 class="font-semibold text-lg">{cluster.name}</h3>
           <p class="text-sm text-slate-400 mt-2">
             {allArticles.filter(a => a.data.cluster === cluster.id).length} articles
           </p>
-        </div>
+        </a>
       ))}
     </div>
   </section>
@@ -70,13 +78,13 @@ const totalCount = allArticles.length;
   {totalCount > 0 && (
     <section>
       <h2 class="text-2xl font-bold mb-8">Browse Alphabetically</h2>
-      <div class="flex flex-wrap gap-2">
+      <div class="flex flex-wrap gap-2 mb-8">
         {Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZ').map(letter => {
-          const count = allArticles.filter(a => a.data.title.toUpperCase().startsWith(letter)).length;
+          const count = articlesByLetter[letter]?.length || 0;
           return count > 0 ? (
-            <span class="px-3 py-2 bg-slate-900 border border-slate-800 rounded text-sm font-medium text-accent">
+            <a href={`#letter-${letter}`} class="px-3 py-2 bg-slate-900 border border-slate-800 rounded text-sm font-medium text-accent hover:border-accent transition">
               {letter} <span class="text-slate-500 text-xs">({count})</span>
-            </span>
+            </a>
           ) : (
             <span class="px-3 py-2 bg-slate-900/50 border border-slate-800/50 rounded text-sm font-medium text-slate-600">
               {letter}
@@ -84,6 +92,19 @@ const totalCount = allArticles.length;
           );
         })}
       </div>
+
+      {Object.entries(articlesByLetter).sort(([a], [b]) => a.localeCompare(b)).map(([letter, articles]) => (
+        <div id={`letter-${letter}`} class="mb-8">
+          <h3 class="text-lg font-bold text-accent mb-3 border-b border-slate-800 pb-2">{letter}</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+            {articles.map(article => (
+              <a href={`/glossary/${article.id}`} class="px-3 py-2 text-slate-300 hover:text-accent transition text-sm">
+                {article.data.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
     </section>
   )}
 </Layout>
