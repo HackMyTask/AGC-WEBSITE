@@ -107,16 +107,29 @@ class AIClient:
         else:
             raise ValueError(f"Unknown provider: {self.provider}")
 
+    def _is_rate_limit_error(self, error_str: str) -> bool:
+        """Check if error is a rate limit / quota issue."""
+        rate_limit_indicators = [
+            "rate_limit",
+            "rate limit",
+            "quota",
+            "too many requests",
+            "429",
+            "tokens per minute",
+            "requests per minute",
+            "requests per day",
+            "resource_exhausted",
+        ]
+        return any(indicator in error_str for indicator in rate_limit_indicators)
+
     def _generate_groq(self, prompt: str, term: str, model: str, max_retries: int) -> Optional[str]:
         """Generate using Groq API with key rotation on rate limit."""
         if not self.groq_keys:
-            # Fallback to single key from env
-            api_key = os.getenv("GROQ_API_KEY")
-            if not api_key:
-                raise ValueError("GROQ_API_KEY not set")
-            return self._try_groq_generation(api_key, prompt, term, model, max_retries, 0)
+            raise ValueError("GROQ_API_KEY not set or empty")
 
-        # Try with multiple keys on rate limit
+        # Save starting index to detect full loop
+        start_index = self.current_groq_index
+
         for key_attempt in range(len(self.groq_keys)):
             api_key, key_index = self._get_next_groq_key()
 
@@ -124,12 +137,11 @@ class AIClient:
             if result:
                 return result
 
-            # If failed, rotate to next key
-            if key_attempt < len(self.groq_keys) - 1:
-                self._rotate_groq_key("exhausted")
-                logger.info(f"Trying next Groq API key...")
+            # Always rotate after failure so next term starts on fresh key
+            self._rotate_groq_key("exhausted")
+            logger.info(f"Trying next Groq API key...")
 
-        logger.error(f"All Groq API keys exhausted for {term}")
+        logger.error(f"All {len(self.groq_keys)} Groq API keys exhausted for '{term}'")
         return None
 
     def _try_groq_generation(
@@ -151,28 +163,23 @@ class AIClient:
                 return content
             except Exception as e:
                 error_str = str(e).lower()
-                if "rate_limit" in error_str or "quota" in error_str:
+                if self._is_rate_limit_error(error_str):
                     if attempt < max_retries - 1:
                         wait_time = 2 ** attempt
-                        logger.warning(f"Rate limited on key {key_index}. Retrying in {wait_time}s...")
+                        logger.warning(f"Rate limited on key {key_index}, attempt {attempt+1}/{max_retries}. Retrying in {wait_time}s...")
                         time.sleep(wait_time)
                     else:
-                        logger.warning(f"Rate limit exceeded on key {key_index}, will try next key")
+                        logger.warning(f"Rate limit exceeded on key {key_index} after {max_retries} retries, will try next key")
                         return None
                 else:
-                    logger.error(f"Generation failed on key {key_index}: {e}")
+                    logger.error(f"Non-rate-limit error on key {key_index}: {e}")
                     return None
 
     def _generate_gemini(self, prompt: str, term: str, model: str, max_retries: int) -> Optional[str]:
         """Generate using Google Gemini API with key rotation on rate limit."""
         if not self.gemini_keys:
-            # Fallback to single key from env
-            api_key = os.getenv("GEMINI_API_KEY")
-            if not api_key:
-                raise ValueError("GEMINI_API_KEY not set")
-            return self._try_gemini_generation(api_key, prompt, term, model, max_retries, 0)
+            raise ValueError("GEMINI_API_KEY not set or empty")
 
-        # Try with multiple keys on rate limit
         for key_attempt in range(len(self.gemini_keys)):
             api_key, key_index = self._get_next_gemini_key()
 
@@ -180,12 +187,11 @@ class AIClient:
             if result:
                 return result
 
-            # If failed, rotate to next key
-            if key_attempt < len(self.gemini_keys) - 1:
-                self._rotate_gemini_key("exhausted")
-                logger.info(f"Trying next Gemini API key...")
+            # Always rotate after failure so next term starts on fresh key
+            self._rotate_gemini_key("exhausted")
+            logger.info(f"Trying next Gemini API key...")
 
-        logger.error(f"All Gemini API keys exhausted for {term}")
+        logger.error(f"All {len(self.gemini_keys)} Gemini API keys exhausted for '{term}'")
         return None
 
     def _try_gemini_generation(
@@ -205,14 +211,14 @@ class AIClient:
                 return content
             except Exception as e:
                 error_str = str(e).lower()
-                if "rate_limit" in error_str or "quota" in error_str or "resource_exhausted" in error_str:
+                if self._is_rate_limit_error(error_str):
                     if attempt < max_retries - 1:
                         wait_time = 2 ** attempt
-                        logger.warning(f"Rate limited on key {key_index}. Retrying in {wait_time}s...")
+                        logger.warning(f"Rate limited on key {key_index}, attempt {attempt+1}/{max_retries}. Retrying in {wait_time}s...")
                         time.sleep(wait_time)
                     else:
-                        logger.warning(f"Rate limit exceeded on key {key_index}, will try next key")
+                        logger.warning(f"Rate limit exceeded on key {key_index} after {max_retries} retries, will try next key")
                         return None
                 else:
-                    logger.error(f"Generation failed on key {key_index}: {e}")
+                    logger.error(f"Non-rate-limit error on key {key_index}: {e}")
                     return None
