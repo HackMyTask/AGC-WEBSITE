@@ -114,8 +114,8 @@ jobs:
             exit 0
           fi
 
-          git add content/glossary/ data/terms.csv logs/
-          ARTICLES_COUNT=$(ls -1 content/glossary/*.md 2>/dev/null | wc -l)
+          git add src/content/glossary/ data/terms.csv logs/
+          ARTICLES_COUNT=$(ls -1 src/content/glossary/*.md 2>/dev/null | wc -l)
           TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
           git commit -m "chore: auto-generate glossary content
 

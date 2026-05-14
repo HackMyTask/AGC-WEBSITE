@@ -62,7 +62,7 @@ jobs:
 
           # Check all markdown files
           broken_links = []
-          glossary_dir = Path('content/glossary')
+          glossary_dir = Path('src/content/glossary')
 
           if glossary_dir.exists():
               for md_file in glossary_dir.glob('*.md'):
@@ -155,7 +155,7 @@ jobs:
                   cluster_count[row['cluster']] += 1
 
           # Count generated files
-          glossary_dir = Path('content/glossary')
+          glossary_dir = Path('src/content/glossary')
           generated_count = len(list(glossary_dir.glob('*.md'))) if glossary_dir.exists() else 0
 
           print("**Terms by Status:**")

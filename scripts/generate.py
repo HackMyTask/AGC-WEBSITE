@@ -61,7 +61,7 @@ class ContentGenerator:
 
     def _slug_exists(self, slug: str) -> bool:
         """Check if markdown file already exists for slug."""
-        return os.path.exists(f"content/glossary/{slug}.md")
+        return os.path.exists(f"src/content/glossary/{slug}.md")
 
     def _build_prompt(self, term: str, slug: str, cluster: str) -> str:
         """Build AI prompt from template."""

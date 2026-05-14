@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 class InternalLinker:
     def __init__(self):
-        self.glossary_dir = "content/glossary"
+        self.glossary_dir = "src/content/glossary"
         self.terms_csv = "data/terms.csv"
         self.max_links_per_article = 3
 
