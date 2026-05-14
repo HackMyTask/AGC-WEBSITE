@@ -3,7 +3,7 @@ import time
 import logging
 from typing import Optional, List
 from datetime import datetime
-import anthropic
+from openai import OpenAI
 import google.generativeai as genai
 
 logging.basicConfig(level=logging.INFO)
@@ -135,18 +135,18 @@ class AIClient:
     def _try_groq_generation(
         self, api_key: str, prompt: str, term: str, model: str, max_retries: int, key_index: int
     ) -> Optional[str]:
-        """Try generation with single Groq API key."""
-        client = anthropic.Anthropic(api_key=api_key, base_url="https://api.groq.com/openai/v1")
+        """Try generation with single Groq API key (OpenAI-compatible)."""
+        client = OpenAI(api_key=api_key, base_url="https://api.groq.com/openai/v1")
 
         for attempt in range(max_retries):
             try:
-                response = client.messages.create(
+                response = client.chat.completions.create(
                     model=model,
                     max_tokens=2000,
                     messages=[{"role": "user", "content": prompt}],
                 )
-                content = response.content[0].text
-                tokens = response.usage.output_tokens + response.usage.input_tokens
+                content = response.choices[0].message.content
+                tokens = (response.usage.completion_tokens or 0) + (response.usage.prompt_tokens or 0)
                 self._log_usage(tokens, model, term, key_index)
                 return content
             except Exception as e:
