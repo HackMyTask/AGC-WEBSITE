@@ -49,34 +49,36 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DAILY_LIMIT: ${{ secrets.DAILY_LIMIT }}
+          INPUT_BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+          INPUT_PRIORITY: ${{ github.event.inputs.priority }}
+          INPUT_RANDOM: ${{ github.event.inputs.random }}
         run: |
           AI_PROVIDER="${AI_PROVIDER:-groq}"
           DAILY_LIMIT="${DAILY_LIMIT:-100}"
 
-          BATCH_SIZE="${{ github.event.inputs.batch_size }}"
-          BATCH_SIZE="${BATCH_SIZE:-20}"
-          PRIORITY="${{ github.event.inputs.priority }}"
-          RANDOM="${{ github.event.inputs.random }}"
+          BATCH="${INPUT_BATCH_SIZE:-20}"
+          PRIO="${INPUT_PRIORITY}"
+          RAND="${INPUT_RANDOM}"
 
-          if [ "$BATCH_SIZE" -lt 10 ] || [ "$BATCH_SIZE" -gt 50 ]; then
-            echo "Error: Batch size must be between 10-50, got $BATCH_SIZE"
+          if [ "$BATCH" -lt 10 ] || [ "$BATCH" -gt 50 ]; then
+            echo "Error: Batch size must be between 10-50, got $BATCH"
             exit 1
           fi
 
-          CMD="python scripts/generate.py --batch $BATCH_SIZE"
+          CMD="python scripts/generate.py --batch $BATCH"
 
-          if [ -n "$PRIORITY" ]; then
-            CMD="$CMD --priority $PRIORITY"
+          if [ -n "$PRIO" ]; then
+            CMD="$CMD --priority $PRIO"
           fi
 
-          if [ -n "$RANDOM" ]; then
-            if [ "$RANDOM" -lt 10 ] || [ "$RANDOM" -gt 50 ]; then
-              echo "Error: Random batch size must be between 10-50, got $RANDOM"
+          if [ -n "$RAND" ]; then
+            if [ "$RAND" -lt 10 ] || [ "$RAND" -gt 50 ]; then
+              echo "Error: Random batch size must be between 10-50, got $RAND"
               exit 1
             fi
-            CMD="python scripts/generate.py --random $RANDOM"
-            if [ -n "$PRIORITY" ]; then
-              CMD="$CMD --priority $PRIORITY"
+            CMD="python scripts/generate.py --random $RAND"
+            if [ -n "$PRIO" ]; then
+              CMD="$CMD --priority $PRIO"
             fi
           fi
 
@@ -102,7 +104,8 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git add src/content/glossary/ data/terms.csv logs/
+          git add src/content/glossary/ data/terms.csv
+          git add logs/ 2>/dev/null || true
           ARTICLES_COUNT=$(ls -1 src/content/glossary/*.md 2>/dev/null | wc -l)
           TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
           git commit -m "chore: auto-generate glossary content [$ARTICLES_COUNT articles] $TIMESTAMP"
