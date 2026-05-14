@@ -54,7 +54,7 @@ jobs:
           INPUT_RANDOM: ${{ github.event.inputs.random }}
         run: |
           AI_PROVIDER="${AI_PROVIDER:-groq}"
-          DAILY_LIMIT="${DAILY_LIMIT:-100}"
+          DAILY_LIMIT="${DAILY_LIMIT:-50000}"
 
           BATCH="${INPUT_BATCH_SIZE:-20}"
           PRIO="${INPUT_PRIORITY}"
