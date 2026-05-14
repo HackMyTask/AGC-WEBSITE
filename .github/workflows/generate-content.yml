@@ -20,6 +20,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'src/content/glossary/**'
+      - 'data/terms.csv'
+      - 'logs/**'
 
 jobs:
   generate:
