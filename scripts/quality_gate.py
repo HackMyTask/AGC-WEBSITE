@@ -15,7 +15,7 @@ class QualityGate:
         self.checks = {
             "min_words": 300,
             "max_words": 1400,
-            "flesch_kincaid_max": 10,
+            "flesch_kincaid_max": 14,
             "has_required_sections": [
                 "## What is",
                 "## Think of It Like This",

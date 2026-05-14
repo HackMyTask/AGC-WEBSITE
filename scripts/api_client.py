@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 class AIClient:
     def __init__(self):
         self.provider = os.getenv("AI_PROVIDER", "groq").lower()
-        self.daily_limit = int(os.getenv("DAILY_LIMIT", "100"))
+        self.daily_limit = int(os.getenv("DAILY_LIMIT", "30000"))
         self.tokens_used_today = 0
         self.log_file = "logs/usage.log"
         self.rotation_log = "logs/api_rotation.log"
