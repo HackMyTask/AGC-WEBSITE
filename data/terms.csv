@@ -49,3 +49,156 @@ What is Cross Validation,what-is-cross-validation,ai-basics,pending,1
 What is Regularization,what-is-regularization,ai-basics,pending,1
 What is Dropout,what-is-dropout,ai-basics,pending,1
 What is Batch Normalization,what-is-batch-normalization,ai-basics,pending,1
+What is Natural Language Processing,what-is-natural-language-processing,ai-basics,pending,1
+What is Computer Vision,what-is-computer-vision,ai-basics,pending,1
+What is Reinforcement Learning,what-is-reinforcement-learning,ai-basics,pending,1
+What is Supervised Learning,what-is-supervised-learning,ai-basics,pending,1
+What is Unsupervised Learning,what-is-unsupervised-learning,ai-basics,pending,1
+What is Transfer Learning,what-is-transfer-learning,llms,pending,1
+What is Generative AI,what-is-generative-ai,ai-basics,pending,1
+What is Discriminative AI,what-is-discriminative-ai,ai-basics,pending,2
+What is a GAN,what-is-a-gan,ai-basics,pending,1
+What is a Diffusion Model,what-is-a-diffusion-model,ai-basics,pending,1
+What is Multimodal AI,what-is-multimodal-ai,llms,pending,1
+What is GPT,what-is-gpt,llms,pending,1
+What is BERT,what-is-bert,llms,pending,2
+What is Open Source AI,what-is-open-source-ai,ai-tools,pending,1
+What is Llama,what-is-llama,llms,pending,1
+What is Mistral,what-is-mistral,llms,pending,2
+What is Context Window,what-is-context-window,llms,pending,1
+What is Token Limit,what-is-token-limit,llms,pending,1
+What is System Prompt,what-is-system-prompt,prompt-engineering,pending,1
+What is Role Prompting,what-is-role-prompting,prompt-engineering,pending,1
+What is Prompt Injection,what-is-prompt-injection,prompt-engineering,pending,1
+What is Jailbreaking AI,what-is-jailbreaking-ai,prompt-engineering,pending,2
+What is AI Safety,what-is-ai-safety,ai-basics,pending,1
+What is AI Alignment,what-is-ai-alignment,ai-basics,pending,1
+What is AGI,what-is-agi,ai-basics,pending,1
+What is Narrow AI,what-is-narrow-ai,ai-basics,pending,1
+What is AI Ethics,what-is-ai-ethics,ai-basics,pending,1
+What is Explainable AI,what-is-explainable-ai,ai-basics,pending,2
+What is AI Governance,what-is-ai-governance,ai-basics,pending,2
+What is Deepfake,what-is-deepfake,ai-tools,pending,1
+What is Text to Speech AI,what-is-text-to-speech-ai,ai-tools,pending,1
+What is Speech to Text AI,what-is-speech-to-text-ai,ai-tools,pending,1
+What is AI Image Generation,what-is-ai-image-generation,ai-tools,pending,1
+What is AI Video Generation,what-is-ai-video-generation,ai-tools,pending,1
+What is AI Music Generation,what-is-ai-music-generation,ai-tools,pending,2
+What is AI Code Generation,what-is-ai-code-generation,ai-tools,pending,1
+What is AI Writing Assistant,what-is-ai-writing-assistant,ai-tools,pending,1
+What is AI Chatbot,what-is-ai-chatbot,ai-tools,pending,1
+What is Siri,what-is-siri,ai-tools,pending,2
+What is Alexa AI,what-is-alexa-ai,ai-tools,pending,2
+What is Google Assistant,what-is-google-assistant,ai-tools,pending,2
+What is Notion AI,what-is-notion-ai,ai-tools,pending,2
+What is Grammarly AI,what-is-grammarly-ai,ai-tools,pending,2
+What is Jasper AI,what-is-jasper-ai,ai-tools,pending,2
+What is Runway ML,what-is-runway-ml,ai-tools,pending,2
+What is ElevenLabs,what-is-elevenlabs,ai-tools,pending,2
+What is Hugging Face,what-is-hugging-face,ai-tools,pending,1
+What is LangChain,what-is-langchain,ai-agents,pending,1
+What is AutoGPT,what-is-autogpt,ai-agents,pending,1
+What is CrewAI,what-is-crewai,ai-agents,pending,2
+What is Tool Use in AI,what-is-tool-use-in-ai,ai-agents,pending,1
+What is Function Calling,what-is-function-calling,ai-agents,pending,1
+What is AI Workflow Automation,what-is-ai-workflow-automation,ai-agents,pending,1
+What is AI Orchestration,what-is-ai-orchestration,ai-agents,pending,2
+What is Agentic AI,what-is-agentic-ai,ai-agents,pending,1
+What is ReAct Prompting,what-is-react-prompting,ai-agents,pending,2
+What is AI Memory,what-is-ai-memory,ai-agents,pending,1
+What is AI Planning,what-is-ai-planning,ai-agents,pending,2
+What is Multi Agent System,what-is-multi-agent-system,ai-agents,pending,2
+What is AI API,what-is-ai-api,ai-infrastructure,pending,1
+What is Model Serving,what-is-model-serving,ai-infrastructure,pending,2
+What is GPU in AI,what-is-gpu-in-ai,ai-infrastructure,pending,1
+What is TPU,what-is-tpu,ai-infrastructure,pending,2
+What is Cloud AI,what-is-cloud-ai,ai-infrastructure,pending,1
+What is Edge AI,what-is-edge-ai,ai-infrastructure,pending,2
+What is On Device AI,what-is-on-device-ai,ai-infrastructure,pending,1
+What is AI Model,what-is-ai-model,ai-basics,pending,1
+What is Model Training,what-is-model-training,ai-basics,pending,1
+What is Pre Training,what-is-pre-training,llms,pending,2
+What is RLHF,what-is-rlhf,llms,pending,1
+What is DPO,what-is-dpo,llms,pending,2
+What is Distillation in AI,what-is-distillation-in-ai,llms,pending,2
+What is LoRA,what-is-lora,llms,pending,1
+What is Prompt Template,what-is-prompt-template,prompt-engineering,pending,1
+What is Structured Output,what-is-structured-output,prompt-engineering,pending,2
+What is JSON Mode in AI,what-is-json-mode-in-ai,prompt-engineering,pending,2
+What is Streaming in AI,what-is-streaming-in-ai,ai-infrastructure,pending,2
+What is Latency in AI,what-is-latency-in-ai,ai-infrastructure,pending,2
+What is Throughput in AI,what-is-throughput-in-ai,ai-infrastructure,pending,2
+What is AI Benchmark,what-is-ai-benchmark,ai-basics,pending,2
+What is MMLU,what-is-mmlu,ai-basics,pending,2
+What is Perplexity Score,what-is-perplexity-score,llms,pending,2
+What is Cosine Similarity,what-is-cosine-similarity,ai-infrastructure,pending,2
+What is Chunking in AI,what-is-chunking-in-ai,ai-infrastructure,pending,1
+What is Data Labeling,what-is-data-labeling,ai-basics,pending,1
+What is Synthetic Data,what-is-synthetic-data,ai-basics,pending,1
+What is Data Augmentation,what-is-data-augmentation,ai-basics,pending,2
+What is Feature Engineering,what-is-feature-engineering,ai-basics,pending,2
+What is AI Pipeline,what-is-ai-pipeline,ai-infrastructure,pending,2
+What is MLOps,what-is-mlops,ai-infrastructure,pending,2
+What is AI Monitoring,what-is-ai-monitoring,ai-infrastructure,pending,2
+What is Model Drift,what-is-model-drift,ai-infrastructure,pending,2
+What is AI Guardrails,what-is-ai-guardrails,ai-safety,pending,1
+What is Content Moderation AI,what-is-content-moderation-ai,ai-safety,pending,1
+What is AI Watermarking,what-is-ai-watermarking,ai-safety,pending,2
+What is AI Detection,what-is-ai-detection,ai-safety,pending,1
+What is Copyright in AI,what-is-copyright-in-ai,ai-safety,pending,2
+What is AI Regulation,what-is-ai-regulation,ai-safety,pending,2
+What is Sentiment Analysis,what-is-sentiment-analysis,ai-basics,pending,1
+What is Named Entity Recognition,what-is-named-entity-recognition,ai-basics,pending,2
+What is Text Classification,what-is-text-classification,ai-basics,pending,2
+What is Text Summarization,what-is-text-summarization,ai-basics,pending,1
+What is Machine Translation,what-is-machine-translation,ai-basics,pending,1
+What is Object Detection,what-is-object-detection,ai-basics,pending,1
+What is Image Classification,what-is-image-classification,ai-basics,pending,2
+What is Facial Recognition,what-is-facial-recognition,ai-basics,pending,1
+What is OCR,what-is-ocr,ai-basics,pending,1
+What is Recommendation System,what-is-recommendation-system,ai-basics,pending,1
+What is Conversational AI,what-is-conversational-ai,ai-tools,pending,1
+What is Voice Cloning,what-is-voice-cloning,ai-tools,pending,1
+What is AI Avatar,what-is-ai-avatar,ai-tools,pending,2
+What is AI Companion,what-is-ai-companion,ai-tools,pending,2
+What is AI Search,what-is-ai-search,ai-tools,pending,1
+What is AI Summarizer,what-is-ai-summarizer,ai-tools,pending,1
+What is AI Transcription,what-is-ai-transcription,ai-tools,pending,1
+What is AI Photo Editing,what-is-ai-photo-editing,ai-tools,pending,2
+What is AI Upscaling,what-is-ai-upscaling,ai-tools,pending,2
+What is AI Background Removal,what-is-ai-background-removal,ai-tools,pending,2
+What is Autonomous Vehicle AI,what-is-autonomous-vehicle-ai,ai-basics,pending,1
+What is AI in Healthcare,what-is-ai-in-healthcare,ai-basics,pending,1
+What is AI in Finance,what-is-ai-in-finance,ai-basics,pending,2
+What is AI in Education,what-is-ai-in-education,ai-basics,pending,2
+What is AI in Gaming,what-is-ai-in-gaming,ai-basics,pending,2
+What is Predictive AI,what-is-predictive-ai,ai-basics,pending,1
+What is Prescriptive AI,what-is-prescriptive-ai,ai-basics,pending,2
+What is Cognitive Computing,what-is-cognitive-computing,ai-basics,pending,2
+What is Knowledge Graph,what-is-knowledge-graph,ai-infrastructure,pending,1
+What is Ontology in AI,what-is-ontology-in-ai,ai-infrastructure,pending,2
+What is Weights in AI,what-is-weights-in-ai,ai-basics,pending,1
+What is Parameters in AI,what-is-parameters-in-ai,llms,pending,1
+What is a Foundation Model,what-is-a-foundation-model,llms,pending,1
+What is a Small Language Model,what-is-a-small-language-model,llms,pending,1
+What is AI Reasoning,what-is-ai-reasoning,ai-agents,pending,1
+What is Chain of Agents,what-is-chain-of-agents,ai-agents,pending,2
+What is AI Assistant,what-is-ai-assistant,ai-tools,pending,1
+What is Prompt Chaining,what-is-prompt-chaining,prompt-engineering,pending,1
+What is Meta Prompting,what-is-meta-prompting,prompt-engineering,pending,2
+What is Self Consistency Prompting,what-is-self-consistency-prompting,prompt-engineering,pending,2
+What is Tree of Thought,what-is-tree-of-thought,prompt-engineering,pending,2
+What is Retrieval in AI,what-is-retrieval-in-ai,ai-infrastructure,pending,1
+What is Pinecone,what-is-pinecone,ai-infrastructure,pending,2
+What is Weaviate,what-is-weaviate,ai-infrastructure,pending,2
+What is ChromaDB,what-is-chromadb,ai-infrastructure,pending,2
+What is OpenAI,what-is-openai,ai-tools,pending,1
+What is Anthropic,what-is-anthropic,ai-tools,pending,1
+What is Google DeepMind,what-is-google-deepmind,ai-tools,pending,2
+What is Meta AI,what-is-meta-ai,ai-tools,pending,2
+What is AI Startup,what-is-ai-startup,ai-basics,pending,2
+What is AI Winter,what-is-ai-winter,ai-basics,pending,2
+What is the Turing Test,what-is-the-turing-test,ai-basics,pending,1
+What is the Chinese Room Argument,what-is-the-chinese-room-argument,ai-basics,pending,2
+What is Artificial Superintelligence,what-is-artificial-superintelligence,ai-basics,pending,2
+What is AI Singularity,what-is-ai-singularity,ai-basics,pending,2
