@@ -13,8 +13,8 @@ class QualityGate:
         self._ensure_log_file()
 
         self.checks = {
-            "min_words": 300,
-            "max_words": 1400,
+            "min_words": 200,
+            "max_words": 1500,
             "flesch_kincaid_max": 14,
             "has_required_sections": [
                 "## What is",

@@ -4,24 +4,26 @@ Write a glossary article about: "{TERM}"
 
 Rules:
 - Write for someone with zero technical background
-- Use plain, conversational English (target Flesch-Kincaid Grade 6–8)
+- Use plain, conversational English (target Flesch-Kincaid Grade 8–10)
 - No jargon without immediate plain-English explanation
 - Avoid these overused AI writing phrases: "delve", "leverage", "it's worth noting",
   "in the realm of", "game-changer", "revolutionize", "cutting-edge", "seamlessly"
 - Do not start every paragraph with the term name
 - Vary sentence length. Mix short punchy sentences with slightly longer ones.
-- Target length: 500–900 words (adjust naturally to topic complexity)
-- Do not pad with filler. Stop when the explanation is complete.
+- IMPORTANT: Your article MUST be between 500 and 900 words total. Each section should
+  be at least 3-5 sentences. Do NOT write overly brief sections. Expand with examples,
+  comparisons, or explanations to reach the minimum 500 words.
+- Do not pad with filler. Stop when the explanation is complete but thorough.
 
-Follow this exact structure:
+Follow this exact structure (including the --- frontmatter delimiters):
 
 ---
 title: "{TITLE}"
 slug: "{SLUG}"
-description: "{ONE_SENTENCE_DESCRIPTION_MAX_160_CHARS}"
-keywords: ["{KW1}", "{KW2}", "{KW3}", "{KW4}", "{KW5}"]
+description: "WRITE_A_CLEAR_ONE_SENTENCE_DESCRIPTION_MAX_160_CHARS"
+keywords: ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]
 cluster: "{CLUSTER}"
-related_terms: ["{SLUG1}", "{SLUG2}", "{SLUG3}"]
+related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
 created_at: "{DATE}"
 updated_at: "{DATE}"
 author: "AI Glossary Team"
@@ -30,24 +32,29 @@ schema_type: "DefinedTerm"
 
 ## What is {TERM}?
 
-[Simple explanation in 2–3 sentences. No jargon.]
+[Simple explanation in 4–6 sentences. Start with what it is, then explain how it works
+at a high level. No jargon without explanation. Give enough context that a beginner
+understands the concept fully.]
 
 ## Think of It Like This
 
-[One real-world analogy. Keep it relatable. Max 3 sentences. No tech required.]
+[One or two real-world analogies. Keep it relatable. 3–5 sentences. No tech required.
+Make the analogy vivid and memorable.]
 
 ## Why Should You Care?
 
-[Why does this matter to a normal person? Practical angle only. 2–3 sentences.]
+[Why does this matter to a normal person? How does it affect their daily life or future?
+Practical angle only. 3–5 sentences with concrete examples.]
 
 ## Where You've Already Seen It
 
-[A real example of where this AI concept shows up in tools people actually use —
-like ChatGPT, Google, Spotify, Netflix, or smartphone features. 2–3 sentences.]
+[Real examples of where this AI concept shows up in tools people actually use —
+like ChatGPT, Google, Spotify, Netflix, smartphone features, or popular apps.
+Give 2-3 specific examples with brief explanation of each. 4–6 sentences.]
 
 ## The One Thing to Remember
 
-[One-sentence takeaway. Simple. Memorable.]
+[2-3 sentence takeaway. Simple. Memorable. Reinforce the core concept.]
 
 ## Related Terms
 

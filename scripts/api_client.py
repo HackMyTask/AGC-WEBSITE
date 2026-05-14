@@ -154,7 +154,7 @@ class AIClient:
             try:
                 response = client.chat.completions.create(
                     model=model,
-                    max_tokens=2000,
+                    max_tokens=4000,
                     messages=[{"role": "user", "content": prompt}],
                 )
                 content = response.choices[0].message.content
