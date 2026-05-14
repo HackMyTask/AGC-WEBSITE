@@ -27,7 +27,7 @@ class MarkdownWriter:
 
     def write(self, slug: str, content: str) -> bool:
         """Write markdown file with safety checks. Returns True if written, False if skipped."""
-        filepath = f"content/glossary/{slug}.md"
+        filepath = f"src/content/glossary/{slug}.md"
 
         # Ensure directory exists
         os.makedirs(os.path.dirname(filepath), exist_ok=True)

@@ -1,46 +1,20 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const glossaryFiles = import.meta.glob('../../content/glossary/*.md', { eager: true });
+  const glossaryEntries = await getCollection('glossary');
 
-  return Object.entries(glossaryFiles).map(([path, file]) => {
-    const slug = path.split('/').pop()?.replace('.md', '');
-    return {
-      params: { slug },
-      props: { file }
-    };
-  });
+  return glossaryEntries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
 }
 
-interface Props {
-  file: any;
-}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
 
-const { file } = Astro.props;
-const { slug } = Astro.params;
-
-// Parse frontmatter and content
-const content = file.default?.toString() || '';
-const parts = content.split('---');
-const frontmatterText = parts[1] || '';
-const body = parts.slice(2).join('---').trim();
-
-// Parse frontmatter
-const frontmatter: Record<string, any> = {};
-frontmatterText.split('\n').forEach(line => {
-  if (line.includes(':')) {
-    const [key, ...valueParts] = line.split(':');
-    frontmatter[key.trim()] = valueParts.join(':').trim();
-  }
-});
-
-const title = frontmatter.title || 'Untitled';
-const description = frontmatter.description || '';
-const keywords = frontmatter.keywords || [];
-const cluster = frontmatter.cluster || '';
-const relatedTerms = frontmatter.related_terms || [];
+const { title, description, keywords, cluster, related_terms, created_at } = entry.data;
 ---
 
 <Layout title={title} description={description}>
@@ -57,29 +31,31 @@ const relatedTerms = frontmatter.related_terms || [];
       <h1 class="text-4xl font-bold mb-4 text-white">{title}</h1>
       <p class="text-lg text-slate-300 mb-6">{description}</p>
 
-      <div class="flex flex-wrap gap-2 mb-6">
-        {keywords.map((keyword: string) => (
-          <span class="px-3 py-1 bg-slate-900 text-slate-300 text-sm rounded">
-            {keyword}
-          </span>
-        ))}
-      </div>
+      {keywords && keywords.length > 0 && (
+        <div class="flex flex-wrap gap-2 mb-6">
+          {keywords.map((keyword: string) => (
+            <span class="px-3 py-1 bg-slate-900 text-slate-300 text-sm rounded">
+              {keyword}
+            </span>
+          ))}
+        </div>
+      )}
 
       <div class="text-sm text-slate-400 border-t border-slate-800 pt-4">
         <p>By <span class="text-accent">AI Glossary Team</span></p>
-        <p>Published: {frontmatter.created_at}</p>
+        {created_at && <p>Published: {created_at}</p>}
       </div>
     </div>
 
     <div class="prose prose-invert max-w-none mb-12">
-      <Fragment set:html={body} />
+      <Content />
     </div>
 
-    {relatedTerms && relatedTerms.length > 0 && (
+    {related_terms && related_terms.length > 0 && (
       <section class="border-t border-slate-800 pt-8">
         <h2 class="text-2xl font-bold mb-6">Related Terms</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {relatedTerms.map((term: string) => (
+          {related_terms.map((term: string) => (
             <a href={`/glossary/${term}`} class="p-4 bg-slate-900 border border-slate-800 rounded hover:border-accent transition">
               <p class="text-accent font-semibold">{term}</p>
             </a>
