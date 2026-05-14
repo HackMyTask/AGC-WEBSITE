@@ -2,6 +2,7 @@
 import os
 import sys
 import csv
+import random
 import argparse
 import logging
 from datetime import datetime
@@ -80,8 +81,8 @@ class ContentGenerator:
         keywords.extend(words[:4])
         return keywords[:5]
 
-    def generate_batch(self, batch_size: int = 20, priority: int = None, dry_run: bool = False):
-        """Generate next N pending terms."""
+    def generate_batch(self, batch_size: int = 20, priority: int = None, dry_run: bool = False, random_pick: bool = False):
+        """Generate next N pending terms. If random_pick=True, shuffle before selecting."""
         terms = self._read_terms()
         pending = self._get_pending_terms(terms, priority)
 
@@ -89,6 +90,11 @@ class ContentGenerator:
             logger.info("No pending terms to generate")
             self.notifier.send_message("⚠️ No pending terms to generate")
             return
+
+        # Shuffle for random selection
+        if random_pick:
+            random.shuffle(pending)
+            logger.info(f"Randomized pending terms order")
 
         logger.info(f"Found {len(pending)} pending terms. Generating {min(batch_size, len(pending))}...")
         self.notifier.notify_generation_start(batch_size, priority)
@@ -235,7 +241,7 @@ def main():
         if args.random < 10 or args.random > 50:
             logger.error(f"Random batch size must be between 10-50, got {args.random}")
             sys.exit(1)
-        generator.generate_batch(batch_size=args.random, priority=args.priority, dry_run=args.dry_run)
+        generator.generate_batch(batch_size=args.random, priority=args.priority, dry_run=args.dry_run, random_pick=True)
     else:
         generator.generate_batch(batch_size=batch_size, priority=args.priority, dry_run=args.dry_run)
 
