@@ -1,32 +1,32 @@
 term,slug,cluster,status,priority
-What is RAG,what-is-rag,llms,pending,1
+What is RAG,what-is-rag,llms,done,1
 What is an AI Agent,what-is-an-ai-agent,ai-agents,done,1
-What is an LLM,what-is-an-llm,ai-basics,pending,1
+What is an LLM,what-is-an-llm,ai-basics,failed,1
 What is MCP,what-is-mcp,ai-infrastructure,done,2
 What is Prompt Engineering,what-is-prompt-engineering,prompt-engineering,done,1
 What is Fine Tuning,what-is-fine-tuning,llms,done,1
 What is a Vector Database,what-is-a-vector-database,ai-infrastructure,done,2
 What is Hallucination in AI,what-is-hallucination-in-ai,ai-basics,done,1
-What is Machine Learning,what-is-machine-learning,ai-basics,pending,1
+What is Machine Learning,what-is-machine-learning,ai-basics,done,1
 What is Deep Learning,what-is-deep-learning,ai-basics,done,1
 What is Neural Network,what-is-neural-network,ai-basics,done,1
-What is Transformer Architecture,what-is-transformer-architecture,llms,pending,1
-What is Tokenization,what-is-tokenization,llms,pending,1
-What is Embedding,what-is-embedding,ai-infrastructure,pending,2
-What is Attention Mechanism,what-is-attention-mechanism,llms,pending,1
-What is Temperature in AI,what-is-temperature-in-ai,prompt-engineering,pending,1
-What is Top-K Sampling,what-is-top-k-sampling,prompt-engineering,pending,2
-What is Chain of Thought,what-is-chain-of-thought,prompt-engineering,pending,1
-What is Few Shot Prompting,what-is-few-shot-prompting,prompt-engineering,pending,1
-What is Zero Shot Prompting,what-is-zero-shot-prompting,prompt-engineering,pending,1
-What is ChatGPT,what-is-chatgpt,ai-tools,pending,1
-What is Claude,what-is-claude,ai-tools,pending,1
-What is Gemini,what-is-gemini,ai-tools,pending,1
-What is DALL-E,what-is-dall-e,ai-tools,pending,1
-What is Midjourney,what-is-midjourney,ai-tools,pending,1
-What is Stable Diffusion,what-is-stable-diffusion,ai-tools,pending,1
-What is Copilot,what-is-copilot,ai-tools,pending,1
-What is Perplexity AI,what-is-perplexity-ai,ai-tools,pending,2
+What is Transformer Architecture,what-is-transformer-architecture,llms,done,1
+What is Tokenization,what-is-tokenization,llms,failed,1
+What is Embedding,what-is-embedding,ai-infrastructure,failed,2
+What is Attention Mechanism,what-is-attention-mechanism,llms,failed,1
+What is Temperature in AI,what-is-temperature-in-ai,prompt-engineering,done,1
+What is Top-K Sampling,what-is-top-k-sampling,prompt-engineering,done,2
+What is Chain of Thought,what-is-chain-of-thought,prompt-engineering,done,1
+What is Few Shot Prompting,what-is-few-shot-prompting,prompt-engineering,done,1
+What is Zero Shot Prompting,what-is-zero-shot-prompting,prompt-engineering,done,1
+What is ChatGPT,what-is-chatgpt,ai-tools,done,1
+What is Claude,what-is-claude,ai-tools,failed,1
+What is Gemini,what-is-gemini,ai-tools,failed,1
+What is DALL-E,what-is-dall-e,ai-tools,failed,1
+What is Midjourney,what-is-midjourney,ai-tools,failed,1
+What is Stable Diffusion,what-is-stable-diffusion,ai-tools,failed,1
+What is Copilot,what-is-copilot,ai-tools,done,1
+What is Perplexity AI,what-is-perplexity-ai,ai-tools,failed,2
 What is Retrieval Augmented Generation,what-is-retrieval-augmented-generation,llms,pending,1
 What is Semantic Search,what-is-semantic-search,ai-infrastructure,pending,2
 What is Model Quantization,what-is-model-quantization,llms,pending,2
