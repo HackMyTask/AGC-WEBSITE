@@ -27,26 +27,26 @@ What is Midjourney,what-is-midjourney,ai-tools,failed,1
 What is Stable Diffusion,what-is-stable-diffusion,ai-tools,failed,1
 What is Copilot,what-is-copilot,ai-tools,done,1
 What is Perplexity AI,what-is-perplexity-ai,ai-tools,failed,2
-What is Retrieval Augmented Generation,what-is-retrieval-augmented-generation,llms,pending,1
-What is Semantic Search,what-is-semantic-search,ai-infrastructure,pending,2
-What is Model Quantization,what-is-model-quantization,llms,pending,2
-What is Inference,what-is-inference,ai-basics,pending,1
-What is Training Data,what-is-training-data,ai-basics,pending,1
-What is Overfitting,what-is-overfitting,ai-basics,pending,1
-What is Underfitting,what-is-underfitting,ai-basics,pending,1
-What is Bias in AI,what-is-bias-in-ai,ai-basics,pending,1
-What is Accuracy in AI,what-is-accuracy-in-ai,ai-basics,pending,1
-What is Precision and Recall,what-is-precision-and-recall,ai-basics,pending,1
-What is Loss Function,what-is-loss-function,ai-basics,pending,1
-What is Gradient Descent,what-is-gradient-descent,ai-basics,pending,1
-What is Backpropagation,what-is-backpropagation,ai-basics,pending,1
-What is Activation Function,what-is-activation-function,ai-basics,pending,1
-What is Batch Size,what-is-batch-size,prompt-engineering,pending,2
-What is Learning Rate,what-is-learning-rate,ai-basics,pending,1
-What is Epoch in Machine Learning,what-is-epoch-in-machine-learning,ai-basics,pending,1
-What is Hyperparameter Tuning,what-is-hyperparameter-tuning,ai-basics,pending,1
-What is Cross Validation,what-is-cross-validation,ai-basics,pending,1
-What is Regularization,what-is-regularization,ai-basics,pending,1
+What is Retrieval Augmented Generation,what-is-retrieval-augmented-generation,llms,failed,1
+What is Semantic Search,what-is-semantic-search,ai-infrastructure,done,2
+What is Model Quantization,what-is-model-quantization,llms,failed,2
+What is Inference,what-is-inference,ai-basics,done,1
+What is Training Data,what-is-training-data,ai-basics,done,1
+What is Overfitting,what-is-overfitting,ai-basics,done,1
+What is Underfitting,what-is-underfitting,ai-basics,done,1
+What is Bias in AI,what-is-bias-in-ai,ai-basics,done,1
+What is Accuracy in AI,what-is-accuracy-in-ai,ai-basics,done,1
+What is Precision and Recall,what-is-precision-and-recall,ai-basics,done,1
+What is Loss Function,what-is-loss-function,ai-basics,done,1
+What is Gradient Descent,what-is-gradient-descent,ai-basics,done,1
+What is Backpropagation,what-is-backpropagation,ai-basics,done,1
+What is Activation Function,what-is-activation-function,ai-basics,done,1
+What is Batch Size,what-is-batch-size,prompt-engineering,done,2
+What is Learning Rate,what-is-learning-rate,ai-basics,done,1
+What is Epoch in Machine Learning,what-is-epoch-in-machine-learning,ai-basics,done,1
+What is Hyperparameter Tuning,what-is-hyperparameter-tuning,ai-basics,failed,1
+What is Cross Validation,what-is-cross-validation,ai-basics,done,1
+What is Regularization,what-is-regularization,ai-basics,failed,1
 What is Dropout,what-is-dropout,ai-basics,pending,1
 What is Batch Normalization,what-is-batch-normalization,ai-basics,pending,1
 What is Natural Language Processing,what-is-natural-language-processing,ai-basics,pending,1
