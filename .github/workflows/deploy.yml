@@ -30,13 +30,11 @@ jobs:
         run: npx pagefind --site dist
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v3
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: agc-website
-          directory: dist
-          branch: main
+          command: pages deploy dist --project-name=agc-website --branch=main
 
       - name: Log deployment
         run: |
