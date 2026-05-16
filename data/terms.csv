@@ -47,26 +47,26 @@ What is Epoch in Machine Learning,what-is-epoch-in-machine-learning,ai-basics,do
 What is Hyperparameter Tuning,what-is-hyperparameter-tuning,ai-basics,failed,1
 What is Cross Validation,what-is-cross-validation,ai-basics,done,1
 What is Regularization,what-is-regularization,ai-basics,failed,1
-What is Dropout,what-is-dropout,ai-basics,pending,1
-What is Batch Normalization,what-is-batch-normalization,ai-basics,pending,1
-What is Natural Language Processing,what-is-natural-language-processing,ai-basics,pending,1
-What is Computer Vision,what-is-computer-vision,ai-basics,pending,1
-What is Reinforcement Learning,what-is-reinforcement-learning,ai-basics,pending,1
-What is Supervised Learning,what-is-supervised-learning,ai-basics,pending,1
-What is Unsupervised Learning,what-is-unsupervised-learning,ai-basics,pending,1
-What is Transfer Learning,what-is-transfer-learning,llms,pending,1
-What is Generative AI,what-is-generative-ai,ai-basics,pending,1
-What is Discriminative AI,what-is-discriminative-ai,ai-basics,pending,2
-What is a GAN,what-is-a-gan,ai-basics,pending,1
-What is a Diffusion Model,what-is-a-diffusion-model,ai-basics,pending,1
-What is Multimodal AI,what-is-multimodal-ai,llms,pending,1
-What is GPT,what-is-gpt,llms,pending,1
-What is BERT,what-is-bert,llms,pending,2
-What is Open Source AI,what-is-open-source-ai,ai-tools,pending,1
-What is Llama,what-is-llama,llms,pending,1
-What is Mistral,what-is-mistral,llms,pending,2
-What is Context Window,what-is-context-window,llms,pending,1
-What is Token Limit,what-is-token-limit,llms,pending,1
+What is Dropout,what-is-dropout,ai-basics,done,1
+What is Batch Normalization,what-is-batch-normalization,ai-basics,done,1
+What is Natural Language Processing,what-is-natural-language-processing,ai-basics,failed,1
+What is Computer Vision,what-is-computer-vision,ai-basics,failed,1
+What is Reinforcement Learning,what-is-reinforcement-learning,ai-basics,done,1
+What is Supervised Learning,what-is-supervised-learning,ai-basics,failed,1
+What is Unsupervised Learning,what-is-unsupervised-learning,ai-basics,done,1
+What is Transfer Learning,what-is-transfer-learning,llms,done,1
+What is Generative AI,what-is-generative-ai,ai-basics,failed,1
+What is Discriminative AI,what-is-discriminative-ai,ai-basics,done,2
+What is a GAN,what-is-a-gan,ai-basics,failed,1
+What is a Diffusion Model,what-is-a-diffusion-model,ai-basics,failed,1
+What is Multimodal AI,what-is-multimodal-ai,llms,failed,1
+What is GPT,what-is-gpt,llms,done,1
+What is BERT,what-is-bert,llms,failed,2
+What is Open Source AI,what-is-open-source-ai,ai-tools,failed,1
+What is Llama,what-is-llama,llms,failed,1
+What is Mistral,what-is-mistral,llms,failed,2
+What is Context Window,what-is-context-window,llms,done,1
+What is Token Limit,what-is-token-limit,llms,done,1
 What is System Prompt,what-is-system-prompt,prompt-engineering,pending,1
 What is Role Prompting,what-is-role-prompting,prompt-engineering,pending,1
 What is Prompt Injection,what-is-prompt-injection,prompt-engineering,pending,1
