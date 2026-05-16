@@ -67,26 +67,26 @@ What is Llama,what-is-llama,llms,failed,1
 What is Mistral,what-is-mistral,llms,failed,2
 What is Context Window,what-is-context-window,llms,done,1
 What is Token Limit,what-is-token-limit,llms,done,1
-What is System Prompt,what-is-system-prompt,prompt-engineering,pending,1
-What is Role Prompting,what-is-role-prompting,prompt-engineering,pending,1
-What is Prompt Injection,what-is-prompt-injection,prompt-engineering,pending,1
-What is Jailbreaking AI,what-is-jailbreaking-ai,prompt-engineering,pending,2
-What is AI Safety,what-is-ai-safety,ai-basics,pending,1
-What is AI Alignment,what-is-ai-alignment,ai-basics,pending,1
-What is AGI,what-is-agi,ai-basics,pending,1
-What is Narrow AI,what-is-narrow-ai,ai-basics,pending,1
-What is AI Ethics,what-is-ai-ethics,ai-basics,pending,1
-What is Explainable AI,what-is-explainable-ai,ai-basics,pending,2
-What is AI Governance,what-is-ai-governance,ai-basics,pending,2
-What is Deepfake,what-is-deepfake,ai-tools,pending,1
-What is Text to Speech AI,what-is-text-to-speech-ai,ai-tools,pending,1
-What is Speech to Text AI,what-is-speech-to-text-ai,ai-tools,pending,1
-What is AI Image Generation,what-is-ai-image-generation,ai-tools,pending,1
-What is AI Video Generation,what-is-ai-video-generation,ai-tools,pending,1
-What is AI Music Generation,what-is-ai-music-generation,ai-tools,pending,2
-What is AI Code Generation,what-is-ai-code-generation,ai-tools,pending,1
-What is AI Writing Assistant,what-is-ai-writing-assistant,ai-tools,pending,1
-What is AI Chatbot,what-is-ai-chatbot,ai-tools,pending,1
+What is System Prompt,what-is-system-prompt,prompt-engineering,done,1
+What is Role Prompting,what-is-role-prompting,prompt-engineering,done,1
+What is Prompt Injection,what-is-prompt-injection,prompt-engineering,failed,1
+What is Jailbreaking AI,what-is-jailbreaking-ai,prompt-engineering,failed,2
+What is AI Safety,what-is-ai-safety,ai-basics,done,1
+What is AI Alignment,what-is-ai-alignment,ai-basics,failed,1
+What is AGI,what-is-agi,ai-basics,failed,1
+What is Narrow AI,what-is-narrow-ai,ai-basics,done,1
+What is AI Ethics,what-is-ai-ethics,ai-basics,done,1
+What is Explainable AI,what-is-explainable-ai,ai-basics,done,2
+What is AI Governance,what-is-ai-governance,ai-basics,failed,2
+What is Deepfake,what-is-deepfake,ai-tools,done,1
+What is Text to Speech AI,what-is-text-to-speech-ai,ai-tools,failed,1
+What is Speech to Text AI,what-is-speech-to-text-ai,ai-tools,done,1
+What is AI Image Generation,what-is-ai-image-generation,ai-tools,failed,1
+What is AI Video Generation,what-is-ai-video-generation,ai-tools,failed,1
+What is AI Music Generation,what-is-ai-music-generation,ai-tools,failed,2
+What is AI Code Generation,what-is-ai-code-generation,ai-tools,done,1
+What is AI Writing Assistant,what-is-ai-writing-assistant,ai-tools,done,1
+What is AI Chatbot,what-is-ai-chatbot,ai-tools,done,1
 What is Siri,what-is-siri,ai-tools,pending,2
 What is Alexa AI,what-is-alexa-ai,ai-tools,pending,2
 What is Google Assistant,what-is-google-assistant,ai-tools,pending,2
