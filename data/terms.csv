@@ -107,26 +107,26 @@ What is Agentic AI,what-is-agentic-ai,ai-agents,failed,1
 What is ReAct Prompting,what-is-react-prompting,ai-agents,done,2
 What is AI Memory,what-is-ai-memory,ai-agents,done,1
 What is AI Planning,what-is-ai-planning,ai-agents,done,2
-What is Multi Agent System,what-is-multi-agent-system,ai-agents,pending,2
-What is AI API,what-is-ai-api,ai-infrastructure,pending,1
-What is Model Serving,what-is-model-serving,ai-infrastructure,pending,2
-What is GPU in AI,what-is-gpu-in-ai,ai-infrastructure,pending,1
-What is TPU,what-is-tpu,ai-infrastructure,pending,2
-What is Cloud AI,what-is-cloud-ai,ai-infrastructure,pending,1
-What is Edge AI,what-is-edge-ai,ai-infrastructure,pending,2
-What is On Device AI,what-is-on-device-ai,ai-infrastructure,pending,1
-What is AI Model,what-is-ai-model,ai-basics,pending,1
-What is Model Training,what-is-model-training,ai-basics,pending,1
-What is Pre Training,what-is-pre-training,llms,pending,2
-What is RLHF,what-is-rlhf,llms,pending,1
-What is DPO,what-is-dpo,llms,pending,2
-What is Distillation in AI,what-is-distillation-in-ai,llms,pending,2
-What is LoRA,what-is-lora,llms,pending,1
-What is Prompt Template,what-is-prompt-template,prompt-engineering,pending,1
-What is Structured Output,what-is-structured-output,prompt-engineering,pending,2
-What is JSON Mode in AI,what-is-json-mode-in-ai,prompt-engineering,pending,2
-What is Streaming in AI,what-is-streaming-in-ai,ai-infrastructure,pending,2
-What is Latency in AI,what-is-latency-in-ai,ai-infrastructure,pending,2
+What is Multi Agent System,what-is-multi-agent-system,ai-agents,done,2
+What is AI API,what-is-ai-api,ai-infrastructure,done,1
+What is Model Serving,what-is-model-serving,ai-infrastructure,done,2
+What is GPU in AI,what-is-gpu-in-ai,ai-infrastructure,done,1
+What is TPU,what-is-tpu,ai-infrastructure,done,2
+What is Cloud AI,what-is-cloud-ai,ai-infrastructure,done,1
+What is Edge AI,what-is-edge-ai,ai-infrastructure,done,2
+What is On Device AI,what-is-on-device-ai,ai-infrastructure,done,1
+What is AI Model,what-is-ai-model,ai-basics,done,1
+What is Model Training,what-is-model-training,ai-basics,done,1
+What is Pre Training,what-is-pre-training,llms,failed,2
+What is RLHF,what-is-rlhf,llms,done,1
+What is DPO,what-is-dpo,llms,done,2
+What is Distillation in AI,what-is-distillation-in-ai,llms,done,2
+What is LoRA,what-is-lora,llms,done,1
+What is Prompt Template,what-is-prompt-template,prompt-engineering,done,1
+What is Structured Output,what-is-structured-output,prompt-engineering,done,2
+What is JSON Mode in AI,what-is-json-mode-in-ai,prompt-engineering,done,2
+What is Streaming in AI,what-is-streaming-in-ai,ai-infrastructure,done,2
+What is Latency in AI,what-is-latency-in-ai,ai-infrastructure,done,2
 What is Throughput in AI,what-is-throughput-in-ai,ai-infrastructure,pending,2
 What is AI Benchmark,what-is-ai-benchmark,ai-basics,pending,2
 What is MMLU,what-is-mmlu,ai-basics,pending,2
