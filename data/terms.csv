@@ -127,26 +127,26 @@ What is Structured Output,what-is-structured-output,prompt-engineering,done,2
 What is JSON Mode in AI,what-is-json-mode-in-ai,prompt-engineering,done,2
 What is Streaming in AI,what-is-streaming-in-ai,ai-infrastructure,done,2
 What is Latency in AI,what-is-latency-in-ai,ai-infrastructure,done,2
-What is Throughput in AI,what-is-throughput-in-ai,ai-infrastructure,pending,2
-What is AI Benchmark,what-is-ai-benchmark,ai-basics,pending,2
-What is MMLU,what-is-mmlu,ai-basics,pending,2
-What is Perplexity Score,what-is-perplexity-score,llms,pending,2
-What is Cosine Similarity,what-is-cosine-similarity,ai-infrastructure,pending,2
-What is Chunking in AI,what-is-chunking-in-ai,ai-infrastructure,pending,1
-What is Data Labeling,what-is-data-labeling,ai-basics,pending,1
-What is Synthetic Data,what-is-synthetic-data,ai-basics,pending,1
-What is Data Augmentation,what-is-data-augmentation,ai-basics,pending,2
-What is Feature Engineering,what-is-feature-engineering,ai-basics,pending,2
-What is AI Pipeline,what-is-ai-pipeline,ai-infrastructure,pending,2
-What is MLOps,what-is-mlops,ai-infrastructure,pending,2
-What is AI Monitoring,what-is-ai-monitoring,ai-infrastructure,pending,2
-What is Model Drift,what-is-model-drift,ai-infrastructure,pending,2
-What is AI Guardrails,what-is-ai-guardrails,ai-safety,pending,1
-What is Content Moderation AI,what-is-content-moderation-ai,ai-safety,pending,1
-What is AI Watermarking,what-is-ai-watermarking,ai-safety,pending,2
-What is AI Detection,what-is-ai-detection,ai-safety,pending,1
-What is Copyright in AI,what-is-copyright-in-ai,ai-safety,pending,2
-What is AI Regulation,what-is-ai-regulation,ai-safety,pending,2
+What is Throughput in AI,what-is-throughput-in-ai,ai-infrastructure,done,2
+What is AI Benchmark,what-is-ai-benchmark,ai-basics,done,2
+What is MMLU,what-is-mmlu,ai-basics,failed,2
+What is Perplexity Score,what-is-perplexity-score,llms,done,2
+What is Cosine Similarity,what-is-cosine-similarity,ai-infrastructure,done,2
+What is Chunking in AI,what-is-chunking-in-ai,ai-infrastructure,failed,1
+What is Data Labeling,what-is-data-labeling,ai-basics,done,1
+What is Synthetic Data,what-is-synthetic-data,ai-basics,failed,1
+What is Data Augmentation,what-is-data-augmentation,ai-basics,failed,2
+What is Feature Engineering,what-is-feature-engineering,ai-basics,done,2
+What is AI Pipeline,what-is-ai-pipeline,ai-infrastructure,done,2
+What is MLOps,what-is-mlops,ai-infrastructure,failed,2
+What is AI Monitoring,what-is-ai-monitoring,ai-infrastructure,done,2
+What is Model Drift,what-is-model-drift,ai-infrastructure,done,2
+What is AI Guardrails,what-is-ai-guardrails,ai-safety,done,1
+What is Content Moderation AI,what-is-content-moderation-ai,ai-safety,failed,1
+What is AI Watermarking,what-is-ai-watermarking,ai-safety,failed,2
+What is AI Detection,what-is-ai-detection,ai-safety,done,1
+What is Copyright in AI,what-is-copyright-in-ai,ai-safety,done,2
+What is AI Regulation,what-is-ai-regulation,ai-safety,failed,2
 What is Sentiment Analysis,what-is-sentiment-analysis,ai-basics,pending,1
 What is Named Entity Recognition,what-is-named-entity-recognition,ai-basics,pending,2
 What is Text Classification,what-is-text-classification,ai-basics,pending,2
