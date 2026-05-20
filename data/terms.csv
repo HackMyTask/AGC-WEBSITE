@@ -167,26 +167,26 @@ What is AI Transcription,what-is-ai-transcription,ai-tools,failed,1
 What is AI Photo Editing,what-is-ai-photo-editing,ai-tools,done,2
 What is AI Upscaling,what-is-ai-upscaling,ai-tools,done,2
 What is AI Background Removal,what-is-ai-background-removal,ai-tools,done,2
-What is Autonomous Vehicle AI,what-is-autonomous-vehicle-ai,ai-basics,pending,1
-What is AI in Healthcare,what-is-ai-in-healthcare,ai-basics,pending,1
-What is AI in Finance,what-is-ai-in-finance,ai-basics,pending,2
-What is AI in Education,what-is-ai-in-education,ai-basics,pending,2
-What is AI in Gaming,what-is-ai-in-gaming,ai-basics,pending,2
-What is Predictive AI,what-is-predictive-ai,ai-basics,pending,1
-What is Prescriptive AI,what-is-prescriptive-ai,ai-basics,pending,2
-What is Cognitive Computing,what-is-cognitive-computing,ai-basics,pending,2
-What is Knowledge Graph,what-is-knowledge-graph,ai-infrastructure,pending,1
-What is Ontology in AI,what-is-ontology-in-ai,ai-infrastructure,pending,2
-What is Weights in AI,what-is-weights-in-ai,ai-basics,pending,1
-What is Parameters in AI,what-is-parameters-in-ai,llms,pending,1
-What is a Foundation Model,what-is-a-foundation-model,llms,pending,1
-What is a Small Language Model,what-is-a-small-language-model,llms,pending,1
-What is AI Reasoning,what-is-ai-reasoning,ai-agents,pending,1
-What is Chain of Agents,what-is-chain-of-agents,ai-agents,pending,2
-What is AI Assistant,what-is-ai-assistant,ai-tools,pending,1
-What is Prompt Chaining,what-is-prompt-chaining,prompt-engineering,pending,1
-What is Meta Prompting,what-is-meta-prompting,prompt-engineering,pending,2
-What is Self Consistency Prompting,what-is-self-consistency-prompting,prompt-engineering,pending,2
+What is Autonomous Vehicle AI,what-is-autonomous-vehicle-ai,ai-basics,failed,1
+What is AI in Healthcare,what-is-ai-in-healthcare,ai-basics,done,1
+What is AI in Finance,what-is-ai-in-finance,ai-basics,failed,2
+What is AI in Education,what-is-ai-in-education,ai-basics,failed,2
+What is AI in Gaming,what-is-ai-in-gaming,ai-basics,done,2
+What is Predictive AI,what-is-predictive-ai,ai-basics,done,1
+What is Prescriptive AI,what-is-prescriptive-ai,ai-basics,failed,2
+What is Cognitive Computing,what-is-cognitive-computing,ai-basics,done,2
+What is Knowledge Graph,what-is-knowledge-graph,ai-infrastructure,failed,1
+What is Ontology in AI,what-is-ontology-in-ai,ai-infrastructure,done,2
+What is Weights in AI,what-is-weights-in-ai,ai-basics,done,1
+What is Parameters in AI,what-is-parameters-in-ai,llms,done,1
+What is a Foundation Model,what-is-a-foundation-model,llms,failed,1
+What is a Small Language Model,what-is-a-small-language-model,llms,failed,1
+What is AI Reasoning,what-is-ai-reasoning,ai-agents,done,1
+What is Chain of Agents,what-is-chain-of-agents,ai-agents,done,2
+What is AI Assistant,what-is-ai-assistant,ai-tools,done,1
+What is Prompt Chaining,what-is-prompt-chaining,prompt-engineering,done,1
+What is Meta Prompting,what-is-meta-prompting,prompt-engineering,done,2
+What is Self Consistency Prompting,what-is-self-consistency-prompting,prompt-engineering,done,2
 What is Tree of Thought,what-is-tree-of-thought,prompt-engineering,pending,2
 What is Retrieval in AI,what-is-retrieval-in-ai,ai-infrastructure,pending,1
 What is Pinecone,what-is-pinecone,ai-infrastructure,pending,2
