@@ -187,26 +187,26 @@ What is AI Assistant,what-is-ai-assistant,ai-tools,done,1
 What is Prompt Chaining,what-is-prompt-chaining,prompt-engineering,done,1
 What is Meta Prompting,what-is-meta-prompting,prompt-engineering,done,2
 What is Self Consistency Prompting,what-is-self-consistency-prompting,prompt-engineering,done,2
-What is Tree of Thought,what-is-tree-of-thought,prompt-engineering,pending,2
-What is Retrieval in AI,what-is-retrieval-in-ai,ai-infrastructure,pending,1
-What is Pinecone,what-is-pinecone,ai-infrastructure,pending,2
-What is Weaviate,what-is-weaviate,ai-infrastructure,pending,2
-What is ChromaDB,what-is-chromadb,ai-infrastructure,pending,2
-What is OpenAI,what-is-openai,ai-tools,pending,1
-What is Anthropic,what-is-anthropic,ai-tools,pending,1
-What is Google DeepMind,what-is-google-deepmind,ai-tools,pending,2
-What is Meta AI,what-is-meta-ai,ai-tools,pending,2
-What is AI Startup,what-is-ai-startup,ai-basics,pending,2
-What is AI Winter,what-is-ai-winter,ai-basics,pending,2
-What is the Turing Test,what-is-the-turing-test,ai-basics,pending,1
-What is the Chinese Room Argument,what-is-the-chinese-room-argument,ai-basics,pending,2
-What is Artificial Superintelligence,what-is-artificial-superintelligence,ai-basics,pending,2
-What is AI Singularity,what-is-ai-singularity,ai-basics,pending,2
-What is Artificial Intelligence,what-is-artificial-intelligence,ai-basics,pending,1
-What is Algorithm,what-is-algorithm,ai-basics,pending,1
-What is Augmented Reality AI,what-is-augmented-reality-ai,ai-tools,pending,2
-What is AI Bias,what-is-ai-bias,ai-safety,pending,1
-What is Backlog in AI Development,what-is-backlog-in-ai-development,ai-basics,pending,2
+What is Tree of Thought,what-is-tree-of-thought,prompt-engineering,done,2
+What is Retrieval in AI,what-is-retrieval-in-ai,ai-infrastructure,done,1
+What is Pinecone,what-is-pinecone,ai-infrastructure,done,2
+What is Weaviate,what-is-weaviate,ai-infrastructure,done,2
+What is ChromaDB,what-is-chromadb,ai-infrastructure,failed,2
+What is OpenAI,what-is-openai,ai-tools,failed,1
+What is Anthropic,what-is-anthropic,ai-tools,done,1
+What is Google DeepMind,what-is-google-deepmind,ai-tools,failed,2
+What is Meta AI,what-is-meta-ai,ai-tools,done,2
+What is AI Startup,what-is-ai-startup,ai-basics,done,2
+What is AI Winter,what-is-ai-winter,ai-basics,done,2
+What is the Turing Test,what-is-the-turing-test,ai-basics,done,1
+What is the Chinese Room Argument,what-is-the-chinese-room-argument,ai-basics,done,2
+What is Artificial Superintelligence,what-is-artificial-superintelligence,ai-basics,failed,2
+What is AI Singularity,what-is-ai-singularity,ai-basics,failed,2
+What is Artificial Intelligence,what-is-artificial-intelligence,ai-basics,done,1
+What is Algorithm,what-is-algorithm,ai-basics,done,1
+What is Augmented Reality AI,what-is-augmented-reality-ai,ai-tools,done,2
+What is AI Bias,what-is-ai-bias,ai-safety,done,1
+What is Backlog in AI Development,what-is-backlog-in-ai-development,ai-basics,done,2
 What is Beyond the Hype,what-is-beyond-the-hype,ai-basics,pending,2
 What is Classification,what-is-classification,ai-basics,pending,1
 What is Clustering,what-is-clustering,ai-basics,pending,2
