@@ -207,26 +207,26 @@ What is Algorithm,what-is-algorithm,ai-basics,done,1
 What is Augmented Reality AI,what-is-augmented-reality-ai,ai-tools,done,2
 What is AI Bias,what-is-ai-bias,ai-safety,done,1
 What is Backlog in AI Development,what-is-backlog-in-ai-development,ai-basics,done,2
-What is Beyond the Hype,what-is-beyond-the-hype,ai-basics,pending,2
-What is Classification,what-is-classification,ai-basics,pending,1
-What is Clustering,what-is-clustering,ai-basics,pending,2
-What is Consent in AI,what-is-consent-in-ai,ai-safety,pending,2
-What is Data Privacy,what-is-data-privacy,ai-safety,pending,1
-What is Data Science,what-is-data-science,ai-basics,pending,1
-What is Decision Tree,what-is-decision-tree,ai-basics,pending,2
-What is Explainability,what-is-explainability,ai-safety,pending,1
-What is Ethics in AI,what-is-ethics-in-ai,ai-basics,pending,1
-What is Fairness in AI,what-is-fairness-in-ai,ai-safety,pending,1
-What is Feedback Loop,what-is-feedback-loop,ai-basics,pending,2
-What is General Knowledge,what-is-general-knowledge,ai-basics,pending,2
-What is Generalization in AI,what-is-generalization-in-ai,ai-basics,pending,2
-What is Hallucination Prevention,what-is-hallucination-prevention,ai-safety,pending,2
-What is Human in the Loop AI,what-is-human-in-the-loop-ai,ai-agents,pending,1
-What is Heuristics in AI,what-is-heuristics-in-ai,ai-basics,pending,2
-What is Interpretability,what-is-interpretability,ai-basics,pending,1
-What is Intelligent Automation,what-is-intelligent-automation,ai-tools,pending,1
-What is Instance Learning,what-is-instance-learning,ai-basics,pending,2
-What is Inductive Learning,what-is-inductive-learning,ai-basics,pending,2
+What is Beyond the Hype,what-is-beyond-the-hype,ai-basics,done,2
+What is Classification,what-is-classification,ai-basics,done,1
+What is Clustering,what-is-clustering,ai-basics,done,2
+What is Consent in AI,what-is-consent-in-ai,ai-safety,done,2
+What is Data Privacy,what-is-data-privacy,ai-safety,done,1
+What is Data Science,what-is-data-science,ai-basics,failed,1
+What is Decision Tree,what-is-decision-tree,ai-basics,done,2
+What is Explainability,what-is-explainability,ai-safety,done,1
+What is Ethics in AI,what-is-ethics-in-ai,ai-basics,done,1
+What is Fairness in AI,what-is-fairness-in-ai,ai-safety,done,1
+What is Feedback Loop,what-is-feedback-loop,ai-basics,done,2
+What is General Knowledge,what-is-general-knowledge,ai-basics,done,2
+What is Generalization in AI,what-is-generalization-in-ai,ai-basics,done,2
+What is Hallucination Prevention,what-is-hallucination-prevention,ai-safety,failed,2
+What is Human in the Loop AI,what-is-human-in-the-loop-ai,ai-agents,failed,1
+What is Heuristics in AI,what-is-heuristics-in-ai,ai-basics,done,2
+What is Interpretability,what-is-interpretability,ai-basics,done,1
+What is Intelligent Automation,what-is-intelligent-automation,ai-tools,failed,1
+What is Instance Learning,what-is-instance-learning,ai-basics,failed,2
+What is Inductive Learning,what-is-inductive-learning,ai-basics,done,2
 What is Judgement Bias,what-is-judgement-bias,ai-safety,pending,2
 What is Knowledge Base,what-is-knowledge-base,ai-infrastructure,pending,1
 What is Keyword Extraction,what-is-keyword-extraction,ai-basics,pending,2
