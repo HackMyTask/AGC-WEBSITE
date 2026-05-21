@@ -30,7 +30,7 @@ const description = "Search the AI Glossary";
 
     async function getPagefind() {
       if (!pagefind) {
-        pagefind = await import('/pagefind/pagefind.js');
+        pagefind = await import(/* @vite-ignore */ '/pagefind/pagefind.js');
       }
       return pagefind;
     }
