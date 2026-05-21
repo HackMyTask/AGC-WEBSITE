@@ -1,7 +1,7 @@
 ---
 title: "What is Jasper AI"
 slug: "what-is-jasper-ai"
-description: "Jasper AI is a tool that helps create content."
+description: "Jasper AI is a tool that helps create content. Learn what jasper ai is and use AI tools and applications in your daily life."
 keywords: ["Jasper AI", "content creation", "AI tools", "writing assistant", "language model"]
 cluster: "ai-tools"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]

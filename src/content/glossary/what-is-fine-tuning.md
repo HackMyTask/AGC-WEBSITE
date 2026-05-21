@@ -1,7 +1,7 @@
 ---
 title: "What is Fine Tuning"
 slug: "what-is-fine-tuning"
-description: "Fine tuning is a process to improve AI models."
+description: "Fine tuning is a process to improve AI models. Learn what fine tuning is and understand large language models and how they work."
 keywords: ["ai", "machine learning", "fine tuning", "models", "training"]
 cluster: "llms"
 related_terms: ["machine-learning", "deep-learning", "natural-language-processing"]

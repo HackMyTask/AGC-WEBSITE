@@ -1,7 +1,7 @@
 ---
 title: "What is Latency in AI"
 slug: "what-is-latency-in-ai"
-description: "Latency in AI is the delay between input and response."
+description: "Latency in AI is the delay between input and response. Learn what latency in ai is and learn about the technology powering AI systems."
 keywords: ["latency", "artificial intelligence", "response time", "delay", "performance"]
 cluster: "ai-infrastructure"
 related_terms: ["response-time-optimization", "ai-performance-metrics", "real-time-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Latency in AI?
+## What is Latency in AI?
 Latency in AI refers to the time it takes for an artificial intelligence system to process a request and generate a response. Think of it like sending a message to a friend and waiting for them to reply. In AI, latency is the delay between when you give a command or ask a question and when the system provides an answer. For example, when you ask a virtual assistant like Siri or Alexa to play your favorite song, there's a brief moment before the music starts playing. This delay is latency. It's the time the system takes to understand your request, fetch the required information, and respond accordingly. Understanding latency is essential to building efficient AI systems that can provide quick and accurate responses.
 
 ## Think of It Like This

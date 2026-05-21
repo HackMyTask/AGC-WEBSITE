@@ -1,7 +1,7 @@
 ---
 title: "What is Neural Network"
 slug: "what-is-neural-network"
-description: "A computer system that learns like a human brain"
+description: "A computer system that learns like a human brain. Learn what neural network is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "deep learning", "neurons", "networks"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "deep-learning", "natural-language-processing"]

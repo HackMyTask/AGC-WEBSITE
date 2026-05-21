@@ -1,7 +1,7 @@
 ---
 title: "What is MCP"
 slug: "what-is-mcp"
-description: "MCP explained in simple terms"
+description: "MCP explained in simple terms. Learn what mcp is and learn about the technology powering AI systems."
 keywords: ["machine learning", "computer processing", "AI infrastructure", "microprocessor", "cloud computing"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-cloud-computing", "introduction-to-machine-learning", "microprocessor-explained"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is MCP?
+## What is MCP?
 MCP stands for Machine Control Processor or Microprocessor Control Program, but in the context of AI, it generally refers to a type of processing unit designed to handle complex calculations efficiently. At its core, an MCP is a highly specialized electronic component that acts as the brain of a computer system, executing instructions and handling data processing. Think of it as a super-smart, extremely fast calculator that can perform many tasks simultaneously. This is crucial for AI applications, which require massive amounts of data to be processed quickly. MCPs are designed to optimize performance, reducing the time it takes to complete tasks and improving overall system efficiency.
 
 ## Think of It Like This

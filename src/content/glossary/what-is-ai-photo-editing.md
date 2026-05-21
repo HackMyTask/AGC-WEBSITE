@@ -1,7 +1,7 @@
 ---
 title: "What is AI Photo Editing"
 slug: "what-is-ai-photo-editing"
-description: "AI-powered photo editing makes picture fixes easy."
+description: "AI-powered photo editing makes picture fixes easy. Learn what ai photo editing is and use AI tools and applications in your daily life."
 keywords: ["ai", "photo editing", "image processing", "machine learning", "computer vision"]
 cluster: "ai-tools"
 related_terms: ["machine-learning", "computer-vision", "image-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Photo Editing?
+## What is AI Photo Editing?
 
 AI photo editing is a way to use artificial intelligence to automatically fix and improve your photos. It works by using computer programs that can look at a picture, find problems like bad lighting or blurry parts, and then fix them. These programs use something called machine learning, which is like a computer version of learning from experience. They look at many examples of good and bad photos to learn what makes a photo look good, and then they can apply that knowledge to fix new photos. This process happens quickly and easily, without needing a lot of expertise in photography or editing.
 

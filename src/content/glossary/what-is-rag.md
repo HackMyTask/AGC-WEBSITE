@@ -1,7 +1,7 @@
 ---
 title: "What is RAG"
 slug: "what-is-rag"
-description: "RAG is a type of AI model"
+description: "RAG is a type of AI model. Learn what rag is and understand large language models and how they work."
 keywords: ["RAG", "AI", "models", "information retrieval", "question answering"]
 cluster: "llms"
 related_terms: ["what-is-llm", "what-is-nlp", "what-is-information-retrieval"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is RAG?
+## What is RAG?
 RAG stands for Retrieval-Augmented Generation. It's a type of artificial intelligence model that helps machines answer questions or generate text by combining two abilities: firstly, finding relevant information from a vast database, and secondly, using that information to create a response. Think of it like a librarian who not only finds the right book for you but also reads it and explains what it says. RAG models can search through massive amounts of data, like the internet, to find the information they need to answer a question or write a piece of text. This makes them very useful for tasks like chatbots, virtual assistants, or language translation. They work by first retrieving relevant information, then using that information to generate a response, which can be a simple answer or a longer piece of text.
 
 ## Think of It Like This

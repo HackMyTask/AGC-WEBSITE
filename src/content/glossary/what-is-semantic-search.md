@@ -1,7 +1,7 @@
 ---
 title: "What is Semantic Search"
 slug: "what-is-semantic-search"
-description: "Search that understands meaning and context."
+description: "Search that understands meaning and context. Learn what semantic search is and learn about the technology powering AI systems."
 keywords: ["search engine", "natural language", "artificial intelligence", "information retrieval", "contextual search"]
 cluster: "ai-infrastructure"
 related_terms: ["natural-language-processing", "information-retrieval", "contextual-search"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Semantic Search?
+## What is Semantic Search?
 
 Semantic search is a way for computers to understand the meaning and context of what you're searching for. It's like having a super smart assistant that can figure out what you really want, even if you don't use the exact right words. This is different from traditional search, which just looks for exact matches to your keywords. With semantic search, the computer tries to understand the nuances of language, like synonyms, related concepts, and even the intent behind your search. It uses artificial intelligence and natural language processing to make sense of your query and give you more relevant results. For example, if you search for "best pizza in New York," a semantic search engine will understand that you're looking for a recommendation, not just a list of pizza places in New York.
 

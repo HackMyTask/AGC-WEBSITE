@@ -1,0 +1,20 @@
+term,slug,cluster,status,priority,keywords
+What is Embedding,what-is-embedding,ai-infrastructure,pending,2,"embedding, vector embedding, word embedding, feature vector, representation learning"
+What is Epoch in Machine Learning,what-is-epoch-in-machine-learning,ai-basics,done,1,epoch in machine learning
+What is Explainable AI,what-is-explainable-ai,ai-basics,done,2,"explainable AI, XAI, interpretable AI, AI transparency, black box AI"
+What is ElevenLabs,what-is-elevenlabs,ai-tools,pending,2,elevenlabs
+What is Edge AI,what-is-edge-ai,ai-infrastructure,done,2,"edge AI, edge computing, on-device AI, offline AI, edge inference"
+What is Explainability,what-is-explainability,ai-safety,done,1,explainability
+What is Ethics in AI,what-is-ethics-in-ai,ai-basics,done,1,ethics in ai
+What is Expert System,what-is-expert-system,ai-basics,pending,2,"expert system, rule-based AI, knowledge base, inference engine, symbolic AI"
+What is Evolutionary Algorithm,what-is-evolutionary-algorithm,ai-basics,pending,2,"evolutionary algorithm, genetic algorithm, natural selection, optimization, evolution strategy"
+What is Emergent Behavior,what-is-emergent-behavior,ai-basics,pending,2,"emergent behavior, unexpected AI, complex system, emergence, spontaneous behavior"
+What is Error Rate,what-is-error-rate,ai-basics,pending,2,"error rate, model error, mistake rate, accuracy inverse, performance metric"
+What is Ensemble Method,what-is-ensemble-method,ai-basics,pending,2,"ensemble method, multiple models, bagging, boosting, combined prediction"
+What is Epistemic Uncertainty,what-is-epistemic-uncertainty,ai-basics,pending,2,"epistemic uncertainty, model uncertainty, knowledge uncertainty, reducible uncertainty, AI confidence"
+What is Encoder-Only Model,what-is-encoder-only-model,llms,pending,2,"encoder-only, BERT style, understanding model, classification, representation"
+What is Encoder-Decoder Model,what-is-encoder-decoder-model,llms,pending,2,"encoder-decoder, seq2seq, transformer, T5 style, translation model"
+What is Environment in AI,what-is-environment-in-ai,ai-agents,pending,2,"AI environment, agent environment, task environment, world model, operating context"
+What is Emotion Recognition in Voice,what-is-emotion-recognition-in-voice,ai-voice,pending,2,"emotion recognition, voice emotion, sentiment in speech, affective computing, tone detection"
+What is Enterprise AI,what-is-enterprise-ai,ai-business,pending,2,"enterprise AI, business AI, corporate AI, organization AI, company AI"
+What is ETL in AI,what-is-etl-in-ai,ai-data,pending,2,"ETL, extract transform load, data integration, data pipeline, data processing"

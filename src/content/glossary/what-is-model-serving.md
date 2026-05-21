@@ -1,7 +1,7 @@
 ---
 title: "What is Model Serving"
 slug: "what-is-model-serving"
-description: "Model serving is a way to make AI models available."
+description: "Model serving is a way to make AI models available. Learn what model serving is and learn about the technology powering AI systems."
 keywords: ["model serving", "AI models", "machine learning", "deep learning", "deployment"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Model Serving?
+## What is Model Serving?
 Model serving is a process that makes AI models available for use in real-world applications. Think of an AI model like a highly trained expert who can make predictions or decisions based on the data they've been trained on. But, just like how an expert needs a platform to share their knowledge, an AI model needs a way to be shared and used by others. Model serving is that platform. It's a system that takes the trained AI model and makes it accessible to users, either through a website, an app, or other software. This way, the model can be used to make predictions, classify data, or generate text, and its results can be easily accessed and used by others. The goal of model serving is to make it easy to deploy and manage AI models, so they can be used to solve real-world problems.
 
 ## Think of It Like This

@@ -26,17 +26,48 @@ const description = "Search the AI Glossary";
   <script>
     const searchInput = document.getElementById('search-input');
     const resultsContainer = document.getElementById('search-results');
+    let pagefind = null;
+
+    async function getPagefind() {
+      if (!pagefind) {
+        pagefind = await import('/pagefind/pagefind.js');
+      }
+      return pagefind;
+    }
 
     searchInput?.addEventListener('input', async (e) => {
-      const query = (e.target as HTMLInputElement).value.toLowerCase();
+      const query = (e.target).value.toLowerCase();
 
       if (query.length < 2) {
-        resultsContainer!.innerHTML = '<p class="text-slate-400">Start typing to search...</p>';
+        resultsContainer.innerHTML = '<p class="text-slate-400">Start typing to search...</p>';
         return;
       }
 
-      // Placeholder: In production, integrate Pagefind here
-      resultsContainer!.innerHTML = '<p class="text-slate-400">Search integration coming soon...</p>';
+      resultsContainer.innerHTML = '<p class="text-slate-400">Searching...</p>';
+
+      try {
+        const pf = await getPagefind();
+        const search = await pf.search(query);
+
+        if (!search.results || search.results.length === 0) {
+          resultsContainer.innerHTML = '<p class="text-slate-400">No results found for "' + query + '".</p>';
+          return;
+        }
+
+        const items = await Promise.all(
+          search.results.slice(0, 20).map(async (r) => {
+            const data = await r.data();
+            return '<a href="' + data.url + '" class="block p-4 bg-slate-900 border border-slate-800 rounded hover:border-accent transition">' +
+              '<h3 class="font-semibold text-accent">' + data.title + '</h3>' +
+              '<p class="text-sm text-slate-400 mt-1">' + data.excerpt + '</p>' +
+            '</a>';
+          })
+        );
+
+        resultsContainer.innerHTML = '<div class="space-y-4">' + items.join('') + '</div>';
+      } catch (err) {
+        resultsContainer.innerHTML = '<p class="text-slate-400">Search error. Please try again.</p>';
+      }
     });
   </script>
 </Layout>

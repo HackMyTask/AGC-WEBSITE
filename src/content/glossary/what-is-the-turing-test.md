@@ -1,7 +1,7 @@
 ---
 title: "What is the Turing Test"
 slug: "what-is-the-turing-test"
-description: "A test to determine if a machine is intelligent."
+description: "A test to determine if a machine is intelligent. Learn what the turing test is and understand the fundamentals of artificial intelligence."
 keywords: ["AI", "intelligence", "machine learning", "computer science", "technology"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-deep-learning"]

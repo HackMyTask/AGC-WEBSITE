@@ -1,7 +1,7 @@
 ---
 title: "What is GPT"
 slug: "what-is-gpt"
-description: "GPT is a type of AI that generates human-like text."
+description: "GPT is a type of AI that generates human-like text. Learn what gpt is and understand large language models and how they work."
 keywords: ["artificial intelligence", "natural language processing", "language models", "chatbots", "text generation"]
 cluster: "llms"
 related_terms: ["language-models", "natural-language-processing", "chatbots"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is GPT?
+## What is GPT?
 GPT stands for Generative Pre-trained Transformer. It's a type of artificial intelligence designed to generate human-like text. At its core, GPT uses a massive dataset of text from various sources, like books and online articles, to learn patterns and relationships between words. This knowledge allows GPT to create new text based on a given prompt or topic. Think of it like a highly advanced language model that can understand and respond to human input. The "pre-trained" part means it's already been trained on a huge amount of data before you even start using it. This training enables GPT to make predictions about the next word in a sentence, given the context of the conversation.
 
 ## Think of It Like This

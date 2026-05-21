@@ -1,7 +1,7 @@
 ---
 title: "What is Distillation in AI"
 slug: "what-is-distillation-in-ai"
-description: "AI knowledge transfer method"
+description: "AI knowledge transfer method. Learn what distillation in ai is and understand large language models and how they work."
 keywords: ["AI", "distillation", "machine learning", "knowledge transfer", "artificial intelligence"]
 cluster: "llms"
 related_terms: ["machine-learning", "neural-networks", "deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Distillation in AI?
+## What is Distillation in AI?
 Distillation in AI is a method that helps transfer knowledge from one artificial intelligence model to another. This process involves taking a complex model that has learned a lot of information and using it to teach a simpler model. The simpler model, often called the "student," learns from the complex model, known as the "teacher," by trying to mimic its behavior. At a high level, distillation works by having the teacher model provide guidance to the student model, which then uses this guidance to improve its own performance. This process allows the student model to learn from the teacher's strengths and weaknesses, resulting in a more efficient and effective model.
 
 ## Think of It Like This

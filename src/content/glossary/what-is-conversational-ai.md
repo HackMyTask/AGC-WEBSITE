@@ -1,7 +1,7 @@
 ---
 title: "What is Conversational AI"
 slug: "what-is-conversational-ai"
-description: "Conversational AI helps machines talk to humans."
+description: "Conversational AI helps machines talk to humans. Learn what conversational ai is and use AI tools and applications in your daily life."
 keywords: ["conversational ai", "chatbots", "voice assistants", "natural language", "machine learning"]
 cluster: "ai-tools"
 related_terms: ["natural-language-processing", "machine-learning", "chatbots"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Conversational AI?
+## What is Conversational AI?
 Conversational AI is a type of artificial intelligence that allows machines to have conversations with humans. It's like a computer program that can understand and respond to what you say or type. This is made possible by a combination of natural language processing and machine learning, which are fancy terms for "teaching computers to understand human language" and "helping computers learn from data," respectively. At a high level, conversational AI works by first listening to or reading what you say, then using complex algorithms to figure out what you mean, and finally responding in a way that's helpful and makes sense. This process happens quickly, often in a matter of seconds. 
 
 ## Think of It Like This

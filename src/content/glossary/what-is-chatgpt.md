@@ -1,7 +1,7 @@
 ---
 title: "What is ChatGPT"
 slug: "what-is-chatgpt"
-description: "ChatGPT is an AI chatbot that understands and responds to human input."
+description: "ChatGPT is an AI chatbot that understands and responds to human input. Learn what chatgpt is and use AI tools and applications in your daily life."
 keywords: ["AI", "chatbot", "language model", "conversation", "technology"]
 cluster: "ai-tools"
 related_terms: ["what-is-ai", "natural-language-processing", "machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is ChatGPT?
+## What is ChatGPT?
 ChatGPT is a type of computer program that uses artificial intelligence to have conversations with humans. It's like a very smart computer that can understand what you say or type, and respond in a way that makes sense. This program is trained on a massive amount of text data, which allows it to learn patterns and relationships between words, and generate human-like responses. At a high level, it works by taking in your input, processing it, and then selecting a response from its vast knowledge base. The goal is to create a conversation that feels natural and helpful. ChatGPT can be used for things like answering questions, providing information, or even just chatting about your day.
 
 ## Think of It Like This

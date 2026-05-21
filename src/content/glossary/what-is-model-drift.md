@@ -1,7 +1,7 @@
 ---
 title: "What is Model Drift"
 slug: "what-is-model-drift"
-description: "Model drift occurs when AI models become outdated."
+description: "Model drift occurs when AI models become outdated. Learn what model drift is and learn about the technology powering AI systems."
 keywords: ["machine learning", "artificial intelligence", "model drift", "data", "training"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-machine-learning", "what-is-artificial-intelligence", "what-is-data-science"]

@@ -1,7 +1,7 @@
 ---
 title: "What is Text Summarization"
 slug: "what-is-text-summarization"
-description: "Text summarization is a process that automatically shortens text."
+description: "Text summarization is a process that automatically shortens text. Learn what text summarization is and understand the fundamentals of artificial intelli..."
 keywords: ["text summarization", "ai", "natural language processing", "machine learning", "automatic summarization"]
 cluster: "ai-basics"
 related_terms: ["natural-language-processing", "machine-learning", "information-retrieval"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Text Summarization?
+## What is Text Summarization?
 
 Text summarization is a way to automatically shorten a piece of text, like an article or a document, into a smaller, more manageable version. This process uses artificial intelligence to identify the most important parts of the text and then summarize them into a shorter form. At a high level, it works by analyzing the text, looking for key points and phrases, and then using that information to create a summary. The goal is to preserve the main ideas and information in the text while leaving out less important details. This can be really helpful when you need to quickly understand the gist of a long piece of text. 
 

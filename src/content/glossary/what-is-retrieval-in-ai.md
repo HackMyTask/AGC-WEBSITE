@@ -1,7 +1,7 @@
 ---
 title: "What is Retrieval in AI"
 slug: "what-is-retrieval-in-ai"
-description: "Retrieval in AI helps find relevant information."
+description: "Retrieval in AI helps find relevant information. Learn what retrieval in ai is and learn about the technology powering AI systems."
 keywords: ["artificial intelligence", "information retrieval", "machine learning", "data", "knowledge"]
 cluster: "ai-infrastructure"
 related_terms: ["natural-language-processing", "machine-learning", "data-mining"]

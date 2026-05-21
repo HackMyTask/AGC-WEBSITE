@@ -1,7 +1,7 @@
 ---
 title: "What is Bias in AI"
 slug: "what-is-bias-in-ai"
-description: "Bias in AI means unfair results from computer programs."
+description: "Bias in AI means unfair results from computer programs. Learn what bias in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["bias", "artificial intelligence", "machine learning", "fairness", "discrimination"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Bias in AI?
+## What is Bias in AI?
 
 Bias in AI refers to the unfair or discriminatory results produced by artificial intelligence systems. This happens when the computer program is trained on data that is not representative of the real world, or when the people creating the program unintentionally (or intentionally) introduce their own prejudices into the system. As a result, the AI system may make decisions that are not fair or equal for all groups of people. For instance, if an AI system is trained to recognize faces, but most of the faces in the training data are white, it may not be as good at recognizing faces of people with darker skin tones. This is a simple example, but it illustrates how bias can creep into AI systems and affect their performance.
 

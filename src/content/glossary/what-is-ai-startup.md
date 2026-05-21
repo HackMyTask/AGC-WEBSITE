@@ -1,7 +1,7 @@
 ---
 title: "What is AI Startup"
 slug: "what-is-ai-startup"
-description: "Learn about AI startups and their role."
+description: "Learn about AI startups and their role. Learn what ai startup is and understand the fundamentals of artificial intelligence."
 keywords: ["AI", "startup", "technology", "innovation", "business"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "machine-learning-basics", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Startup?
+## What is AI Startup?
 An AI startup is a new company that uses artificial intelligence (AI) to create innovative products or services. Think of AI like a super-smart computer that can learn and do things on its own. AI startups use this technology to solve real-world problems, like making healthcare more efficient or helping people find the best restaurants. They work by using algorithms, which are like recipes for computers, to analyze data and make decisions. For example, an AI startup might use algorithms to look at a huge amount of medical data and find patterns that can help doctors diagnose diseases more accurately. These companies often start small, but they have the potential to grow and make a big impact.
 
 ## Think of It Like This

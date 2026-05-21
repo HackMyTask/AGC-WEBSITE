@@ -1,7 +1,7 @@
 ---
 title: "What is General Knowledge"
 slug: "what-is-general-knowledge"
-description: "General knowledge is a broad range of facts and information."
+description: "General knowledge is a broad range of facts and information. Learn what general knowledge is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "natural language", "information retrieval", "knowledge graph"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is General Knowledge?
+## What is General Knowledge?
 General knowledge refers to the vast amount of information and facts that a person or a computer system can access and use. It's like having a huge library with books on every subject imaginable, from history to science, sports, and entertainment. This knowledge can be used to answer questions, solve problems, or simply to learn new things. For example, if you ask a question like "What is the capital of France?", a system with general knowledge would be able to tell you that it's Paris. General knowledge is not just limited to simple facts; it also includes relationships between different pieces of information, like how events are connected or how concepts are related. In the context of artificial intelligence, general knowledge is what allows machines to understand and respond to a wide range of questions and topics.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is AI Benchmark"
 slug: "what-is-ai-benchmark"
-description: "A measure of AI performance and efficiency"
+description: "A measure of AI performance and efficiency. Learn what ai benchmark is and understand the fundamentals of artificial intelligence."
 keywords: ["AI performance", "AI efficiency", "benchmarking", "artificial intelligence", "machine learning"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-deep-learning"]

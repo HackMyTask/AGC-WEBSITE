@@ -1,7 +1,7 @@
 ---
 title: "What is Cloud AI"
 slug: "what-is-cloud-ai"
-description: "Cloud AI explained simply"
+description: "Cloud AI explained simply. Learn what cloud ai is and learn about the technology powering AI systems."
 keywords: ["cloud computing", "artificial intelligence", "machine learning", "online services", "data storage"]
 cluster: "ai-infrastructure"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]

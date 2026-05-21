@@ -1,7 +1,7 @@
 ---
 title: "What is System Prompt"
 slug: "what-is-system-prompt"
-description: "A System Prompt is a message that helps AI understand what to do."
+description: "A System Prompt is a message that helps AI understand what to do. Learn what system prompt is and get better results from AI through effective prompting."
 keywords: ["artificial intelligence", "AI prompt", "system message", "computer instruction", "machine learning"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is System Prompt?
+## What is System Prompt?
 A System Prompt is a message or instruction that tells a computer or artificial intelligence (AI) what to do. Think of it like a set of instructions that helps the AI understand its task. For example, if you want a virtual assistant to book a flight, the System Prompt would be the message that says "book a flight from New York to Los Angeles." This prompt helps the AI know what action to take and what information to use. The System Prompt is usually created by humans and is used to guide the AI's decision-making process. It's like a recipe for the AI, telling it what ingredients to use and how to mix them together.
 
 ## Think of It Like This

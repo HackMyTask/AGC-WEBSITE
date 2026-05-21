@@ -26,32 +26,45 @@ class ContentGenerator:
         self.quality_gate = QualityGate()
         self.markdown_writer = MarkdownWriter()
         self.notifier = TelegramNotifier()
-        self.terms_csv = "data/terms.csv"
+        self.terms_glob = "data/terms_*.csv"
         self.prompt_template = self._load_prompt_template()
 
     def _load_prompt_template(self) -> str:
         with open("prompts/article.txt", "r") as f:
             return f.read()
 
+    def _concept_letter(self, term: str) -> str:
+        import re
+        stripped = re.sub(r"^What\s+is\s+(a\s+|an\s+|the\s+)?", "", term, flags=re.IGNORECASE)
+        return stripped[0].upper() if stripped else "Z"
+
     def _read_terms(self) -> list:
-        """Read terms from CSV."""
+        """Read terms from all per-letter CSV files."""
         terms = []
-        with open(self.terms_csv, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                terms.append(row)
+        import glob
+        for filepath in sorted(glob.glob(self.terms_glob)):
+            with open(filepath, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    terms.append(row)
         return terms
 
     def _write_terms(self, terms: list):
-        """Write terms back to CSV."""
+        """Write terms back to per-letter CSV files."""
         if not terms:
             return
-
-        fieldnames = terms[0].keys()
-        with open(self.terms_csv, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(terms)
+        from collections import defaultdict
+        fieldnames = list(terms[0].keys())
+        by_letter = defaultdict(list)
+        for t in terms:
+            letter = self._concept_letter(t["term"])
+            by_letter[letter].append(t)
+        for letter, group in by_letter.items():
+            filepath = f"data/terms_{letter.lower()}.csv"
+            with open(filepath, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(group)
 
     def _get_pending_terms(self, terms: list, priority: int = None) -> list:
         """Filter pending terms, optionally by priority."""

@@ -1,7 +1,7 @@
 ---
 title: "What is Activation Function"
 slug: "what-is-activation-function"
-description: "A function that helps AI models make decisions"
+description: "A function that helps AI models make decisions. Learn what activation function is and understand the fundamentals of artificial intelligence."
 keywords: ["activation function", "AI", "machine learning", "neural networks", "deep learning"]
 cluster: "ai-basics"
 related_terms: ["what-is-neural-network", "what-is-deep-learning", "what-is-machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Activation Function?
+## What is Activation Function?
 An activation function is a crucial part of artificial intelligence (AI) models, particularly in neural networks. It's a mathematical function that helps the model decide what to do with the information it receives. Think of it like a gatekeeper that determines whether a signal should be passed on to the next step or not. At a high level, the activation function takes the input data, performs a calculation, and then outputs a value that indicates the importance or relevance of that data. This process allows the AI model to learn and make decisions based on the input it receives. The activation function is what enables the model to introduce non-linearity, which is essential for learning complex relationships between data.
 
 ## Think of It Like This

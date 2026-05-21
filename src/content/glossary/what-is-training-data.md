@@ -1,7 +1,7 @@
 ---
 title: "What is Training Data"
 slug: "what-is-training-data"
-description: "Data used to teach AI systems."
+description: "Data used to teach AI systems. Learn what training data is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "data science", "AI models", "computer science"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Training Data?
+## What is Training Data?
 Training data is essentially the information used to teach artificial intelligence (AI) systems how to perform specific tasks. Think of it like a teacher providing lessons to a student - the lessons are the training data, and the student learns from them. When we talk about training data, we're referring to the collection of examples, images, audio, or text that AI systems use to learn patterns and make decisions. For instance, if we're trying to build an AI system that can recognize pictures of dogs, we would gather a large collection of images of dogs and use that as our training data. This data helps the AI system understand what features are characteristic of dogs, such as fur, four legs, and a tail.
 
 ## Think of It Like This

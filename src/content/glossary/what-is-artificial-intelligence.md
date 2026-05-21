@@ -1,7 +1,7 @@
 ---
 title: "What is Artificial Intelligence"
 slug: "what-is-artificial-intelligence"
-description: "Artificial Intelligence is a computer system that can think and learn."
+description: "Artificial Intelligence is a computer system that can think and learn. Learn what artificial intelligence is and understand the fundamentals of artifici..."
 keywords: ["machine learning", "artificial intelligence", "computer science", "technology", "innovation"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "deep-learning", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Artificial Intelligence?
+## What is Artificial Intelligence?
 Artificial Intelligence, or AI for short, is a computer system that can think and learn like a human being. It's designed to perform tasks that typically require human intelligence, such as understanding language, recognizing images, and making decisions. At a high level, AI works by using algorithms, which are like recipes for the computer, to process large amounts of data and make predictions or take actions. The algorithm is trained on a dataset, which is a collection of examples, to learn patterns and relationships. For instance, an AI system that recognizes images of dogs and cats would be trained on a dataset of pictures of dogs and cats, so it can learn to distinguish between the two. This training process enables the AI system to make accurate predictions or take actions on new, unseen data.
 
 ## Think of It Like This

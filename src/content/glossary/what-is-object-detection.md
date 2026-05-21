@@ -1,7 +1,7 @@
 ---
 title: "What is Object Detection"
 slug: "what-is-object-detection"
-description: "Object detection is a tech that finds things in images."
+description: "Object detection is a tech that finds things in images. Learn what object detection is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "computer vision", "image recognition", "object detection", "artificial intelligence"]
 cluster: "ai-basics"
 related_terms: ["image-classification", "machine-learning", "computer-vision"]

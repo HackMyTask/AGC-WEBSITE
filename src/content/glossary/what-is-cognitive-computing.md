@@ -1,7 +1,7 @@
 ---
 title: "What is Cognitive Computing"
 slug: "what-is-cognitive-computing"
-description: "Cognitive computing simulates human thought processes."
+description: "Cognitive computing simulates human thought processes. Learn what cognitive computing is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "natural language processing", "computer science", "neural networks"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "neural-networks"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Cognitive Computing?
+## What is Cognitive Computing?
 Cognitive computing is a type of artificial intelligence that tries to mimic how humans think and learn. It's like a computer system that can understand, reason, and react to situations, just like we do. At a high level, cognitive computing works by using complex algorithms and large amounts of data to make decisions and complete tasks. This process involves a lot of machine learning, which allows the system to improve over time and adapt to new situations. Think of it like a computer that can learn from its mistakes, just like we do. Cognitive computing also involves natural language processing, which lets computers understand and generate human-like language.
 
 ## Think of It Like This

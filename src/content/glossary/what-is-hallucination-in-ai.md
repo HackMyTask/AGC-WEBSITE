@@ -1,7 +1,7 @@
 ---
 title: "What is Hallucination in AI"
 slug: "what-is-hallucination-in-ai"
-description: "AI produces false info, like a dream."
+description: "AI produces false info, like a dream. Learn what hallucination in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "ai basics", "ai flaws", "technology"]
 cluster: "ai-basics"
 related_terms: ["what-is-ai", "how-does-machine-learning-work", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Hallucination in AI?
+## What is Hallucination in AI?
 Hallucination in AI refers to a situation where an artificial intelligence system, like a computer program, produces information or results that are not based on any actual data or facts. This can happen when an AI system is trying to make predictions, answer questions, or generate text. Think of it like a computer "dreaming" up information that isn't really there. It's a problem because this false information can be misleading or wrong, and people might rely on it without realizing it's not true. AI hallucination can occur due to various reasons, such as incomplete training data, biases in the algorithm, or the complexity of the task at hand. For instance, if an AI system is trained on a limited dataset, it may not have enough information to make accurate predictions, leading to hallucinations.
 
 ## Think of It Like This

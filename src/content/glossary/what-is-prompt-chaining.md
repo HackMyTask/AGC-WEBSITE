@@ -1,7 +1,7 @@
 ---
 title: "What is Prompt Chaining"
 slug: "what-is-prompt-chaining"
-description: "A technique to improve AI responses by breaking tasks into smaller steps."
+description: "A technique to improve AI responses by breaking tasks into smaller steps. Learn what prompt chaining is and get better results from AI through effective..."
 keywords: ["AI", "prompt engineering", "natural language processing", "machine learning", "conversational AI"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Prompt Chaining?
+## What is Prompt Chaining?
 Prompt chaining is a technique used to improve the performance of artificial intelligence (AI) models, particularly those that understand and respond to human language. At its core, prompt chaining involves breaking down complex tasks into smaller, more manageable steps, and then using the output from one step as the input for the next. This process allows AI models to refine their responses and provide more accurate and relevant results. Think of it like a conversation where you ask a series of follow-up questions to get to the information you need. By chaining these prompts together, AI models can better understand the context and provide more accurate responses. This technique is especially useful when dealing with complex or open-ended questions that require multiple steps to answer.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is LoRA"
 slug: "what-is-lora"
-description: "Low-Rank Adaptation of AI models"
+description: "Low-Rank Adaptation of AI models. Learn what lora is and understand large language models and how they work."
 keywords: ["AI", "machine learning", "LoRA", "adaptation", "efficiency"]
 cluster: "llms"
 related_terms: ["transformers", "language models", "fine-tuning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is LoRA?
+## What is LoRA?
 LoRA stands for Low-Rank Adaptation, which is a technique used in artificial intelligence, specifically in machine learning. It's a way to make big AI models work better and use less computer power. Imagine you have a huge library with millions of books, and you want to find a specific book. A regular AI model would look through every single book to find the one you want. But with LoRA, the AI can quickly look at a smaller, more organized version of the library, and then find the exact book you need. This makes the whole process faster and more efficient. LoRA achieves this by breaking down the big AI model into smaller, more manageable parts, and then adapting those parts to the specific task at hand.
 
 ## Think of It Like This

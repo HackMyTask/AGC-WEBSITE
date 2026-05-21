@@ -12,16 +12,18 @@ logger = logging.getLogger(__name__)
 class InternalLinker:
     def __init__(self):
         self.glossary_dir = "src/content/glossary"
-        self.terms_csv = "data/terms.csv"
+        self.terms_glob = "data/terms_*.csv"
         self.max_links_per_article = 3
 
     def _read_terms(self) -> dict:
-        """Read terms CSV and return dict of slug -> term data."""
+        """Read terms from all per-letter CSV files and return dict of slug -> term data."""
         terms = {}
-        with open(self.terms_csv, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                terms[row["slug"]] = row
+        import glob
+        for filepath in sorted(glob.glob(self.terms_glob)):
+            with open(filepath, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    terms[row["slug"]] = row
         return terms
 
     def _get_related_terms(self, slug: str, cluster: str, terms: dict) -> list:

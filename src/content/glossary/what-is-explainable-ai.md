@@ -1,7 +1,7 @@
 ---
 title: "What is Explainable AI"
 slug: "what-is-explainable-ai"
-description: "Explainable AI helps us understand how AI makes decisions."
+description: "Explainable AI helps us understand how AI makes decisions. Learn what explainable ai is and understand the fundamentals of artificial intelligence."
 keywords: ["Explainable AI", "Transparency", "AI Decision Making", "Machine Learning", "Artificial Intelligence"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "artificial-intelligence", "deep-learning"]

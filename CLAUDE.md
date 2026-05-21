@@ -13,14 +13,14 @@ A static site glossary explaining AI concepts in plain language for non-technica
 - **Automation:** Python 3.9+ scripts for content generation
 - **AI Providers:** Groq (default) or Google Gemini
 - **Deployment:** Cloudflare Pages
-- **Data:** CSV-based term management (`data/terms.csv`)
+- **Data:** Per-letter CSV term management (`data/terms_*.csv`)
 
 ## Project Structure
 
 ```
 AGC-WEBSITE/
 ├── content/glossary/          ← Generated .md articles
-├── data/terms.csv             ← Source of truth (50 seed terms)
+├── data/terms_*.csv           ← Source of truth (per-letter files)
 ├── scripts/
 │   ├── api_client.py          ← AI provider abstraction (Groq/Gemini)
 │   ├── generate.py            ← Main content generation CLI
@@ -94,8 +94,8 @@ python scripts/generate.py --random 25         # Random 25 articles
 
 ### Content Pipeline
 
-1. **Data Layer:** `data/terms.csv` is the single source of truth
-   - 50 seed terms across 4 clusters (ai-basics, llms, prompt-engineering, ai-tools)
+1. **Data Layer:** `data/terms_*.csv` is the single source of truth (per-letter files)
+   - Terms split by first letter of the concept (e.g., `What is RAG` → `terms_r.csv`)
    - Fields: term, slug, cluster, status (pending/done/skip), priority (1/2)
 
 2. **Generation Flow:**
@@ -187,7 +187,7 @@ BATCH_SIZE=20                 # Default batch size
 ## Common Tasks
 
 ### Add new terms
-1. Edit `data/terms.csv`
+1. Edit the appropriate `data/terms_{letter}.csv` file
 2. Add rows with status=pending
 3. Run `npm run generate:batch`
 

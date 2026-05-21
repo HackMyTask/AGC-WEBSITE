@@ -41,7 +41,7 @@ A static site glossary explaining AI concepts in plain language for non-technica
 AGC-WEBSITE/
 ├── content/glossary/          ← Generated .md articles
 ├── data/
-│   └── terms.csv              ← Source of truth for all terms
+│   └── terms_*.csv            ← Source of truth (per-letter files)
 ├── scripts/
 │   ├── api_client.py          ← AI provider abstraction
 │   ├── generate.py            ← Main content generation
@@ -122,7 +122,7 @@ npm run preview
 
 ## Data Management
 
-### terms.csv Format
+### terms CSV Format (Per-Letter Files)
 
 ```csv
 term,slug,cluster,status,priority
@@ -139,7 +139,7 @@ What is an AI Agent,what-is-an-ai-agent,ai-agents,pending,1
 
 ## Content Generation Pipeline
 
-1. **Read** pending terms from `data/terms.csv`
+1. **Read** pending terms from `data/terms_*.csv`
 2. **Check** if markdown file already exists (dedup)
 3. **Generate** via AI provider (Groq or Gemini)
 4. **Validate** with quality gate checks
@@ -323,7 +323,7 @@ NODE_VERSION=18
 
 ## Contributing
 
-1. Add new terms to `data/terms.csv`
+1. Add new terms to the appropriate `data/terms_{letter}.csv` file
 2. Set `status=pending`
 3. Run `npm run generate:batch`
 4. Review generated articles

@@ -1,7 +1,7 @@
 ---
 title: "What is Role Prompting"
 slug: "what-is-role-prompting"
-description: "Role Prompting is a way to guide AI models."
+description: "Role Prompting is a way to guide AI models. Learn what role prompting is and get better results from AI through effective prompting."
 keywords: ["AI", "machine learning", "natural language processing", "prompt engineering", "language models"]
 cluster: "prompt-engineering"
 related_terms: ["what-is-prompt-engineering", "what-is-language-model", "what-is-conversational-ai"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Role Prompting?
+## What is Role Prompting?
 Role Prompting is a technique used to help Artificial Intelligence (AI) models understand the context and purpose of a conversation or task. It works by providing the AI with a clear definition of its role in the interaction, such as a customer support agent or a language translator. This guidance enables the AI to respond more accurately and appropriately to user input. Think of it like giving a script to an actor, so they know how to behave and respond in a specific situation. By defining the role, the AI can generate more relevant and helpful responses. This approach is particularly useful in applications where the AI needs to engage in conversation, provide information, or complete a specific task.
 
 ## Think of It Like This

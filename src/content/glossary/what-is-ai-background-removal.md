@@ -1,7 +1,7 @@
 ---
 title: "What is AI Background Removal"
 slug: "what-is-ai-background-removal"
-description: "AI tool to remove backgrounds from images"
+description: "AI tool to remove backgrounds from images. Learn what ai background removal is and use AI tools and applications in your daily life."
 keywords: ["AI", "background removal", "image editing", "photography", "machine learning"]
 cluster: "ai-tools"
 related_terms: ["image-segmentation", "object-detection", "computer-vision"]

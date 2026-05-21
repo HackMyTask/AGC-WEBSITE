@@ -1,7 +1,7 @@
 ---
 title: "What is AI Memory"
 slug: "what-is-ai-memory"
-description: "AI Memory explained in simple terms"
+description: "AI Memory explained in simple terms. Learn what ai memory is and understand autonomous AI systems and how they operate."
 keywords: ["ai", "memory", "machine learning", "data storage", "neural networks"]
 cluster: "ai-agents"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]

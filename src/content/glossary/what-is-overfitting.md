@@ -1,7 +1,7 @@
 ---
 title: "What is Overfitting"
 slug: "what-is-overfitting"
-description: "Overfitting is when a model is too complex."
+description: "Overfitting is when a model is too complex. Learn what overfitting is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "model training", "data analysis", "programming"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "neural-networks", "data-preprocessing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Overfitting?
+## What is Overfitting?
 Overfitting is a problem that happens when a computer model is too complicated. It's like trying to use a huge, intricate key to unlock a simple door. The model is so complex that it starts to fit the noise in the data, rather than the actual patterns. This means it becomes really good at predicting the specific examples it was trained on, but fails to make good predictions on new, unseen data. Imagine you're trying to teach a child to recognize dogs, and you show them 100 pictures of your own dog. The child might become an expert at recognizing your dog, but struggle to recognize other dogs. That's basically what's happening with overfitting. The model is becoming too specialized to the training data, and losing its ability to generalize to new situations.
 
 ## Think of It Like This

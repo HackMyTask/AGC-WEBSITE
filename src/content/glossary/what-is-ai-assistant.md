@@ -1,7 +1,7 @@
 ---
 title: "What is AI Assistant"
 slug: "what-is-ai-assistant"
-description: "An AI assistant is a computer program that helps with tasks."
+description: "An AI assistant is a computer program that helps with tasks. Learn what ai assistant is and use AI tools and applications in your daily life."
 keywords: ["artificial intelligence", "virtual assistant", "machine learning", "chatbot", "automation"]
 cluster: "ai-tools"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-chatbot"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Assistant?
+## What is AI Assistant?
 An AI assistant is a computer program that helps with tasks, like scheduling appointments or sending messages. It uses something called artificial intelligence, which is a way for computers to think and learn like humans. At a high level, an AI assistant works by understanding what you say or type, then using that information to perform a task or give you an answer. This is made possible by a type of computer science called machine learning, which allows the program to get better at its job over time. For example, if you ask an AI assistant to set a reminder, it will learn your schedule and preferences to provide more accurate reminders in the future. The program can also understand natural language, which means you can talk to it like you would to a person, without needing to use special commands or codes.
 
 ## Think of It Like This

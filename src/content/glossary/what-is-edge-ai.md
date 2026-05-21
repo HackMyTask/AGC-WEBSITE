@@ -1,7 +1,7 @@
 ---
 title: "What is Edge AI"
 slug: "what-is-edge-ai"
-description: "Edge AI explained in simple terms"
+description: "Edge AI explained in simple terms. Learn what edge ai is and learn about the technology powering AI systems."
 keywords: ["edge ai", "artificial intelligence", "machine learning", "iot", "cloud computing"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-cloud-computing"]

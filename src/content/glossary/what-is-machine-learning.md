@@ -1,7 +1,7 @@
 ---
 title: "What is Machine Learning"
 slug: "what-is-machine-learning"
-description: "Machine Learning is a type of AI that helps computers learn from data."
+description: "Machine Learning is a type of AI that helps computers learn from data. Learn what machine learning is and understand the fundamentals of artificial inte..."
 keywords: ["Machine Learning", "Artificial Intelligence", "AI", "Data Analysis", "Automation"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "what-is-deep-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Machine Learning?
+## What is Machine Learning?
 Machine Learning is a type of Artificial Intelligence that enables computers to learn from data without being explicitly programmed. It's like teaching a child to recognize different types of animals - you show them many pictures, and they start to understand what makes a cat a cat and a dog a dog. At a high level, Machine Learning works by using algorithms, which are like recipes for the computer, to analyze large amounts of data. The computer then uses this analysis to make predictions or take actions. For example, if you're building a system to recognize pictures of cars, you would feed the computer thousands of pictures of cars and not-cars, and it would learn to identify the patterns that make a car a car.
 
 ## Think of It Like This

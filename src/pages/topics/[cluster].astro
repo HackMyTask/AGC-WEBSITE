@@ -31,9 +31,44 @@ const meta = clusterMeta[cluster!] || { name: cluster, icon: '📚', description
 
 const allArticles = await getCollection('glossary');
 const articles = allArticles.filter(a => a.data.cluster === cluster);
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+const siteURL = "https://ailibrary.site";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "name": meta.name + " - AI Glossary",
+      "description": meta.description,
+      "url": canonicalURL,
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": articles.map((a, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "url": siteURL + "/glossary/" + a.id,
+          "name": a.data.title
+        }))
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": siteURL + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Topics", "item": siteURL + "/topics" },
+        { "@type": "ListItem", "position": 3, "name": meta.name, "item": canonicalURL }
+      ]
+    }
+  ]
+};
 ---
 
 <Layout title={meta.name} description={meta.description}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </Fragment>
   <section class="mb-12">
     <div class="flex items-center gap-2 text-sm text-slate-400 mb-4">
       <a href="/" class="hover:text-accent">Home</a>

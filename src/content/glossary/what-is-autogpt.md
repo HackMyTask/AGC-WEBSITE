@@ -1,7 +1,7 @@
 ---
 title: "What is AutoGPT"
 slug: "what-is-autogpt"
-description: "AutoGPT is a type of artificial intelligence model."
+description: "AutoGPT is a type of artificial intelligence model. Learn what autogpt is and understand autonomous AI systems and how they operate."
 keywords: ["artificial intelligence", "AI models", "GPT", "automation", "machine learning"]
 cluster: "ai-agents"
 related_terms: ["what-is-gpt", "what-is-machine-learning", "what-is-artificial-intelligence"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AutoGPT?
+## What is AutoGPT?
 
 AutoGPT is a type of artificial intelligence model that uses a technology called GPT, which stands for Generative Pre-trained Transformer. This is a big phrase, but don't worry, we'll break it down. Essentially, AutoGPT is a computer program that can understand and generate human-like text. It works by using a massive amount of text data to learn patterns and relationships between words, allowing it to create new text that's often indistinguishable from something written by a human. At a high level, AutoGPT uses this learned knowledge to automate tasks that typically require human intelligence, such as answering questions, writing articles, or even having conversations. The "auto" part of AutoGPT refers to its ability to automate these tasks without needing direct human input.
 

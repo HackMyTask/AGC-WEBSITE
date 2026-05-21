@@ -1,0 +1,26 @@
+term,slug,cluster,status,priority,keywords
+What is a Vector Database,what-is-a-vector-database,ai-infrastructure,done,2,a vector database
+What is Voice Cloning,what-is-voice-cloning,ai-tools,done,1,"voice cloning, voice synthesis, AI voice, voice replication, speech generation"
+What is Validation Set,what-is-validation-set,ai-basics,pending,2,"validation set, validation data, model validation, dev set, hyperparameter tuning"
+What is Variability in AI,what-is-variability-in-ai,ai-basics,pending,2,variability in ai
+What is Vector,what-is-vector,ai-infrastructure,pending,2,vector
+What is Vectorization,what-is-vectorization,ai-infrastructure,pending,2,vectorization
+What is Variance in AI,what-is-variance-in-ai,ai-basics,pending,2,"variance, model variance, high variance, sensitivity, overfitting indicator"
+What is Visualization in AI,what-is-visualization-in-ai,ai-basics,pending,2,"AI visualization, data visualization, model visualization, interpretability, visual analytics"
+What is Vocabulary in LLM,what-is-vocabulary-in-llm,llms,pending,2,"vocabulary, token vocabulary, word list, model vocab, tokenizer vocab"
+What is Vision Language Model,what-is-vision-language-model,llms,pending,2,"vision language model, VLM, multimodal LLM, image understanding, visual QA"
+What is Vibe Coding,what-is-vibe-coding,prompt-engineering,pending,2,"vibe coding, AI coding, natural language coding, conversational coding, vibe-driven development"
+What is Vercel v0,what-is-vercel-v0,ai-tools,pending,2,"Vercel v0, v0, AI UI generator, frontend AI, React AI"
+What is Visily AI,what-is-visily-ai,ai-tools,pending,2,"Visily, AI wireframe, UI design, app design, design tool, AI prototyping"
+What is Vector Embedding,what-is-vector-embedding,ai-infrastructure,pending,2,"vector embedding, embedding, vector representation, semantic vector, numeric representation"
+What is Vector Similarity,what-is-vector-similarity,ai-infrastructure,pending,2,"vector similarity, cosine similarity, dot product, distance metric, embedding comparison"
+What is Vector Index,what-is-vector-index,ai-infrastructure,pending,2,"vector index, indexing, ANN index, approximate nearest neighbor, search index"
+What is vLLM,what-is-vllm,ai-infrastructure,pending,2,"vLLM, LLM serving, inference engine, high-throughput, PagedAttention"
+What is Voice AI,what-is-voice-ai,ai-voice,pending,2,"voice AI, voice assistant, speech AI, voice technology, AI voice"
+What is Voice Synthesis,what-is-voice-synthesis,ai-voice,pending,2,"voice synthesis, synthetic voice, AI voice, speech generation, voice cloning"
+What is Voice Biometrics,what-is-voice-biometrics,ai-voice,pending,2,"voice biometrics, voice ID, speaker verification, voice authentication, vocal print"
+What is Voice Activity Detection,what-is-voice-activity-detection,ai-voice,pending,2,"voice activity detection, VAD, speech detection, silence detection, voice trigger"
+What is Voice Agent,what-is-voice-agent,ai-voice,pending,2,"voice agent, voicebot, voice assistant, phone AI, voice automation"
+What is Voice Analytics,what-is-voice-analytics,ai-voice,pending,2,"voice analytics, speech analytics, conversation analytics, call analytics, voice insights"
+What is Visual Question Answering,what-is-visual-question-answering,ai-multimodal,pending,2,"visual QA, VQA, image questions, visual query, image answer"
+What is Visual Grounding,what-is-visual-grounding,ai-multimodal,pending,2,"visual grounding, point to image, referring expression, visual reference, image localization"

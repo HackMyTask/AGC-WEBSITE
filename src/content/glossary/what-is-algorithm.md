@@ -1,7 +1,7 @@
 ---
 title: "What is Algorithm"
 slug: "what-is-algorithm"
-description: "A set of instructions for solving a problem."
+description: "A set of instructions for solving a problem. Learn what algorithm is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "computer science", "programming", "data analysis"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "data-analysis", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Algorithm?
+## What is Algorithm?
 An algorithm is a list of instructions that a computer follows to solve a problem or complete a task. It's like a recipe for your favorite dish, but instead of mixing ingredients, the computer follows the steps to produce a result. These instructions are usually written in a programming language, which the computer can understand. The algorithm takes in some information, processes it, and then gives an output. For example, a simple algorithm might take your name as input and print out a greeting message. More complex algorithms can do things like recognize pictures, predict the weather, or recommend movies.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is Token Limit"
 slug: "what-is-token-limit"
-description: "A limit on how much text AI models can process."
+description: "A limit on how much text AI models can process. Learn what token limit is and understand large language models and how they work."
 keywords: ["token", "limit", "AI", "language", "model"]
 cluster: "llms"
 related_terms: ["what-is-tokenization", "what-is-language-model", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Token Limit?
+## What is Token Limit?
 A token limit is a restriction on the amount of text that an artificial intelligence (AI) model can process at one time. Think of it like a container that can only hold a certain number of words or characters. When you interact with an AI, like a chatbot or a language generator, it breaks down your input into individual units called tokens. These tokens can be words, characters, or even smaller units like punctuation marks. The token limit determines how many of these tokens the AI can handle in a single input. For example, if an AI has a token limit of 2,000, it can only process 2,000 tokens or fewer at a time. Anything more than that, and the AI might not be able to understand or respond accurately.
 
 ## Think of It Like This

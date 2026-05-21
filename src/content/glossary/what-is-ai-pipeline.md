@@ -1,7 +1,7 @@
 ---
 title: "What is AI Pipeline"
 slug: "what-is-ai-pipeline"
-description: "A series of processes to build and use AI systems."
+description: "A series of processes to build and use AI systems. Learn what ai pipeline is and learn about the technology powering AI systems."
 keywords: ["artificial intelligence", "machine learning", "data processing", "automation", "technology"]
 cluster: "ai-infrastructure"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Pipeline?
+## What is AI Pipeline?
 An AI pipeline is a series of processes that help build and use artificial intelligence systems. It's like a factory assembly line, but instead of producing cars, it produces intelligent computer systems. The pipeline starts with collecting and preparing data, which is then used to train machine learning models. These models are like recipes that the computer follows to make predictions or decisions. The pipeline also includes testing and evaluating the models to make sure they work correctly. Finally, the trained models are deployed in real-world applications, such as virtual assistants or self-driving cars. The entire process is repeated continuously to improve the performance of the AI system.
 
 ## Think of It Like This

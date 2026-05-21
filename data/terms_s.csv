@@ -1,0 +1,56 @@
+term,slug,cluster,status,priority,keywords
+What is Stable Diffusion,what-is-stable-diffusion,ai-tools,pending,1,"stable diffusion, diffusion model, text-to-image, generative AI, Stability AI"
+What is Semantic Search,what-is-semantic-search,ai-infrastructure,done,2,"semantic search, meaning-based search, vector search, intelligent search, AI search"
+What is Supervised Learning,what-is-supervised-learning,ai-basics,pending,1,"supervised learning, labeled data, classification regression, ML training, teacher signal"
+What is System Prompt,what-is-system-prompt,prompt-engineering,done,1,"system prompt, system message, AI instruction, base prompt, LLM system"
+What is Speech to Text AI,what-is-speech-to-text-ai,ai-tools,done,1,speech to text ai
+What is Siri,what-is-siri,ai-tools,done,2,"Siri, Apple Siri, voice assistant, iOS AI, Apple AI"
+What is Structured Output,what-is-structured-output,prompt-engineering,done,2,structured output
+What is Streaming in AI,what-is-streaming-in-ai,ai-infrastructure,done,2,streaming in ai
+What is Synthetic Data,what-is-synthetic-data,ai-basics,pending,1,"synthetic data, artificial data, generated data, data augmentation, privacy data"
+What is Sentiment Analysis,what-is-sentiment-analysis,ai-basics,pending,1,"sentiment analysis, opinion mining, emotion detection, text sentiment, affective AI"
+What is a Small Language Model,what-is-a-small-language-model,llms,pending,1,a small language model
+What is Self Consistency Prompting,what-is-self-consistency-prompting,prompt-engineering,done,2,self consistency prompting
+What is Semantic Understanding,what-is-semantic-understanding,ai-basics,pending,1,semantic understanding
+What is Sentiment Score,what-is-sentiment-score,ai-basics,pending,2,sentiment score
+What is Strong AI,what-is-strong-ai,ai-basics,pending,1,strong ai
+What is Supervised vs Unsupervised,what-is-supervised-vs-unsupervised,ai-basics,pending,1,supervised vs unsupervised
+What is Serendipity in AI,what-is-serendipity-in-ai,ai-basics,pending,2,serendipity in ai
+What is Stochastic Process,what-is-stochastic-process,ai-basics,pending,2,"stochastic process, random process, probability, randomness, statistical model"
+What is Semi-Supervised Learning,what-is-semi-supervised-learning,ai-basics,pending,2,"semi-supervised learning, mixed learning, labeled unlabeled, pseudo-label, SSL"
+What is Statistical Learning,what-is-statistical-learning,ai-basics,pending,2,"statistical learning, statistics ML, data modeling, inference, learning theory"
+What is Symbolic AI,what-is-symbolic-ai,ai-basics,pending,2,"symbolic AI, GOFAI, rule-based, logic AI, symbols"
+What is Search Algorithm,what-is-search-algorithm,ai-basics,pending,2,"search algorithm, problem solving, state space, graph search, pathfinding"
+What is Swarm Intelligence,what-is-swarm-intelligence,ai-basics,pending,2,"swarm intelligence, collective behavior, ant colony, particle swarm, decentralized AI"
+What is Sequential Learning,what-is-sequential-learning,ai-basics,pending,2,"sequential learning, online learning, incremental learning, stream learning, ordered data"
+What is Statistical Significance,what-is-statistical-significance,ai-basics,pending,2,"statistical significance, p-value, hypothesis testing, confidence, significant result"
+What is Sampling in LLM,what-is-sampling-in-llm,llms,pending,2,"sampling, token sampling, temperature, top-k, top-p, generation strategy"
+What is Stop Sequence,what-is-stop-sequence,llms,pending,2,"stop sequence, stop token, end sequence, generation stop, halting condition"
+What is Sliding Window Attention,what-is-sliding-window-attention,llms,pending,2,"sliding window, window attention, local attention, efficient attention, long context"
+What is Sparse Attention,what-is-sparse-attention,llms,pending,2,"sparse attention, selective attention, efficient attention, sparse transformer, long sequence"
+What is SWE Bench,what-is-swe-bench,llms,pending,2,"SWE-bench, software engineering benchmark, coding benchmark, LLM coding, agent evaluation"
+What is Self-Correction,what-is-self-correction,ai-agents,pending,2,"self-correction, self-healing, error correction, mistake recovery, adaptive fix"
+What is Self-Improvement,what-is-self-improvement,ai-agents,pending,2,"self-improvement, learning from experience, autonomous improvement, growth, adaptation"
+What is Single Agent vs Multi-Agent,what-is-single-agent-vs-multi-agent,ai-agents,pending,2,"single agent, multi-agent, agent comparison, solo agent, team of agents"
+What is Sub-Agent,what-is-sub-agent,ai-agents,pending,2,"sub-agent, child agent, specialized agent, helper agent, delegated agent"
+What is Supervisor Agent,what-is-supervisor-agent,ai-agents,pending,2,"supervisor agent, overseer, manager agent, orchestrator, coordinator"
+What is System Message,what-is-system-message,prompt-engineering,pending,2,"system message, system prompt, system instruction, base context, AI behavior"
+What is Structured Prompt,what-is-structured-prompt,prompt-engineering,pending,2,"structured prompt, organized prompt, format, template, clear structure"
+What is Synthesia,what-is-synthesia,ai-tools,pending,2,"Synthesia, AI video, avatar video, video generation, AI presenter"
+What is Speechify AI,what-is-speechify-ai,ai-tools,pending,2,"Speechify, text to speech, AI reading, audio books, voice AI"
+What is Suno AI,what-is-suno-ai,ai-tools,pending,2,"Suno, AI music, music generation, AI song, Suno AI"
+What is Soundraw AI,what-is-soundraw-ai,ai-tools,pending,2,"Soundraw, AI music, royalty-free, music generation, AI composer"
+What is Sourcegraph Cody,what-is-sourcegraph-cody,ai-tools,pending,2,"Cody, Sourcegraph, AI code, code search, codebase AI"
+What is Superhuman AI,what-is-superhuman-ai,ai-tools,pending,2,"Superhuman, AI email, email client, smart email, productivity email"
+What is Shortwave AI,what-is-shortwave-ai,ai-tools,pending,2,"Shortwave, AI email, email assistant, smart inbox, email AI"
+What is Shadow Deployment,what-is-shadow-deployment,ai-infrastructure,pending,2,"shadow deployment, shadow mode, traffic mirroring, safe deploy, model testing"
+What is Source Citation in AI,what-is-source-citation-in-ai,ai-safety,pending,2,"source citation, citation, reference, attribution, source tracking"
+What is Shadow AI,what-is-shadow-ai,ai-safety,pending,2,"shadow AI, unauthorized AI, hidden AI, unsanctioned AI, AI risk"
+What is Speech-to-Text,what-is-speech-to-text,ai-voice,pending,2,"speech-to-text, speech recognition, transcription, voice to text, STT"
+What is Speech Recognition,what-is-speech-recognition,ai-voice,pending,2,"speech recognition, ASR, automatic speech, voice recognition, speech-to-text"
+What is Speaker Diarization,what-is-speaker-diarization,ai-voice,pending,2,"speaker diarization, who spoke when, speaker identification, speaker segmentation, conversation analysis"
+What is Simultaneous Localization and Mapping,what-is-simultaneous-localization-and-mapping,ai-robotics,pending,2,"SLAM, localization mapping, robot mapping, simultaneous mapping, position tracking"
+What is Sensor Fusion,what-is-sensor-fusion,ai-robotics,pending,2,"sensor fusion, combine sensors, multi-sensor, data fusion, perception"
+What is Swarm Robotics,what-is-swarm-robotics,ai-robotics,pending,2,"swarm robotics, robot swarm, collective robots, multi-robot, decentralized"
+What is Soft Robotics,what-is-soft-robotics,ai-robotics,pending,2,"soft robotics, flexible robot, soft material, bio-inspired, compliant"
+What is Synthetic Data Generation,what-is-synthetic-data-generation,ai-data,pending,2,"synthetic data generation, generate data, artificial data, simulated data, create data"

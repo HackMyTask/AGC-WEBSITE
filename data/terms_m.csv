@@ -1,0 +1,63 @@
+term,slug,cluster,status,priority,keywords
+What is MCP,what-is-mcp,ai-infrastructure,done,2,mcp
+What is Machine Learning,what-is-machine-learning,ai-basics,done,1,"machine learning, ML, AI learning, data-driven, predictive model"
+What is Midjourney,what-is-midjourney,ai-tools,pending,1,"Midjourney, AI image generation, Midjourney AI, text-to-image, AI art"
+What is Model Quantization,what-is-model-quantization,llms,pending,2,"model quantization, quantization, model compression, reduced precision, efficient inference"
+What is Multimodal AI,what-is-multimodal-ai,llms,pending,1,"multimodal AI, multimodal model, vision language, text image, cross-modal"
+What is Mistral,what-is-mistral,llms,pending,2,mistral
+What is Multi Agent System,what-is-multi-agent-system,ai-agents,done,2,multi agent system
+What is Model Serving,what-is-model-serving,ai-infrastructure,done,2,"model serving, model deployment, inference server, model hosting, production AI"
+What is Model Training,what-is-model-training,ai-basics,done,1,model training
+What is MMLU,what-is-mmlu,ai-basics,pending,2,mmlu
+What is MLOps,what-is-mlops,ai-infrastructure,pending,2,"MLOps, machine learning operations, model deployment, CI/CD ML, ML pipeline"
+What is Model Drift,what-is-model-drift,ai-infrastructure,done,2,"model drift, concept drift, data drift, model degradation, monitoring"
+What is Machine Translation,what-is-machine-translation,ai-basics,pending,1,"machine translation, AI translation, neural translation, language translation, Google Translate"
+What is Meta Prompting,what-is-meta-prompting,prompt-engineering,done,2,meta prompting
+What is Meta AI,what-is-meta-ai,ai-tools,done,2,meta ai
+What is Machine Perception,what-is-machine-perception,ai-basics,pending,2,machine perception
+What is Machine Understanding,what-is-machine-understanding,ai-basics,pending,1,machine understanding
+What is Model Explainability,what-is-model-explainability,ai-safety,pending,1,model explainability
+What is Model Interpretability,what-is-model-interpretability,ai-basics,pending,1,model interpretability
+What is Metacognition in AI,what-is-metacognition-in-ai,ai-agents,pending,2,metacognition in ai
+What is Multi-Class Classification,what-is-multi-class-classification,ai-basics,pending,2,"multi-class classification, multiple classes, classification, categorical output, softmax"
+What is Multi-Label Classification,what-is-multi-label-classification,ai-basics,pending,2,"multi-label classification, multiple labels, binary relevance, label combination, multi-output"
+What is Model Validation,what-is-model-validation,ai-basics,pending,2,"model validation, validation, testing model, model evaluation, performance check"
+What is Model Selection,what-is-model-selection,ai-basics,pending,2,"model selection, choosing model, best model, algorithm selection, model comparison"
+What is Model Retraining,what-is-model-retraining,ai-basics,pending,2,"model retraining, retrain, update model, refresh model, continuous learning"
+What is Model Inference,what-is-model-inference,ai-basics,pending,2,"model inference, inference, prediction, forward pass, model execution"
+What is Monte Carlo Method,what-is-monte-carlo-method,ai-basics,pending,2,"Monte Carlo, random sampling, simulation, stochastic method, probability estimation"
+What is Manifold Learning,what-is-manifold-learning,ai-basics,pending,2,"manifold learning, non-linear dimensionality, data manifold, manifold assumption, embedding"
+What is Mean Squared Error,what-is-mean-squared-error,ai-basics,pending,2,"mean squared error, MSE, loss function, prediction error, regression metric"
+What is Mean Absolute Error,what-is-mean-absolute-error,ai-basics,pending,2,"mean absolute error, MAE, absolute error, regression metric, prediction deviation"
+What is Metaheuristic,what-is-metaheuristic,ai-basics,pending,2,"metaheuristic, optimization algorithm, search method, approximate optimization, nature-inspired"
+What is Masked LM,what-is-masked-lm,llms,pending,2,"masked LM, MLM, masked language model, BERT training, cloze task"
+What is MoE,what-is-moe,llms,pending,2,"mixture of experts, MoE, sparse model, expert routing, efficient LLM"
+What is Mixture of Experts,what-is-mixture-of-experts,llms,pending,2,"mixture of experts, MoE, expert network, routing, sparse activation"
+What is Max Tokens,what-is-max-tokens,llms,pending,2,"max tokens, maximum output, token limit, generation length, response length"
+What is MCP Server,what-is-mcp-server,ai-agents,pending,2,"MCP, model context protocol, agent protocol, tool protocol, AI communication"
+What is MCP Client,what-is-mcp-client,ai-agents,pending,2,"MCP client, model context protocol client, agent client, tool client, AI connector"
+What is MCP Tool,what-is-mcp-tool,ai-agents,pending,2,"MCP tool, model context protocol tool, agent tool, tool primitive, MCP primitive"
+What is MCP Transport,what-is-mcp-transport,ai-agents,pending,2,"MCP transport, protocol transport, stdio transport, HTTP transport, agent communication"
+What is MCP Primitive,what-is-mcp-primitive,ai-agents,pending,2,"MCP primitive, tool resource prompt, agent primitive, protocol element, building block"
+What is MCP Resource,what-is-mcp-resource,ai-agents,pending,2,"MCP resource, agent resource, data resource, knowledge source, retrievable data"
+What is Multi-Turn Prompt,what-is-multi-turn-prompt,prompt-engineering,pending,2,"multi-turn, conversation, dialogue, multi-step, chat history"
+What is Multi-Modal Prompt,what-is-multi-modal-prompt,prompt-engineering,pending,2,"multimodal prompt, image text prompt, mixed input, visual prompt, audio prompt"
+What is Make AI,what-is-make-ai,ai-tools,pending,2,"Make, Integromat, AI automation, workflow builder, visual automation"
+What is Murf AI,what-is-murf-ai,ai-tools,pending,2,"Murf, AI voice, text to speech, voiceover, AI voice generator"
+What is Motion AI,what-is-motion-ai,ai-tools,pending,2,"Motion, AI calendar, productivity, scheduling, task AI"
+What is Mem AI,what-is-mem-ai,ai-tools,pending,2,"Mem, AI notes, knowledge management, note-taking, AI memory"
+What is Magical AI,what-is-magical-ai,ai-tools,pending,2,"Magical, text expander, AI assistant, form filler, productivity tool"
+What is Milvus,what-is-milvus,ai-infrastructure,pending,2,"Milvus, vector database, scalable vector, similarity search, Milvus DB"
+What is Modal AI,what-is-modal-ai,ai-infrastructure,pending,2,"Modal, cloud compute, GPU cloud, serverless AI, AI infrastructure"
+What is MLflow,what-is-mlflow,ai-infrastructure,pending,2,"MLflow, ML lifecycle, experiment tracking, model registry, ML platform"
+What is Model Registry,what-is-model-registry,ai-infrastructure,pending,2,"model registry, model management, versioning, model catalog, ML governance"
+What is Model Monitoring,what-is-model-monitoring,ai-infrastructure,pending,2,"model monitoring, ML monitoring, performance tracking, observability, alert"
+What is Model Inversion Attack,what-is-model-inversion-attack,ai-safety,pending,2,"model inversion, privacy attack, data reconstruction, model extraction, privacy leak"
+What is Membership Inference,what-is-membership-inference,ai-safety,pending,2,"membership inference, privacy attack, training detection, data leak, MIA"
+What is Model Card,what-is-model-card,ai-safety,pending,2,"model card, model documentation, AI documentation, transparency, model info"
+What is Multimodal Learning,what-is-multimodal-learning,ai-multimodal,pending,2,"multimodal learning, multi-modal, multiple modalities, combined learning, cross-modal"
+What is Motion Planning,what-is-motion-planning,ai-robotics,pending,2,"motion planning, path planning, robot motion, trajectory, movement AI"
+What is MMLU Benchmark,what-is-mmlu-benchmark,ai-research,pending,2,"MMLU, benchmark, knowledge test, multi-task, AI evaluation"
+What is MATH Benchmark,what-is-math-benchmark,ai-research,pending,2,"MATH benchmark, math evaluation, mathematics, problem solving, AI math"
+What is Meta-Learning in AI,what-is-meta-learning-in-ai,ai-research,pending,2,"meta-learning, learn to learn, learning algorithm, fast adaptation, model agnostic"
+What is Missing Data,what-is-missing-data,ai-data,pending,2,"missing data, null values, incomplete data, missing values, data gap"

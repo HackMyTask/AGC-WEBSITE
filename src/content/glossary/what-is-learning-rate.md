@@ -1,7 +1,7 @@
 ---
 title: "What is Learning Rate"
 slug: "what-is-learning-rate"
-description: "Learning rate controls how fast AI learns from data."
+description: "Learning rate controls how fast AI learns from data. Learn what learning rate is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "deep learning", "neural networks", "algorithm"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-neural-network", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Learning Rate?
+## What is Learning Rate?
 Learning rate is a crucial concept in artificial intelligence, specifically in machine learning. It's a value that controls how quickly an AI model learns from the data it's given. Think of it like a speed dial - if it's too high, the model might learn too fast and make mistakes, but if it's too low, it might take forever to learn. The goal is to find the perfect balance, so the model learns efficiently and accurately. In simple terms, learning rate determines how much of the new information the model absorbs at each step. This process is repeated multiple times, allowing the model to refine its understanding of the data and make better predictions.
 
 ## Think of It Like This

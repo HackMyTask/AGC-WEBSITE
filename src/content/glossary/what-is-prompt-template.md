@@ -1,7 +1,7 @@
 ---
 title: "What is Prompt Template"
 slug: "what-is-prompt-template"
-description: "A pre-designed format for inputting data into AI systems"
+description: "A pre-designed format for inputting data into AI systems. Learn what prompt template is and get better results from AI through effective prompting."
 keywords: ["AI input", "prompt engineering", "language models", "natural language processing", "machine learning"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Prompt Template?
+## What is Prompt Template?
 A prompt template is a pre-designed format that helps you input data into artificial intelligence (AI) systems in a way that they can understand. Think of it like a fill-in-the-blank form where you provide specific information, and the AI system uses that information to generate a response or complete a task. For example, if you want to generate a story about a character, a prompt template might ask you to fill in the character's name, age, and personality traits. The AI system then uses this information to create a unique story. Prompt templates can be simple or complex, depending on the task at hand. They're an essential tool for interacting with AI systems, as they help ensure that the input data is consistent and relevant.
 
 ## Think of It Like This

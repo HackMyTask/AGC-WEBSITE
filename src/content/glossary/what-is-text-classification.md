@@ -1,7 +1,7 @@
 ---
 title: "What is Text Classification"
 slug: "what-is-text-classification"
-description: "Text classification is a way to categorize text."
+description: "Text classification is a way to categorize text. Learn what text classification is and understand the fundamentals of artificial intelligence."
 keywords: ["text classification", "ai", "natural language processing", "machine learning", "categorization"]
 cluster: "ai-basics"
 related_terms: ["natural-language-processing", "machine-learning", "sentiment-analysis"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Text Classification?
+## What is Text Classification?
 Text classification is a way to categorize text into different groups or classes. It's like sorting a big pile of letters into separate mailboxes, where each mailbox represents a specific category. This process works by using computer programs that can read and understand the text, and then make decisions about which category it belongs to. These programs use special rules and patterns to figure out the meaning of the text. They look at things like the words used, the tone, and the context to make their decisions. For example, a text classification program might categorize a piece of text as either "positive" or "negative" based on the words and tone used.
 
 ## Think of It Like This

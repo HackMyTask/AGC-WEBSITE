@@ -1,7 +1,7 @@
 ---
 title: "What is Gradient Descent"
 slug: "what-is-gradient-descent"
-description: "Gradient Descent is a method used to train AI models."
+description: "Gradient Descent is a method used to train AI models. Learn what gradient descent is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "training models", "optimization", "algorithms"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-neural-network", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Gradient Descent?
+## What is Gradient Descent?
 
 Gradient Descent is a method used to train artificial intelligence (AI) models. At its core, it's a way to adjust the settings of a model to make it better at predicting outcomes. Imagine you're trying to find the lowest point in a valley. You start at a random spot and look around to see which direction is downhill. You take a step in that direction, and then you look around again. You keep doing this until you reach the bottom of the valley. That's basically what Gradient Descent does, but instead of a physical valley, it's navigating a complex landscape of possible model settings. The goal is to find the perfect combination of settings that allows the model to make accurate predictions. This process is repeated many times, with the model getting closer and closer to the optimal solution.
 

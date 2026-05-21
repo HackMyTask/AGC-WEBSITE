@@ -1,7 +1,7 @@
 ---
 title: "What is On Device AI"
 slug: "what-is-on-device-ai"
-description: "AI that runs on your device, not the cloud."
+description: "AI that runs on your device, not the cloud. Learn what on device ai is and learn about the technology powering AI systems."
 keywords: ["artificial intelligence", "device learning", "edge ai", "local ai", "private ai"]
 cluster: "ai-infrastructure"
 related_terms: ["edge-ai", "federated-learning", "private-ai"]

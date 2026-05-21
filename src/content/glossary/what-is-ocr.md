@@ -1,7 +1,7 @@
 ---
 title: "What is OCR"
 slug: "what-is-ocr"
-description: "OCR converts printed text to digital text."
+description: "OCR converts printed text to digital text. Learn what ocr is and understand the fundamentals of artificial intelligence."
 keywords: ["ocr", "optical character recognition", "text recognition", "document scanning", "ai"]
 cluster: "ai-basics"
 related_terms: ["image-recognition", "natural-language-processing", "machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is OCR?
+## What is OCR?
 OCR stands for Optical Character Recognition. It's a technology that helps computers recognize and understand printed or written text from images, like scanned documents or photos. Essentially, OCR software looks at a picture of text and tries to figure out what the words are, so it can turn them into editable digital text. This process involves complex algorithms that analyze the shapes and patterns of the characters in the image. By doing this, OCR enables computers to extract text from various sources, making it possible to edit, search, or store the information digitally.
 
 ## Think of It Like This

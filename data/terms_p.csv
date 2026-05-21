@@ -1,0 +1,37 @@
+term,slug,cluster,status,priority,keywords
+What is Prompt Engineering,what-is-prompt-engineering,prompt-engineering,done,1,"prompt engineering, prompt design, AI prompting, prompt crafting, LLM prompt"
+What is Perplexity AI,what-is-perplexity-ai,ai-tools,pending,2,"Perplexity AI, Perplexity, AI search engine, conversational search, answer engine"
+What is Precision and Recall,what-is-precision-and-recall,ai-basics,done,1,"precision recall, classification metrics, model evaluation, false positive, F1 score"
+What is Prompt Injection,what-is-prompt-injection,prompt-engineering,pending,1,"prompt injection, prompt hacking, LLM security, AI vulnerability, injection attack"
+What is Pre Training,what-is-pre-training,llms,pending,2,pre training
+What is Prompt Template,what-is-prompt-template,prompt-engineering,done,1,prompt template
+What is Perplexity Score,what-is-perplexity-score,llms,done,2,perplexity score
+What is Predictive AI,what-is-predictive-ai,ai-basics,done,1,predictive ai
+What is Prescriptive AI,what-is-prescriptive-ai,ai-basics,pending,2,prescriptive ai
+What is Parameters in AI,what-is-parameters-in-ai,llms,done,1,parameters in ai
+What is Prompt Chaining,what-is-prompt-chaining,prompt-engineering,done,1,"prompt chaining, chain prompting, multi-step prompt, LLM workflow, sequential prompting"
+What is Pinecone,what-is-pinecone,ai-infrastructure,done,2,pinecone
+What is Pattern Recognition,what-is-pattern-recognition,ai-basics,pending,1,pattern recognition
+What is Probabilistic Model,what-is-probabilistic-model,ai-basics,pending,2,probabilistic model
+What is Private AI,what-is-private-ai,ai-safety,pending,1,private ai
+What is Predictive Analytics,what-is-predictive-analytics,ai-basics,pending,2,"predictive analytics, forecasting, prediction, future trends, data prediction"
+What is Prescriptive Analytics,what-is-prescriptive-analytics,ai-basics,pending,2,"prescriptive analytics, recommendation, optimization, decision support, action advice"
+What is Parametric Model,what-is-parametric-model,ai-basics,pending,2,"parametric model, fixed parameters, statistical model, finite parameters, linear model"
+What is Probability in AI,what-is-probability-in-ai,ai-basics,pending,2,"probability AI, uncertainty, Bayesian, probabilistic reasoning, chance"
+What is Pruning in AI,what-is-pruning-in-ai,ai-basics,pending,2,"pruning, model pruning, compression, simplification, remove redundant nodes"
+What is Policy Gradient,what-is-policy-gradient,ai-basics,pending,2,"policy gradient, reinforcement learning, policy optimization, direct policy, gradient method"
+What is Perplexity in LLM,what-is-perplexity-in-llm,llms,pending,2,"perplexity, model perplexity, language model evaluation, uncertainty, prediction quality"
+What is Positional Encoding,what-is-positional-encoding,llms,pending,2,"positional encoding, position embedding, sequence position, transformer encoding, sinusoidal"
+What is Prompt Format,what-is-prompt-format,llms,pending,2,"prompt format, message format, chat format, instruction format, template"
+What is Planning Agent,what-is-planning-agent,ai-agents,pending,2,"planning agent, AI planner, task planning, action sequence, goal achievement"
+What is Prompt Optimization,what-is-prompt-optimization,prompt-engineering,pending,2,"prompt optimization, prompt improvement, A/B testing, prompt refinement, prompt tuning"
+What is Prompt Versioning,what-is-prompt-versioning,prompt-engineering,pending,2,"prompt versioning, version control, prompt history, prompt changes, prompt management"
+What is Prompt Library,what-is-prompt-library,prompt-engineering,pending,2,"prompt library, prompt collection, prompt repository, prompt templates, shared prompts"
+What is Persona Prompt,what-is-persona-prompt,prompt-engineering,pending,2,"persona prompt, AI persona, character prompt, role play, perspective"
+What is Prompt Injection Prevention,what-is-prompt-injection-prevention,prompt-engineering,pending,2,"prompt injection defense, prompt security, jailbreak prevention, AI safety, input validation"
+What is Prompt Leaking,what-is-prompt-leaking,prompt-engineering,pending,2,"prompt leaking, prompt extraction, prompt theft, system prompt leak, prompt disclosure"
+What is Prompt Compression,what-is-prompt-compression,prompt-engineering,pending,2,"prompt compression, shorten prompt, token reduction, efficient prompt, condense"
+What is Prompt Benchmark,what-is-prompt-benchmark,prompt-engineering,pending,2,"prompt benchmark, prompt testing, prompt evaluation, prompt scoring, prompt quality"
+What is Pixlr AI,what-is-pixlr-ai,ai-tools,pending,2,"Pixlr, AI photo editor, online editor, image editing, Pixlr AI"
+What is Poolside AI,what-is-poolside-ai,ai-tools,pending,2,"Poolside, AI coding, software development, AI developer, poolside AI"
+What is Prompt Guard,what-is-prompt-guard,ai-infrastructure,pending,2,"prompt guard, security guard, AI firewall, input filter, prompt safety"

@@ -1,7 +1,7 @@
 ---
 title: "What is Transformer Architecture"
 slug: "what-is-transformer-architecture"
-description: "Transformer Architecture is a type of AI model."
+description: "Transformer Architecture is a type of AI model. Learn what transformer architecture is and understand large language models and how they work."
 keywords: ["AI", "machine learning", "natural language processing", "deep learning", "neural networks"]
 cluster: "llms"
 related_terms: ["natural-language-processing", "deep-learning", "neural-networks"]

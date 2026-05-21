@@ -1,7 +1,7 @@
 ---
 title: "What is Fairness in AI"
 slug: "what-is-fairness-in-ai"
-description: "Fairness in AI ensures unbiased decisions."
+description: "Fairness in AI ensures unbiased decisions. Learn what fairness in ai is and understand how to keep AI safe and trustworthy."
 keywords: ["bias", "fairness", "AI ethics", "algorithmic fairness", "equality"]
 cluster: "ai-safety"
 related_terms: ["bias-in-ai", "explainable-ai", "ai-ethics"]

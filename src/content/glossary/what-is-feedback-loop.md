@@ -1,7 +1,7 @@
 ---
 title: "What is Feedback Loop"
 slug: "what-is-feedback-loop"
-description: "A process where output is used to improve performance."
+description: "A process where output is used to improve performance. Learn what feedback loop is and understand the fundamentals of artificial intelligence."
 keywords: ["feedback loop", "artificial intelligence", "machine learning", "algorithm", "optimization"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "artificial-intelligence", "natural-language-processing"]

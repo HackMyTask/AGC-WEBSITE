@@ -1,7 +1,7 @@
 ---
 title: "What is Perplexity Score"
 slug: "what-is-perplexity-score"
-description: "A measure of how well a model predicts outcomes."
+description: "A measure of how well a model predicts outcomes. Learn what perplexity score is and understand large language models and how they work."
 keywords: ["perplexity", "language models", "artificial intelligence", "machine learning", "prediction"]
 cluster: "llms"
 related_terms: ["language-models", "machine-learning", "natural-language-processing"]

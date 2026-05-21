@@ -1,7 +1,7 @@
 ---
 title: "What is Google Assistant"
 slug: "what-is-google-assistant"
-description: "Google Assistant is a virtual helper."
+description: "Google Assistant is a virtual helper. Learn what google assistant is and use AI tools and applications in your daily life."
 keywords: ["google", "assistant", "ai", "virtual", "helper"]
 cluster: "ai-tools"
 related_terms: ["what-is-alexa", "what-is-siri", "what-is-ok-google"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Google Assistant?
+## What is Google Assistant?
 Google Assistant is a type of artificial intelligence, or AI for short, that acts like a personal helper. It's a computer program designed to understand and respond to voice commands, making it easy for people to interact with their devices and access information. At a high level, it works by using speech recognition to understand what you say, and then it uses that information to perform tasks or provide answers. For example, you can ask Google Assistant to set reminders, send messages, or play music. It's like having a personal assistant, but instead of being a human, it's a computer program. This technology is based on natural language processing, which allows it to understand the nuances of human language and respond accordingly.
 
 ## Think of It Like This

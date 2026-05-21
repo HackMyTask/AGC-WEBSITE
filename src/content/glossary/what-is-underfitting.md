@@ -1,7 +1,7 @@
 ---
 title: "What is Underfitting"
 slug: "what-is-underfitting"
-description: "Underfitting occurs when AI models fail to capture key patterns."
+description: "Underfitting occurs when AI models fail to capture key patterns. Learn what underfitting is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "data analysis", "model training", "pattern recognition"]
 cluster: "ai-basics"
 related_terms: ["what-is-overfitting", "what-is-machine-learning", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Underfitting?
+## What is Underfitting?
 Underfitting is a problem that occurs when artificial intelligence (AI) models are not complex enough to capture the key patterns and relationships in the data they are trained on. In other words, the model is too simple to learn from the data, resulting in poor performance. Think of it like trying to draw a picture with only a few rough strokes - you won't be able to capture all the details. AI models work by learning from large datasets, and if the model is underfitting, it will struggle to make accurate predictions or take the right actions. This can happen when the model is not given enough data to learn from, or when the model is not complex enough to handle the complexity of the data.
 
 ## Think of It Like This

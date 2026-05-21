@@ -17,21 +17,55 @@ const { Content } = await render(entry);
 const { title, description, keywords, cluster, related_terms, created_at } = entry.data;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
+const siteURL = "https://ailibrary.site";
+const clusterName = cluster?.replace(/-/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase());
 
 // JSON-LD Structured Data
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": title,
-  "description": description,
-  "url": canonicalURL,
-  "inDefinedTermSet": {
-    "@type": "DefinedTermSet",
-    "name": "AI Glossary for Beginners",
-    "url": "https://ailibrary.site"
-  },
-  ...(created_at && { "datePublished": created_at }),
-  ...(keywords && keywords.length > 0 && { "keywords": keywords.join(", ") }),
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": title,
+      "description": description,
+      "url": canonicalURL,
+      ...(created_at && { "datePublished": created_at, "dateModified": created_at }),
+      "author": {
+        "@type": "Organization",
+        "name": "AI Glossary Team"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Glossary for Beginners",
+        "url": siteURL
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonicalURL
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": title,
+      "description": description,
+      "url": canonicalURL,
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "AI Glossary for Beginners",
+        "url": siteURL
+      },
+      ...(created_at && { "datePublished": created_at }),
+      ...(keywords && keywords.length > 0 && { "keywords": keywords.join(", ") })
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": siteURL + "/" },
+        { "@type": "ListItem", "position": 2, "name": clusterName, "item": siteURL + "/topics/" + cluster },
+        { "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL }
+      ]
+    }
+  ]
 };
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "What is Zero Shot Prompting"
 slug: "what-is-zero-shot-prompting"
-description: "Zero Shot Prompting is a way to get AI to do a task without examples."
+description: "Zero Shot Prompting is a way to get AI to do a task without examples. Learn what zero shot prompting is and get better results from AI through effective..."
 keywords: ["zero shot learning", "AI training", "prompt engineering", "natural language processing", "machine learning"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]

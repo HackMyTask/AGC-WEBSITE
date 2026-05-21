@@ -1,7 +1,7 @@
 ---
 title: "What is Discriminative AI"
 slug: "what-is-discriminative-ai"
-description: "AI that learns to distinguish between things"
+description: "AI that learns to distinguish between things. Learn what discriminative ai is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "discriminative models", "classification", "pattern recognition"]
 cluster: "ai-basics"
 related_terms: ["what-is-supervised-learning", "what-is-neural-network", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Discriminative AI?
+## What is Discriminative AI?
 Discriminative AI is a type of artificial intelligence that learns to distinguish between different things, like objects, sounds, or texts. It's a way for computers to figure out what's what, by looking at lots of examples and finding patterns. At a high level, discriminative AI works by using data to train a model that can make predictions or classifications. For instance, it can be used to teach a computer to recognize pictures of dogs versus pictures of cats. The model learns to pay attention to the things that make dogs and cats different, like the shape of their ears or the length of their fur. This way, when the computer sees a new picture, it can use what it's learned to say whether it's a dog or a cat.
 
 ## Think of It Like This

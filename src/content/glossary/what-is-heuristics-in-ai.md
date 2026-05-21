@@ -1,7 +1,7 @@
 ---
 title: "What is Heuristics in AI"
 slug: "what-is-heuristics-in-ai"
-description: "Heuristics in AI helps computers make smart decisions."
+description: "Heuristics in AI helps computers make smart decisions. Learn what heuristics in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["heuristics", "ai decision making", "problem solving", "machine learning", "computer science"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]

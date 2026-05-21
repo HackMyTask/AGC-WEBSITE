@@ -1,0 +1,47 @@
+term,slug,cluster,status,priority,keywords
+What is Transformer Architecture,what-is-transformer-architecture,llms,done,1,"transformer architecture, transformer model, encoder-decoder, attention, neural network"
+What is Tokenization,what-is-tokenization,llms,pending,1,"tokenization, tokenizer, text tokenization, word piece, subword tokenization"
+What is Temperature in AI,what-is-temperature-in-ai,prompt-engineering,done,1,temperature in ai
+What is Top-K Sampling,what-is-top-k-sampling,prompt-engineering,done,2,top-k sampling
+What is Training Data,what-is-training-data,ai-basics,done,1,"training data, training dataset, ML data, labeled data, data collection"
+What is Transfer Learning,what-is-transfer-learning,llms,done,1,"transfer learning, knowledge transfer, pretrained model, domain adaptation, fine-tuning"
+What is Token Limit,what-is-token-limit,llms,done,1,token limit
+What is Text to Speech AI,what-is-text-to-speech-ai,ai-tools,pending,1,text to speech ai
+What is Tool Use in AI,what-is-tool-use-in-ai,ai-agents,pending,1,tool use in ai
+What is TPU,what-is-tpu,ai-infrastructure,done,2,tpu
+What is Throughput in AI,what-is-throughput-in-ai,ai-infrastructure,done,2,throughput in ai
+What is Text Classification,what-is-text-classification,ai-basics,done,2,"text classification, document categorization, text categorization, NLP classification, content labeling"
+What is Text Summarization,what-is-text-summarization,ai-basics,done,1,text summarization
+What is Tree of Thought,what-is-tree-of-thought,prompt-engineering,done,2,tree of thought
+What is the Turing Test,what-is-the-turing-test,ai-basics,done,1,the turing test
+What is Transparency in AI,what-is-transparency-in-ai,ai-safety,pending,1,transparency in ai
+What is Tokenizer,what-is-tokenizer,ai-basics,pending,2,"tokenizer, tokenization, text processor, LLM tokenizer, vocabulary"
+What is Trust in AI,what-is-trust-in-ai,ai-safety,pending,1,trust in ai
+What is Testing and Validation,what-is-testing-and-validation,ai-basics,pending,2,testing and validation
+What is Time Series Forecasting,what-is-time-series-forecasting,ai-basics,pending,2,"time series, forecasting, temporal data, prediction over time, trend analysis"
+What is True Positive,what-is-true-positive,ai-basics,pending,2,"true positive, correct detection, hit, correct classification, TP"
+What is True Negative,what-is-true-negative,ai-basics,pending,2,"true negative, correct rejection, correct negative, TN, correct non-detection"
+What is Traditional AI,what-is-traditional-ai,ai-basics,pending,2,"traditional AI, classical AI, symbolic AI, rule-based, expert system"
+What is Tabular Data,what-is-tabular-data,ai-basics,pending,2,"tabular data, table data, structured data, rows columns, spreadsheet data"
+What is Test Set,what-is-test-set,ai-basics,pending,2,"test set, test data, evaluation data, holdout set, final testing"
+What is Training Set,what-is-training-set,ai-basics,pending,2,"training set, training data, learning data, fit data, train dataset"
+What is Token Efficiency,what-is-token-efficiency,llms,pending,2,"token efficiency, token usage, cost efficiency, prompt optimization, token economy"
+What is Top-P Sampling,what-is-top-p-sampling,llms,pending,2,"top-p, nucleus sampling, cumulative probability, adaptive selection, generation quality"
+What is Training Compute,what-is-training-compute,llms,pending,2,"training compute, compute budget, FLOPs, training cost, computational resources"
+What is Task Agent,what-is-task-agent,ai-agents,pending,2,"task agent, specialized agent, task-specific, job agent, worker agent"
+What is Tool Calling,what-is-tool-calling,ai-agents,pending,2,"tool calling, tool use, function call, API tool, external action"
+What is Task Decomposition,what-is-task-decomposition,ai-agents,pending,2,"task decomposition, sub-task, breakdown, hierarchical planning, divide and conquer"
+What is Tree of Thoughts,what-is-tree-of-thoughts,ai-agents,pending,2,"tree of thoughts, ToT, reasoning tree, multiple paths, exploration"
+What is Tome AI,what-is-tome-ai,ai-tools,pending,2,"Tome, AI storytelling, presentation AI, narrative AI, Tome AI"
+What is Taskade AI,what-is-taskade-ai,ai-tools,pending,2,"Taskade, AI task management, project AI, collaboration, task AI"
+What is Tabnine AI,what-is-tabnine-ai,ai-tools,pending,2,"Tabnine, AI code completion, private code, coding assistant, Tabnine AI"
+What is Text Blaze,what-is-text-blaze,ai-tools,pending,2,"Text Blaze, text expander, snippet, template, productivity"
+What is TensorRT,what-is-tensorrt,ai-infrastructure,pending,2,"TensorRT, NVIDIA, inference optimization, model deployment, GPU inference"
+What is Together AI,what-is-together-ai,ai-infrastructure,pending,2,"Together AI, cloud inference, open models, AI compute, model API"
+What is Trustworthy AI,what-is-trustworthy-ai,ai-safety,pending,2,"trustworthy AI, trusted AI, reliable AI, dependable AI, confidence"
+What is Toxic Content Detection,what-is-toxic-content-detection,ai-safety,pending,2,"toxic content, toxicity detection, harmful content, hate speech, content safety"
+What is Text-to-Speech,what-is-text-to-speech,ai-voice,pending,2,"text-to-speech, TTS, speech synthesis, voice generation, AI voice"
+What is Text-to-Image,what-is-text-to-image,ai-multimodal,pending,2,"text-to-image, text image, prompt to image, image generation, text2image"
+What is Text-to-Video,what-is-text-to-video,ai-multimodal,pending,2,"text-to-video, text video, prompt to video, video generation, text2video"
+What is Text-to-3D,what-is-text-to-3d,ai-multimodal,pending,2,"text-to-3D, text 3D, prompt 3D, 3D generation, text2mesh"
+What is Training Data Quality,what-is-training-data-quality,ai-data,pending,2,"training data quality, data quality, clean data, good data, reliable data"

@@ -1,7 +1,7 @@
 ---
 title: "What is Accuracy in AI"
 slug: "what-is-accuracy-in-ai"
-description: "Accuracy in AI refers to how correct a model's predictions are."
+description: "Accuracy in AI refers to how correct a model's predictions are. Learn what accuracy in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "prediction", "model", "algorithm"]
 cluster: "ai-basics"
 related_terms: ["what-is-ai", "machine-learning-basics", "deep-learning-explained"]

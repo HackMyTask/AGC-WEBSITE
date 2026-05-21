@@ -1,7 +1,7 @@
 ---
 title: "What is Consent in AI"
 slug: "what-is-consent-in-ai"
-description: "Understanding user consent in artificial intelligence"
+description: "Understanding user consent in artificial intelligence. Learn what consent in ai is and understand how to keep AI safe and trustworthy."
 keywords: ["artificial intelligence", "user consent", "data protection", "privacy", "ethics"]
 cluster: "ai-safety"
 related_terms: ["data-privacy", "algorithmic-bias", "ai-ethics"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Consent in AI?
+## What is Consent in AI?
 Consent in AI refers to the idea that users should have control over how their personal data is collected, used, and shared by artificial intelligence systems. This means that before an AI system can use someone's data, it needs to get their permission. Think of it like giving a key to your house - you want to decide who can enter and what they can do inside. In the context of AI, consent is about making sure that users are aware of how their data will be used and that they agree to it. This can include things like location data, search history, or even sensitive information like health records. The goal of consent in AI is to protect users' privacy and ensure that their data is not used in ways that could harm them.
 
 ## Think of It Like This

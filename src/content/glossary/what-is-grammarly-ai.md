@@ -1,7 +1,7 @@
 ---
 title: "What is Grammarly AI"
 slug: "what-is-grammarly-ai"
-description: "AI tool for writing improvement"
+description: "AI tool for writing improvement. Learn what grammarly ai is and use AI tools and applications in your daily life."
 keywords: [" Grammarly", "AI writing", "language tool", "writing assistant", "proofreading"]
 cluster: "ai-tools"
 related_terms: ["what-is-ai", "natural-language-processing", "machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Grammarly AI?
+## What is Grammarly AI?
 Grammarly AI is a computer program that helps people improve their writing. It's like having a personal proofreader and editor built into your computer or phone. This AI tool works by analyzing the text you write and suggesting corrections and improvements. It checks for spelling and grammar mistakes, as well as clarity, punctuation, and style. Grammarly AI uses a type of artificial intelligence called natural language processing to understand the context of your writing and make smart suggestions. This means it can learn from large amounts of text data and get better at making suggestions over time.
 
 ## Think of It Like This

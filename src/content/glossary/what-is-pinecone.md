@@ -1,7 +1,7 @@
 ---
 title: "What is Pinecone"
 slug: "what-is-pinecone"
-description: "Pinecone is an AI index for efficient similarity search"
+description: "Pinecone is an AI index for efficient similarity search. Learn what pinecone is and learn about the technology powering AI systems."
 keywords: ["pinecone", "ai", "index", "similarity", "search"]
 cluster: "ai-infrastructure"
 related_terms: ["vector-database", "approximate-nearest-neighbors", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Pinecone?
+## What is Pinecone?
 Pinecone is a type of artificial intelligence index that helps computers find similar things quickly. Imagine you have a huge library with millions of books, and you want to find all the books that are similar to a particular one. A traditional computer would have to look through every single book, one by one, which would take a long time. Pinecone is like a special catalog system that helps the computer find similar books much faster. It does this by using a technique called vector indexing, which converts complex data like text or images into simple numbers that can be easily compared. This makes it possible for computers to search through huge amounts of data in a fraction of the time it would take otherwise.
 
 ## Think of It Like This

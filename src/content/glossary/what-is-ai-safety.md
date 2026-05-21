@@ -1,7 +1,7 @@
 ---
 title: "What is AI Safety"
 slug: "what-is-ai-safety"
-description: "AI safety refers to the process of ensuring artificial intelligence systems behave as intended."
+description: "AI safety refers to the process of ensuring artificial intelligence systems behave as intended. Learn what ai safety is and understand the fundamentals..."
 keywords: ["AI ethics", "machine learning", "artificial intelligence", "data security", "responsible AI"]
 cluster: "ai-basics"
 related_terms: ["introduction-to-artificial-intelligence", "machine-learning-basics", "data-privacy"]

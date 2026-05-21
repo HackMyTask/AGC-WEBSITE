@@ -1,7 +1,7 @@
 ---
 title: "What is Data Labeling"
 slug: "what-is-data-labeling"
-description: "Data labeling is annotating data for AI model training."
+description: "Data labeling is annotating data for AI model training. Learn what data labeling is and understand the fundamentals of artificial intelligence."
 keywords: ["data labeling", "machine learning", "artificial intelligence", "training data", "annotations"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]

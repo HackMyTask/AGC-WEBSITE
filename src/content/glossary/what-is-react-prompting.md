@@ -1,7 +1,7 @@
 ---
 title: "What is ReAct Prompting"
 slug: "what-is-react-prompting"
-description: "ReAct Prompting is a technique to help AI understand context."
+description: "ReAct Prompting is a technique to help AI understand context. Learn what react prompting is and understand autonomous AI systems and how they operate."
 keywords: ["ai", "react", "prompting", "context", "understanding"]
 cluster: "ai-agents"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is ReAct Prompting?
+## What is ReAct Prompting?
 
 ReAct Prompting is a way to help artificial intelligence (AI) systems understand the context of a conversation or situation. It's like having a conversation with a friend - you need to know what's been said before to respond properly. ReAct Prompting works by providing the AI with a series of prompts, or inputs, that help it understand the context and make more informed decisions. This technique is important because it allows AI systems to better understand the nuances of human communication and respond in a more natural and helpful way. For example, if you're having a conversation with a chatbot, ReAct Prompting can help the chatbot remember what you've said earlier in the conversation and respond accordingly.
 

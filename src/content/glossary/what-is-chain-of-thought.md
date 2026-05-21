@@ -1,7 +1,7 @@
 ---
 title: "What is Chain of Thought"
 slug: "what-is-chain-of-thought"
-description: "Chain of Thought is a method that explains how AI thinks step-by-step."
+description: "Chain of Thought is a method that explains how AI thinks step-by-step. Learn what chain of thought is and get better results from AI through effective p..."
 keywords: ["AI reasoning", "thought process", "explanation", "transparency", "decision-making"]
 cluster: "prompt-engineering"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Chain of Thought?
+## What is Chain of Thought?
 Chain of Thought is a way to explain how artificial intelligence (AI) makes decisions or solves problems. It's like a step-by-step guide that shows how an AI system thinks. Imagine you're trying to figure out how to get to a new restaurant in town. You would think about where you are now, where the restaurant is, and what roads to take to get there. An AI system using Chain of Thought would do something similar, breaking down a problem into smaller, manageable steps. This helps us understand how the AI reached its conclusion. For example, if an AI is trying to answer a question, it might think: "First, I need to understand what the question is asking. Then, I need to find relevant information. Next, I need to use that information to find an answer." By showing these steps, Chain of Thought makes AI decision-making more transparent.
 
 ## Think of It Like This

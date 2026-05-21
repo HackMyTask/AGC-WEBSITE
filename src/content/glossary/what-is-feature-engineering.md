@@ -1,7 +1,7 @@
 ---
 title: "What is Feature Engineering"
 slug: "what-is-feature-engineering"
-description: "How to prepare data for AI models"
+description: "How to prepare data for AI models. Learn what feature engineering is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "data preparation", "AI training", "model development", "data science"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "data-preprocessing"]

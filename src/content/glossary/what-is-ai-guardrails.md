@@ -1,7 +1,7 @@
 ---
 title: "What is AI Guardrails"
 slug: "what-is-ai-guardrails"
-description: "AI Guardrails are safety measures for artificial intelligence systems."
+description: "AI Guardrails are safety measures for artificial intelligence systems. Learn what ai guardrails is and understand how to keep AI safe and trustworthy."
 keywords: ["ai safety", "machine learning", "artificial intelligence", "guardrails", "ai ethics"]
 cluster: "ai-safety"
 related_terms: ["ai-bias", "explainable-ai", "ai-regulation"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Guardrails?
+## What is AI Guardrails?
 AI Guardrails are safety measures designed to prevent artificial intelligence systems from causing harm or making mistakes. They work by setting boundaries and guidelines for how AI systems can operate, making sure they don't stray from their intended purpose. Think of AI Guardrails like the rules of the road for self-driving cars - they help the system stay on track and avoid accidents. At a high level, AI Guardrails involve monitoring the system's performance, detecting potential errors or biases, and taking corrective action when needed. This can include things like data validation, error detection, and automatic shutdowns. By putting these safety measures in place, developers can help ensure that AI systems are reliable, trustworthy, and aligned with human values.
 
 ## Think of It Like This

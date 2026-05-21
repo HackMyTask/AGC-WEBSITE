@@ -1,0 +1,12 @@
+term,slug,cluster,status,priority,keywords
+What is Underfitting,what-is-underfitting,ai-basics,done,1,"underfitting, model underfit, high bias, poor learning, model too simple"
+What is Unsupervised Learning,what-is-unsupervised-learning,ai-basics,done,1,"unsupervised learning, unlabeled data, clustering, pattern discovery, self-organization"
+What is Uncertainty in AI,what-is-uncertainty-in-ai,ai-basics,pending,2,uncertainty in ai
+What is User Intent,what-is-user-intent,ai-basics,pending,2,user intent
+What is Unlabeled Data,what-is-unlabeled-data,ai-basics,pending,2,"unlabeled data, raw data, unannotated, unsupervised learning, data without labels"
+What is Underfitting vs Overfitting,what-is-underfitting-vs-overfitting,ai-basics,pending,2,"underfitting overfitting, bias variance, model fit, poor fit, generalization gap"
+What is Utility Function,what-is-utility-function,ai-basics,pending,2,"utility function, reward function, preference, decision theory, value measure"
+What is User Proxy Agent,what-is-user-proxy-agent,ai-agents,pending,2,"user proxy, proxy agent, human proxy, agent intermediary, user agent"
+What is User Message,what-is-user-message,prompt-engineering,pending,2,"user message, user input, human query, user prompt, chat input"
+What is Udio AI,what-is-udio-ai,ai-tools,pending,2,"Udio, AI music, music generation, AI song, audio AI"
+What is Uizard AI,what-is-uizard-ai,ai-tools,pending,2,"Uizard, AI design, wireframe, prototype, UI design, design AI"

@@ -1,0 +1,21 @@
+term,slug,cluster,status,priority,keywords
+What is Overfitting,what-is-overfitting,ai-basics,done,1,"overfitting, overfit model, model generalization, high variance, training error"
+What is Open Source AI,what-is-open-source-ai,ai-tools,pending,1,"open source AI, open AI, community AI, open model, accessible AI"
+What is On Device AI,what-is-on-device-ai,ai-infrastructure,done,1,on device ai
+What is Object Detection,what-is-object-detection,ai-basics,done,1,"object detection, object recognition, computer vision, YOLO, image detection"
+What is OCR,what-is-ocr,ai-basics,done,1,"OCR, optical character recognition, text recognition, document scanning, image-to-text"
+What is Ontology in AI,what-is-ontology-in-ai,ai-infrastructure,done,2,ontology in ai
+What is OpenAI,what-is-openai,ai-tools,pending,1,"OpenAI, ChatGPT, GPT, DALL-E, OpenAI company"
+What is Optimization Problem,what-is-optimization-problem,ai-basics,pending,2,optimization problem
+What is Output Layer,what-is-output-layer,ai-basics,pending,2,output layer
+What is Overgeneralization,what-is-overgeneralization,ai-basics,pending,2,overgeneralization
+What is One-Hot Encoding,what-is-one-hot-encoding,ai-basics,pending,2,"one-hot encoding, categorical encoding, dummy variables, feature encoding, binary representation"
+What is Outlier Detection,what-is-outlier-detection,ai-basics,pending,2,"outlier detection, anomaly detection, unusual data, outlier, data anomaly"
+What is Optimization in AI,what-is-optimization-in-ai,ai-basics,pending,2,"optimization, mathematical optimization, minimize loss, maximize reward, parameter tuning"
+What is Open-Weight Model,what-is-open-weight-model,llms,pending,2,"open-weight, open model, open LLM, accessible weights, open-source AI"
+What is Output Formatting,what-is-output-formatting,prompt-engineering,pending,2,"output format, format specification, structured output, response format, JSON output"
+What is Otter AI,what-is-otter-ai,ai-tools,pending,2,"Otter AI, transcription, meeting notes, AI notetaker, voice transcription"
+What is ONNX,what-is-onnx,ai-infrastructure,pending,2,"ONNX, open neural network exchange, model format, interoperability, model conversion"
+What is Ollama,what-is-ollama,ai-infrastructure,pending,2,"Ollama, local LLM, run AI locally, on-device, open source models"
+What is Open Research in AI,what-is-open-research-in-ai,ai-research,pending,2,"open research, AI research, open science, published research, research sharing"
+What is Outlier in Data,what-is-outlier-in-data,ai-data,pending,2,"outlier, anomaly, unusual value, extreme, data outlier"

@@ -1,7 +1,7 @@
 ---
 title: "What is AI Reasoning"
 slug: "what-is-ai-reasoning"
-description: "AI makes decisions using logic and evidence"
+description: "AI makes decisions using logic and evidence. Learn what ai reasoning is and understand autonomous AI systems and how they operate."
 keywords: ["artificial intelligence", "machine learning", "decision making", "problem solving", "logic"]
 cluster: "ai-agents"
 related_terms: ["machine-learning", "natural-language-processing", "decision-tree"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Reasoning?
+## What is AI Reasoning?
 AI Reasoning is a way that artificial intelligence systems make decisions or come to conclusions. It's like a computerized version of how we think and reason. When we're faced with a problem, we use our brains to weigh the pros and cons, look at the evidence, and make a decision. AI Reasoning works in a similar way, using special algorithms and data to make decisions or solve problems. At a high level, AI Reasoning involves taking in information, analyzing it, and using that analysis to make a conclusion or decision. This can be simple, like deciding what product to recommend to a customer, or complex, like diagnosing a medical condition.
 
 ## Think of It Like This

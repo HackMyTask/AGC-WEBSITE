@@ -1,0 +1,20 @@
+term,slug,cluster,status,priority,keywords
+What is Neural Network,what-is-neural-network,ai-basics,done,1,"neural network, artificial neural network, deep learning, neuron network, ANN"
+What is Natural Language Processing,what-is-natural-language-processing,ai-basics,pending,1,"NLP, natural language processing, text analysis, language AI, text processing"
+What is Narrow AI,what-is-narrow-ai,ai-basics,done,1,narrow ai
+What is Notion AI,what-is-notion-ai,ai-tools,done,2,notion ai
+What is Named Entity Recognition,what-is-named-entity-recognition,ai-basics,done,2,"NER, named entity recognition, entity extraction, information extraction, text mining"
+What is Noise in Data,what-is-noise-in-data,ai-basics,pending,2,noise in data
+What is Natural Intelligence,what-is-natural-intelligence,ai-basics,pending,2,natural intelligence
+What is Novelty Detection,what-is-novelty-detection,ai-basics,pending,2,novelty detection
+What is Non-Parametric Model,what-is-non-parametric-model,ai-basics,pending,2,"non-parametric, flexible model, no fixed parameters, data-driven, KNN"
+What is Naive Bayes,what-is-naive-bayes,ai-basics,pending,2,"Naive Bayes, Bayes theorem, probabilistic classifier, text classification, spam filter"
+What is Nearest Neighbor,what-is-nearest-neighbor,ai-basics,pending,2,"nearest neighbor, similarity search, closest point, instance-based, lazy learning"
+What is N-Gram,what-is-n-gram,llms,pending,2,"n-gram, sequence of n, language model, probability, text prediction"
+What is Next Token Prediction,what-is-next-token-prediction,llms,pending,2,"next token prediction, token prediction, language modeling, autoregressive, GPT training"
+What is Neural Architecture Search,what-is-neural-architecture-search,llms,pending,2,"neural architecture search, NAS, automated architecture, model design, network search"
+What is Negative Prompt,what-is-negative-prompt,prompt-engineering,pending,2,"negative prompt, what to avoid, exclude, unwanted output, prompt constraint"
+What is n8n AI,what-is-n8n-ai,ai-tools,pending,2,"n8n, workflow automation, AI workflow, n8n AI, automation tool"
+What is NPU,what-is-npu,ai-infrastructure,pending,2,"NPU, neural processing unit, AI processor, neural chip, on-device AI"
+What is Neural Scaling,what-is-neural-scaling,ai-research,pending,2,"neural scaling, scaling law, model scaling, compute scaling, performance growth"
+What is Neural Tangent Kernel,what-is-neural-tangent-kernel,ai-research,pending,2,"neural tangent kernel, NTK, infinite width, neural network theory, gradient kernel"

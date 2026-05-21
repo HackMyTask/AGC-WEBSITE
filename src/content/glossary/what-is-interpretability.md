@@ -1,7 +1,7 @@
 ---
 title: "What is Interpretability"
 slug: "what-is-interpretability"
-description: "Understanding how AI decisions are made"
+description: "Understanding how AI decisions are made. Learn what interpretability is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "transparency", "explainability", "accountability"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]

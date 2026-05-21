@@ -1,7 +1,7 @@
 ---
 title: "What is an AI Agent"
 slug: "what-is-an-ai-agent"
-description: "An AI program that performs tasks automatically."
+description: "An AI program that performs tasks automatically. Learn what an ai agent is and understand autonomous AI systems and how they operate."
 keywords: ["artificial intelligence", "machine learning", "automation", "robotics", "software"]
 cluster: "ai-agents"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is an AI Agent?
+## What is an AI Agent?
 An AI agent is a computer program that uses artificial intelligence to perform tasks on its own. It's like a robot, but instead of a physical body, it exists only in the digital world. At a high level, an AI agent works by using algorithms and data to make decisions and take actions. For example, an AI agent might be designed to play chess, recognize pictures, or even control a self-driving car. The key idea is that the AI agent can operate independently, without a human telling it exactly what to do every step of the way. This allows AI agents to work quickly and efficiently, often 24 hours a day, 7 days a week.
 
 ## Think of It Like This

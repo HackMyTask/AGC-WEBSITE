@@ -1,7 +1,7 @@
 ---
 title: "What is Decision Tree"
 slug: "what-is-decision-tree"
-description: "Decision tree: a method for making decisions based on data."
+description: "Decision tree: a method for making decisions based on data. Learn what decision tree is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "data analysis", "prediction", "classification"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "artificial-intelligence", "data-analysis"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Decision Tree?
+## What is Decision Tree?
 A decision tree is a way to make decisions using a tree-like model. It works by starting with a question, then branching out into more specific questions based on the answer to the first one. This process continues until a final decision is made. Think of it like a flowchart, where each step leads to the next one. The tree is "trained" on data, which means it learns from examples to make better decisions. For instance, a decision tree could be used to decide whether someone is likely to buy a certain product, based on their age, income, and other factors.
 
 ## Think of It Like This

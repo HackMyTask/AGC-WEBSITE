@@ -1,0 +1,59 @@
+term,slug,cluster,status,priority,keywords
+What is Chain of Thought,what-is-chain-of-thought,prompt-engineering,done,1,chain of thought
+What is ChatGPT,what-is-chatgpt,ai-tools,done,1,"ChatGPT, OpenAI, GPT, conversational AI, AI chatbot"
+What is Claude,what-is-claude,ai-tools,pending,1,claude
+What is Copilot,what-is-copilot,ai-tools,done,1,"Copilot, GitHub Copilot, AI coding assistant, code completion, Microsoft Copilot"
+What is Cross Validation,what-is-cross-validation,ai-basics,done,1,cross validation
+What is Computer Vision,what-is-computer-vision,ai-basics,pending,1,"computer vision, image recognition, visual AI, machine vision, image processing"
+What is Context Window,what-is-context-window,llms,done,1,"context window, LLM context, token limit, AI memory, transformer context"
+What is CrewAI,what-is-crewai,ai-agents,done,2,crewai
+What is Cloud AI,what-is-cloud-ai,ai-infrastructure,done,1,"cloud AI, cloud computing AI, AI cloud, cloud machine learning, AI as a service"
+What is Cosine Similarity,what-is-cosine-similarity,ai-infrastructure,done,2,"cosine similarity, vector similarity, text similarity, embedding, distance metric"
+What is Chunking in AI,what-is-chunking-in-ai,ai-infrastructure,pending,1,chunking in ai
+What is Content Moderation AI,what-is-content-moderation-ai,ai-safety,pending,1,content moderation ai
+What is Copyright in AI,what-is-copyright-in-ai,ai-safety,done,2,copyright in ai
+What is Conversational AI,what-is-conversational-ai,ai-tools,done,1,"conversational AI, chatbot, dialogue system, natural language, AI conversation"
+What is Cognitive Computing,what-is-cognitive-computing,ai-basics,done,2,"cognitive computing, cognitive AI, human-like AI, intelligent system, cognitive science"
+What is Chain of Agents,what-is-chain-of-agents,ai-agents,done,2,chain of agents
+What is ChromaDB,what-is-chromadb,ai-infrastructure,pending,2,chromadb
+What is the Chinese Room Argument,what-is-the-chinese-room-argument,ai-basics,done,2,the chinese room argument
+What is Classification,what-is-classification,ai-basics,done,1,"classification, machine learning, supervised learning, classifier, categorization"
+What is Clustering,what-is-clustering,ai-basics,done,2,"clustering, unsupervised learning, data clustering, k-means, pattern discovery"
+What is Consent in AI,what-is-consent-in-ai,ai-safety,done,2,consent in ai
+What is Computational Thinking,what-is-computational-thinking,ai-basics,pending,2,"computational thinking, problem solving, logical thinking, decomposition, pattern recognition"
+What is Collaborative AI,what-is-collaborative-ai,ai-basics,pending,2,"collaborative AI, human AI team, AI collaboration, human-in-the-loop, cooperative AI"
+What is Cognitive Load,what-is-cognitive-load,ai-basics,pending,2,"cognitive load, mental effort, working memory, information processing, learning capacity"
+What is Concept Drift,what-is-concept-drift,ai-basics,pending,2,"concept drift, model degradation, data shift, changing patterns, model retraining"
+What is Chat Template,what-is-chat-template,llms,pending,2,"chat template, conversation format, message format, system user assistant, chat structure"
+What is Context Length,what-is-context-length,llms,pending,2,"context length, window size, token limit, max tokens, input size"
+What is Context Engineering,what-is-context-engineering,llms,pending,2,"context engineering, context design, prompt context, information architecture, context optimization"
+What is Completion,what-is-completion,llms,pending,2,"completion, text completion, AI completion, LLM output, generated text"
+What is Causal LM,what-is-causal-lm,llms,pending,2,"causal LM, autoregressive LM, unidirectional, left-to-right, GPT style"
+What is Collaborative Agent,what-is-collaborative-agent,ai-agents,pending,2,"collaborative agent, cooperative AI, team agent, multi-agent, joint action"
+What is Coding Agent,what-is-coding-agent,ai-agents,pending,2,"coding agent, AI coder, software agent, code generation agent, dev agent"
+What is Conversational Agent,what-is-conversational-agent,ai-agents,pending,2,"conversational agent, dialogue agent, chat agent, chatbot, conversation AI"
+What is Chain-of-Thought Prompting,what-is-chain-of-thought-prompting,prompt-engineering,pending,2,"chain-of-thought, step-by-step, reasoning prompt, CoT, think step by step"
+What is Contextual Prompt,what-is-contextual-prompt,prompt-engineering,pending,2,"contextual prompt, context-aware, background prompt, situation prompt, environment"
+What is Constraint in Prompt,what-is-constraint-in-prompt,prompt-engineering,pending,2,"constraint, limitation, boundary, rule, restriction in prompts"
+What is Cursor AI,what-is-cursor-ai,ai-tools,pending,2,"Cursor, AI IDE, AI code editor, Cursor AI, AI coding tool"
+What is Claude Code,what-is-claude-code,ai-tools,pending,2,"Claude Code, Anthropic coding, terminal agent, AI developer, code agent"
+What is Canva AI,what-is-canva-ai,ai-tools,pending,2,"Canva AI, Magic Studio, AI design, Canva design, AI graphics"
+What is CapCut AI,what-is-capcut-ai,ai-tools,pending,2,"CapCut, TikTok video, AI video editor, video editing, CapCut AI"
+What is Copy AI,what-is-copy-ai,ai-tools,pending,2,"Copy AI, AI copy, marketing copy, content writing, AI writer"
+What is Clipdrop,what-is-clipdrop,ai-tools,pending,2,"Clipdrop, AI image tools, background removal, image cleanup, Stability AI"
+What is Clockwise AI,what-is-clockwise-ai,ai-tools,pending,2,"Clockwise, AI calendar, time management, scheduling, productivity"
+What is Cohere AI,what-is-cohere-ai,ai-tools,pending,2,"Cohere, NLP API, embedding, enterprise AI, Cohere AI"
+What is Codeium AI,what-is-codeium-ai,ai-tools,pending,2,"Codeium, AI coding, code assistant, Windsurf, AI IDE"
+What is Clay AI,what-is-clay-ai,ai-tools,pending,2,"Clay, AI sales, lead enrichment, sales tool, data AI"
+What is Chroma DB,what-is-chroma-db,ai-infrastructure,pending,2,"Chroma, vector database, open source vector, embedding store, ChromaDB"
+What is CUDA,what-is-cuda,ai-infrastructure,pending,2,"CUDA, NVIDIA, parallel computing, GPU programming, compute platform"
+What is Cloud AI Platform,what-is-cloud-ai-platform,ai-infrastructure,pending,2,"cloud AI, AI platform, managed ML, cloud ML, AI cloud"
+What is Canary Deployment,what-is-canary-deployment,ai-infrastructure,pending,2,"canary deployment, gradual rollout, staged deploy, traffic split, safe release"
+What is Child Safety AI,what-is-child-safety-ai,ai-safety,pending,2,"child safety, AI safety, minor protection, safe AI, age appropriate"
+What is Call Center AI,what-is-call-center-ai,ai-voice,pending,2,"call center AI, contact center, voice automation, customer service AI, phone AI"
+What is Cross-Modal Learning,what-is-cross-modal-learning,ai-multimodal,pending,2,"cross-modal, cross modality, modality transfer, multi-modal learning, alignment"
+What is Contrastive Language Image Pretraining,what-is-contrastive-language-image-pretraining,ai-multimodal,pending,2,"CLIP, contrastive learning, image text, vision language, OpenAI CLIP"
+What is Collaborative Robot,what-is-collaborative-robot,ai-robotics,pending,2,"collaborative robot, cobot, human robot, safe robot, cooperation"
+What is Chinchilla Law,what-is-chinchilla-law,ai-research,pending,2,"Chinchilla law, scaling law, compute optimal, data scaling, DeepMind"
+What is Cross-Validation in Data,what-is-cross-validation-in-data,ai-data,pending,2,"cross-validation, CV, data validation, fold validation, model validation"
+What is Class Imbalance,what-is-class-imbalance,ai-data,pending,2,"class imbalance, imbalanced class, rare class, skewed distribution, imbalance problem"

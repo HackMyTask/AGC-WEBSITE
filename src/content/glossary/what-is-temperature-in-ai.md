@@ -1,7 +1,7 @@
 ---
 title: "What is Temperature in AI"
 slug: "what-is-temperature-in-ai"
-description: "Temperature controls AI creativity and randomness"
+description: "Temperature controls AI creativity and randomness. Learn what temperature in ai is and get better results from AI through effective prompting."
 keywords: ["artificial intelligence", "machine learning", "temperature", "creativity", "randomness"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Temperature in AI?
+## What is Temperature in AI?
 Temperature in AI is a setting that controls how creative or random the output of a machine learning model is. Think of it like a dial that adjusts the level of innovation in the results. When the temperature is high, the model is more likely to produce unusual or unexpected responses. On the other hand, a low temperature results in more predictable and conservative outputs. This setting is often used in natural language processing and image generation models to balance the trade-off between creativity and accuracy. For instance, in a language model, a high temperature might lead to more poetic or humorous responses, while a low temperature would produce more straightforward and factual answers.
 
 ## Think of It Like This

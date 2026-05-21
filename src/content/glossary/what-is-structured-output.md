@@ -1,7 +1,7 @@
 ---
 title: "What is Structured Output"
 slug: "what-is-structured-output"
-description: "AI output with organized and formatted data."
+description: "AI output with organized and formatted data. Learn what structured output is and get better results from AI through effective prompting."
 keywords: ["AI output", "machine learning", "data formatting", "natural language processing", "computer science"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Structured Output?
+## What is Structured Output?
 Structured output refers to the organized and formatted data that artificial intelligence (AI) systems produce. It's the result of a machine learning model processing input data and generating output in a specific, predefined format. This format can be a simple table, a complex graph, or even a piece of text with specific structure and syntax. The key idea behind structured output is to make it easy for humans or other computer systems to understand and use the generated data. For example, a weather forecasting AI might produce a structured output like a table with columns for date, temperature, and precipitation, making it simple to read and analyze the data.
 
 ## Think of It Like This

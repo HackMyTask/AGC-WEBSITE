@@ -1,7 +1,7 @@
 ---
 title: "What is Classification"
 slug: "what-is-classification"
-description: "Classification is a way for machines to sort things into categories."
+description: "Classification is a way for machines to sort things into categories. Learn what classification is and understand the fundamentals of artificial intellig..."
 keywords: ["machine learning", "artificial intelligence", "data analysis", "pattern recognition", "predictive modeling"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "deep-learning", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Classification?
+## What is Classification?
 Classification is a type of machine learning where computers are trained to sort data into different groups or categories. This is done by looking at the characteristics or features of the data and making predictions about which category it belongs to. Think of it like a big sorting machine that can quickly categorize things based on what they have in common. For example, a classification system might look at a picture and decide whether it's a picture of a dog or a cat. To train the system, it's shown many examples of dogs and cats, and it learns to recognize the differences between them. This way, when it sees a new picture, it can make an educated guess about what's in the picture.
 
 ## Think of It Like This

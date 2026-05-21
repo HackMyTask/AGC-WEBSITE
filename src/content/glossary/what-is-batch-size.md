@@ -1,7 +1,7 @@
 ---
 title: "What is Batch Size"
 slug: "what-is-batch-size"
-description: "Batch size is the number of data samples used to train AI models."
+description: "Batch size is the number of data samples used to train AI models. Learn what batch size is and get better results from AI through effective prompting."
 keywords: ["batch size", "AI training", "machine learning", "data samples", "model optimization"]
 cluster: "prompt-engineering"
 related_terms: ["what-is-machine-learning", "what-is-data-preprocessing", "what-is-model-optimization"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Batch Size?
+## What is Batch Size?
 
 Batch size is a crucial concept in artificial intelligence, specifically in machine learning. It refers to the number of data samples that are used to train an AI model at one time. Think of data samples as individual examples that the model learns from, like images, text, or audio. The batch size determines how many of these examples are presented to the model in a single training session. For instance, if you're training an image recognition model, a batch size of 10 means the model will learn from 10 images at a time. This process is repeated multiple times, with the model adjusting its parameters after each batch to improve its performance. The goal is to find the optimal batch size that allows the model to learn efficiently and effectively.
 

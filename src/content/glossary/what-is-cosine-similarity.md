@@ -1,7 +1,7 @@
 ---
 title: "What is Cosine Similarity"
 slug: "what-is-cosine-similarity"
-description: "Measure of similarity between two vectors."
+description: "Measure of similarity between two vectors. Learn what cosine similarity is and learn about the technology powering AI systems."
 keywords: ["cosine similarity", "vector", "machine learning", "natural language processing", "recommendation systems"]
 cluster: "ai-infrastructure"
 related_terms: ["natural-language-processing", "vector-space-model", "recommendation-systems"]

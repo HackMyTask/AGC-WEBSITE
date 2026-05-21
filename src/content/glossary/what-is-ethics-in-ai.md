@@ -1,7 +1,7 @@
 ---
 title: "What is Ethics in AI"
 slug: "what-is-ethics-in-ai"
-description: "AI ethics ensures fair and responsible AI systems"
+description: "AI ethics ensures fair and responsible AI systems. Learn what ethics in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "fairness", "transparency", "accountability"]
 cluster: "ai-basics"
 related_terms: ["what-is-ai", "what-is-machine-learning", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Ethics in AI?
+## What is Ethics in AI?
 Ethics in AI refers to the principles and guidelines that ensure artificial intelligence systems are fair, transparent, and accountable. These principles are designed to prevent AI systems from causing harm to individuals or society. Think of AI ethics like a set of rules that AI developers must follow to guarantee their systems are used for the greater good. For instance, AI ethics would prevent a self-driving car from prioritizing the safety of its occupants over the safety of pedestrians. By considering ethics in AI development, we can create systems that benefit everyone. The goal is to establish trust in AI systems, just like we trust other technologies, like elevators or airplanes, to operate safely and reliably.
 
 ## Think of It Like This

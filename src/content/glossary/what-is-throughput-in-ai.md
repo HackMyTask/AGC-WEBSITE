@@ -1,7 +1,7 @@
 ---
 title: "What is Throughput in AI"
 slug: "what-is-throughput-in-ai"
-description: "Throughput in AI refers to processing speed."
+description: "Throughput in AI refers to processing speed. Learn what throughput in ai is and learn about the technology powering AI systems."
 keywords: ["artificial intelligence", "processing speed", "efficiency", "performance", "computing"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-ai", "machine-learning", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Throughput in AI?
+## What is Throughput in AI?
 Throughput in AI refers to the speed at which a computer system can process and complete tasks. It's a measure of how efficiently a system can handle the workload it's given. Think of it like a factory production line: the more products the line can produce in a given time, the higher its throughput. In AI, this means how quickly a system can analyze data, make decisions, and generate responses. Throughput is crucial because it directly impacts the overall performance and responsiveness of an AI system. For instance, a high-throughput AI system can quickly process large amounts of data, making it ideal for applications like image recognition, natural language processing, and predictive analytics.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is Weaviate"
 slug: "what-is-weaviate"
-description: "A cloud-based AI data management system"
+description: "A cloud-based AI data management system. Learn what weaviate is and learn about the technology powering AI systems."
 keywords: ["Weaviate", "AI", "data management", "cloud-based", "vector search"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-vector-search", "what-is-natural-language-processing", "what-is-machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Weaviate?
+## What is Weaviate?
 Weaviate is a type of cloud-based artificial intelligence (AI) system that helps manage and understand large amounts of data. Think of data like a huge library with an endless number of books, each containing different information. Weaviate is designed to read and make sense of all these "books" quickly and efficiently. It uses a technique called vector search, which allows it to find patterns and relationships between pieces of data, even if they're not explicitly linked. This makes it incredibly useful for tasks like searching, filtering, and organizing large datasets. For example, Weaviate can help a company search through millions of customer reviews to identify common complaints or suggestions.
 
 ## Think of It Like This

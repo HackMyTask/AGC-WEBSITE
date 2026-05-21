@@ -1,7 +1,7 @@
 ---
 title: "What is Image Classification"
 slug: "what-is-image-classification"
-description: "Image classification is a computer process to identify objects in images."
+description: "Image classification is a computer process to identify objects in images. Learn what image classification is and understand the fundamentals of artifici..."
 keywords: ["image recognition", "computer vision", "machine learning", "artificial intelligence", "deep learning"]
 cluster: "ai-basics"
 related_terms: ["what-is-computer-vision", "how-does-machine-learning-work", "introduction-to-deep-learning"]

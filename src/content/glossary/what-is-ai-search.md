@@ -1,7 +1,7 @@
 ---
 title: "What is AI Search"
 slug: "what-is-ai-search"
-description: "AI search helps find info quickly and accurately"
+description: "AI search helps find info quickly and accurately. Learn what ai search is and use AI tools and applications in your daily life."
 keywords: ["artificial intelligence", "search engines", "information retrieval", "natural language processing", "machine learning"]
 cluster: "ai-tools"
 related_terms: ["natural-language-processing", "machine-learning", "information-retrieval"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Search?
+## What is AI Search?
 AI search is a way to find information quickly and accurately using artificial intelligence. It works by understanding what you're looking for, then searching through large amounts of data to give you the most relevant results. Imagine you're looking for a specific book in a huge library - AI search is like having a super-smart librarian who can find the book for you in seconds. This is done using complex algorithms that can understand natural language, like the way you talk or type. At a high level, AI search combines machine learning, which helps it get better at searching over time, and natural language processing, which allows it to understand what you're looking for.
 
 ## Think of It Like This

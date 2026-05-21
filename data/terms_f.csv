@@ -1,0 +1,22 @@
+term,slug,cluster,status,priority,keywords
+What is Fine Tuning,what-is-fine-tuning,llms,done,1,fine tuning
+What is Few Shot Prompting,what-is-few-shot-prompting,prompt-engineering,done,1,few shot prompting
+What is Function Calling,what-is-function-calling,ai-agents,done,1,function calling
+What is Feature Engineering,what-is-feature-engineering,ai-basics,done,2,feature engineering
+What is Facial Recognition,what-is-facial-recognition,ai-basics,done,1,"facial recognition, face recognition, biometrics, face detection, facial identification"
+What is a Foundation Model,what-is-a-foundation-model,llms,pending,1,a foundation model
+What is Fairness in AI,what-is-fairness-in-ai,ai-safety,done,1,fairness in ai
+What is Feedback Loop,what-is-feedback-loop,ai-basics,done,2,feedback loop
+What is Feature Extraction,what-is-feature-extraction,ai-basics,pending,2,"feature extraction, dimensionality reduction, feature learning, data transformation, pattern extraction"
+What is Feature Scaling,what-is-feature-scaling,ai-basics,pending,2,"feature scaling, normalization, standardization, data normalization, min-max scaling"
+What is False Positive,what-is-false-positive,ai-basics,pending,2,"false positive, type I error, false alarm, incorrect detection, FP rate"
+What is False Negative,what-is-false-negative,ai-basics,pending,2,"false negative, type II error, missed detection, omission error, FN rate"
+What is Fuzzy Logic,what-is-fuzzy-logic,ai-basics,pending,2,"fuzzy logic, approximate reasoning, partial truth, fuzzy set, membership function"
+What is Feedforward Network,what-is-feedforward-network,llms,pending,2,"feedforward network, FFN, MLP layer, neural network, transformer block"
+What is Feedback Loop in Agents,what-is-feedback-loop-in-agents,ai-agents,pending,2,"feedback loop, agent feedback, self-correction, error recovery, improvement cycle"
+What is Fireflies AI,what-is-fireflies-ai,ai-tools,pending,2,"Fireflies, meeting assistant, AI notetaker, transcription, meeting AI"
+What is Figma AI,what-is-figma-ai,ai-tools,pending,2,"Figma AI, design AI, UI AI, Figma design, AI design tool"
+What is Fireworks AI,what-is-fireworks-ai,ai-infrastructure,pending,2,"Fireworks AI, inference API, fast inference, model serving, AI platform"
+What is Feature Store,what-is-feature-store,ai-infrastructure,pending,2,"feature store, feature management, ML features, data serving, Feast"
+What is Federated Learning Privacy,what-is-federated-learning-privacy,ai-safety,pending,2,"federated learning, privacy AI, distributed training, on-device, data privacy"
+What is Factuality in AI,what-is-factuality-in-ai,ai-safety,pending,2,"factuality, truthfulness, accuracy, factual correctness, truth AI"

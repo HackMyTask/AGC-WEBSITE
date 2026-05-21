@@ -1,7 +1,7 @@
 ---
 title: "What is AI Monitoring"
 slug: "what-is-ai-monitoring"
-description: "AI Monitoring checks AI systems to ensure they work correctly."
+description: "AI Monitoring checks AI systems to ensure they work correctly. Learn what ai monitoring is and learn about the technology powering AI systems."
 keywords: ["ai", "monitoring", "artificial intelligence", "machine learning", "technology"]
 cluster: "ai-infrastructure"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]

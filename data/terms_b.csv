@@ -1,0 +1,21 @@
+term,slug,cluster,status,priority,keywords
+What is Bias in AI,what-is-bias-in-ai,ai-basics,done,1,"bias in AI, algorithmic bias, AI fairness, machine learning bias, data bias"
+What is Backpropagation,what-is-backpropagation,ai-basics,done,1,"backpropagation, neural network training, gradient descent, deep learning, backprop algorithm"
+What is Batch Size,what-is-batch-size,prompt-engineering,done,2,batch size
+What is Batch Normalization,what-is-batch-normalization,ai-basics,done,1,batch normalization
+What is BERT,what-is-bert,llms,pending,2,"BERT, bidirectional encoder, NLP model, transformer, Google BERT"
+What is Backlog in AI Development,what-is-backlog-in-ai-development,ai-basics,done,2,backlog in ai development
+What is Beyond the Hype,what-is-beyond-the-hype,ai-basics,done,2,beyond the hype
+What is Boolean Search,what-is-boolean-search,ai-basics,pending,2,"Boolean search, Boolean logic, search operators, AND OR NOT, information retrieval"
+What is Big Data Analytics,what-is-big-data-analytics,ai-basics,pending,2,"big data analytics, data analysis, large dataset, data insights, analytics AI"
+What is Bioinformatics,what-is-bioinformatics,ai-basics,pending,2,"bioinformatics, computational biology, DNA analysis, genomic data, biology AI"
+What is Beam Search,what-is-beam-search,llms,pending,2,"beam search, sequence generation, search strategy, multiple hypotheses, decoding"
+What is Byte Pair Encoding,what-is-byte-pair-encoding,llms,pending,2,"byte pair encoding, BPE, subword tokenization, tokenizer, vocabulary building"
+What is Batching in LLM,what-is-batching-in-llm,llms,pending,2,"batching, batch processing, parallel inference, throughput, LLM optimization"
+What is Belief State,what-is-belief-state,ai-agents,pending,2,"belief state, agent belief, knowledge state, uncertainty, partial observability"
+What is Bolt.new,what-is-bolt-new,ai-tools,pending,2,"Bolt.new, StackBlitz, AI web builder, full-stack AI, browser IDE"
+What is Beautiful AI,what-is-beautiful-ai,ai-tools,pending,2,"Beautiful AI, presentation design, slide builder, AI design, deck creation"
+What is Blackbox AI,what-is-blackbox-ai,ai-tools,pending,2,"Blackbox, AI code, code search, coding assistant, developer AI"
+What is Browse AI,what-is-browse-ai,ai-tools,pending,2,"Browse AI, web scraping, data extraction, web data, no-code scraping"
+What is Bardeen AI,what-is-bardeen-ai,ai-tools,pending,2,"Bardeen, automation AI, workflow, web automation, no-code automation"
+What is Blue Green Deployment,what-is-blue-green-deployment,ai-infrastructure,pending,2,"blue green, deployment strategy, zero downtime, swap deployment, release pattern"

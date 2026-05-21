@@ -1,7 +1,7 @@
 ---
 title: "What is Predictive AI"
 slug: "what-is-predictive-ai"
-description: "Predictive AI helps computers guess what might happen next."
+description: "Predictive AI helps computers guess what might happen next. Learn what predictive ai is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "predictive modeling", "data analysis", "automation"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "computer-vision"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Predictive AI?
+## What is Predictive AI?
 
 Predictive AI is a type of artificial intelligence that helps computers make educated guesses about what might happen in the future. It works by analyzing large amounts of data, like numbers, words, or images, to find patterns and relationships. This analysis is done using complex algorithms, which are like recipes for the computer to follow. The algorithm takes the data, mixes it with some math, and produces a prediction. For example, a company might use predictive AI to forecast sales numbers for the next quarter, based on past sales data and other factors like seasonality and economic trends. The goal of predictive AI is to make accurate predictions, which can help people and businesses make informed decisions.
 

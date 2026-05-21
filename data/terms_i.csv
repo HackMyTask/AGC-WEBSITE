@@ -1,0 +1,21 @@
+term,slug,cluster,status,priority,keywords
+What is Inference,what-is-inference,ai-basics,done,1,"AI inference, model inference, prediction, inference time, model deployment"
+What is Image Classification,what-is-image-classification,ai-basics,done,2,"image classification, image recognition, computer vision, image labeling, visual AI"
+What is Interpretability,what-is-interpretability,ai-basics,done,1,interpretability
+What is Intelligent Automation,what-is-intelligent-automation,ai-tools,pending,1,"intelligent automation, AI automation, robotic process automation, intelligent RPA, business AI"
+What is Instance Learning,what-is-instance-learning,ai-basics,pending,2,instance learning
+What is Inductive Learning,what-is-inductive-learning,ai-basics,done,2,inductive learning
+What is Information Retrieval,what-is-information-retrieval,ai-basics,pending,2,"information retrieval, search, document retrieval, relevance, query processing"
+What is Instance-Based Learning,what-is-instance-based-learning,ai-basics,pending,2,"instance-based learning, memory-based learning, lazy learning, KNN, case-based reasoning"
+What is Inductive Bias,what-is-inductive-bias,ai-basics,pending,2,"inductive bias, learning bias, algorithm assumption, generalization, prior knowledge"
+What is Intelligence Amplification,what-is-intelligence-amplification,ai-basics,pending,2,"intelligence amplification, IA, augmented intelligence, cognitive augmentation, human enhancement"
+What is IoT AI,what-is-iot-ai,ai-basics,pending,2,"IoT AI, internet of things, smart devices, connected AI, edge intelligence"
+What is Inference Cost,what-is-inference-cost,llms,pending,2,"inference cost, LLM cost, compute cost, token cost, API pricing"
+What is Instruction Following,what-is-instruction-following,llms,pending,2,"instruction following, follow instructions, task completion, helpful AI, instruction-tuned"
+What is Instruction Prompt,what-is-instruction-prompt,prompt-engineering,pending,2,"instruction prompt, command, directive, clear prompt, task prompt"
+What is Iterative Prompting,what-is-iterative-prompting,prompt-engineering,pending,2,"iterative prompting, refine prompt, improve prompt, loop, revision"
+What is Ideogram AI,what-is-ideogram-ai,ai-tools,pending,2,"Ideogram, AI image, text on image, typography AI, image generation"
+What is Image Captioning,what-is-image-captioning,ai-multimodal,pending,2,"image captioning, image description, auto caption, visual description, image understanding"
+What is Image-to-Text,what-is-image-to-text,ai-multimodal,pending,2,"image-to-text, OCR, image reading, extract text, image text"
+What is Industrial Robotics,what-is-industrial-robotics,ai-robotics,pending,2,"industrial robot, factory robot, manufacturing robot, automation, industrial AI"
+What is Imbalanced Data,what-is-imbalanced-data,ai-data,pending,2,"imbalanced data, class imbalance, skewed data, unbalanced, rare class"

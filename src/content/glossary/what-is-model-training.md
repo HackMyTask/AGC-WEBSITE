@@ -1,7 +1,7 @@
 ---
 title: "What is Model Training"
 slug: "what-is-model-training"
-description: "Model training is teaching AI systems from data."
+description: "Model training is teaching AI systems from data. Learn what model training is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "data analysis", "model development", "training data"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-neural-network"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Model Training?
+## What is Model Training?
 Model training is the process of teaching artificial intelligence (AI) systems to make predictions or take actions based on data. Think of it like teaching a child to recognize objects - you show them many examples of what a cat looks like, and eventually, they can identify one on their own. In AI, this process involves feeding large amounts of data into a computer program, which then adjusts its parameters to make accurate predictions or decisions. The goal of model training is to create an AI system that can generalize well to new, unseen data. For example, a company might train a model to recognize patterns in customer purchases, so it can make personalized product recommendations.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is AI in Gaming"
 slug: "what-is-ai-in-gaming"
-description: "AI in gaming makes games smarter and more realistic."
+description: "AI in gaming makes games smarter and more realistic. Learn what ai in gaming is and understand the fundamentals of artificial intelligence."
 keywords: ["gaming", "ai", "machine learning", "video games", "game development"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "computer-vision", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI in Gaming?
+## What is AI in Gaming?
 Artificial Intelligence (AI) in gaming refers to the use of computer programs that can think and learn like humans. These programs, also called algorithms, allow games to adapt to the player's behavior, making the game more challenging and exciting. For example, in a racing game, AI can be used to create opponents that drive realistically, taking into account the player's driving style and the track conditions. At a high level, AI in gaming works by analyzing data, such as the player's actions and decisions, and using that data to make decisions in real-time. This creates a more immersive and interactive experience for the player. AI can also be used to generate content, such as levels or characters, which can save game developers time and resources.
 
 ## Think of It Like This

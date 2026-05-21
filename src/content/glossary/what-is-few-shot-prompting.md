@@ -1,7 +1,7 @@
 ---
 title: "What is Few Shot Prompting"
 slug: "what-is-few-shot-prompting"
-description: "Few Shot Prompting is a technique to train AI with limited data"
+description: "Few Shot Prompting is a technique to train AI with limited data. Learn what few shot prompting is and get better results from AI through effective promp..."
 keywords: ["AI training", "machine learning", "natural language processing", "prompt engineering", "language models"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Few Shot Prompting?
+## What is Few Shot Prompting?
 Few Shot Prompting is a technique used to train artificial intelligence (AI) models with a very small amount of data. This might sound strange, because usually, we think of AI as needing vast amounts of information to learn and improve. But with Few Shot Prompting, the idea is to give the AI model just a few examples of what you want it to do, and then have it figure out the rest on its own. This is different from traditional AI training methods, which often require huge datasets to achieve good results. For example, imagine you're trying to teach a child to recognize different types of animals. With traditional AI training, you would show the child hundreds or thousands of pictures of cats, dogs, birds, and so on. But with Few Shot Prompting, you might only show the child a few pictures of each animal, and then ask it to identify new pictures it has never seen before.
 
 ## Think of It Like This

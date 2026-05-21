@@ -1,7 +1,7 @@
 ---
 title: "What is Unsupervised Learning"
 slug: "what-is-unsupervised-learning"
-description: "Unsupervised learning is a type of AI that finds patterns in data."
+description: "Unsupervised learning is a type of AI that finds patterns in data. Learn what unsupervised learning is and understand the fundamentals of artificial int..."
 keywords: ["machine learning", "artificial intelligence", "data analysis", "pattern recognition", "clustering"]
 cluster: "ai-basics"
 related_terms: ["what-is-supervised-learning", "what-is-reinforcement-learning", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Unsupervised Learning?
+## What is Unsupervised Learning?
 Unsupervised learning is a type of artificial intelligence that helps computers find patterns or groupings in data without any prior guidance. Imagine you have a big box of toys, and you want to sort them into categories like cars, dolls, and blocks. A supervised learning approach would be like having someone show you exactly which toys belong in each category. Unsupervised learning, on the other hand, is like dumping all the toys on the floor and letting the computer figure out how to group them on its own. The computer uses algorithms, or step-by-step instructions, to look for similarities and differences in the data and identify patterns. This type of learning is useful when we don't know what we're looking for, or when the data is too complex for humans to analyze manually.
 
 ## Think of It Like This

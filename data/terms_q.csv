@@ -1,0 +1,4 @@
+term,slug,cluster,status,priority,keywords
+What is Query in AI,what-is-query-in-ai,ai-infrastructure,pending,2,query in ai
+What is Quantization in LLM,what-is-quantization-in-llm,llms,pending,2,"quantization, model quantization, precision reduction, compression, efficient inference"
+What is Qdrant,what-is-qdrant,ai-infrastructure,pending,2,"Qdrant, vector database, vector search, similarity search, Qdrant DB"

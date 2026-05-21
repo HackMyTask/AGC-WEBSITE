@@ -1,7 +1,7 @@
 ---
 title: "What is Self Consistency Prompting"
 slug: "what-is-self-consistency-prompting"
-description: "Self Consistency Prompting helps AI give consistent answers."
+description: "Self Consistency Prompting helps AI give consistent answers. Learn what self consistency prompting is and get better results from AI through effective p..."
 keywords: ["AI", "prompting", "consistency", "machine learning", "natural language"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Self Consistency Prompting?
+## What is Self Consistency Prompting?
 
 Self Consistency Prompting is a way to help Artificial Intelligence (AI) systems give consistent answers to questions. Imagine you're asking a virtual assistant for recommendations on what to eat for dinner. You'd expect it to suggest something that fits your tastes and dietary preferences. But what if you asked follow-up questions, like "Is this restaurant near my house?" or "Can I get vegetarian options?" A self-consistent AI system would remember your initial preferences and give answers that fit with them. To achieve this, Self Consistency Prompting uses a technique where the AI is given a set of instructions or guidelines that it must follow when generating responses. This ensures that the AI's answers are not only accurate but also consistent with the context and previous responses.
 

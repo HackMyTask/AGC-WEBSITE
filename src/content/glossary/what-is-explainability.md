@@ -1,7 +1,7 @@
 ---
 title: "What is Explainability"
 slug: "what-is-explainability"
-description: "Explainability makes AI decisions transparent."
+description: "Explainability makes AI decisions transparent. Learn what explainability is and understand how to keep AI safe and trustworthy."
 keywords: ["Artificial Intelligence", "AI Safety", "Transparency", "Accountability", "Machine Learning"]
 cluster: "ai-safety"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-accountability"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Explainability?
+## What is Explainability?
 Explainability is a concept in Artificial Intelligence (AI) that refers to the ability to understand and interpret the decisions made by AI systems. In simple terms, it's about making AI decisions transparent, so we can see how and why a particular outcome was reached. Imagine you're using a virtual assistant to book a flight, and it recommends a specific route. Explainability would help you understand why that route was chosen, what factors were considered, and how the AI weighed the different options. This is crucial because AI systems are becoming increasingly complex, and their decisions can have significant impacts on our lives. At a high level, explainability works by analyzing the AI's decision-making process, identifying the key factors that influenced the outcome, and providing a clear explanation of the results.
 
 ## Think of It Like This

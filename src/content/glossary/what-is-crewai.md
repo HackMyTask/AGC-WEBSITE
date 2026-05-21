@@ -1,7 +1,7 @@
 ---
 title: "What is CrewAI"
 slug: "what-is-crewai"
-description: "CrewAI is artificial intelligence for team collaboration"
+description: "CrewAI is artificial intelligence for team collaboration. Learn what crewai is and understand autonomous AI systems and how they operate."
 keywords: ["crewai", "ai collaboration", "team management", "artificial intelligence", "productivity"]
 cluster: "ai-agents"
 related_terms: ["what-is-artificial-intelligence", "machine-learning-basics", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is CrewAI?
+## What is CrewAI?
 
 CrewAI is a type of artificial intelligence designed to help teams work together more efficiently. It's like a virtual assistant that uses machine learning to understand how teams collaborate and communicate. CrewAI can analyze things like email conversations, project management tools, and even video meetings to identify patterns and areas where teams might be struggling. By doing so, it can provide suggestions and recommendations to improve teamwork and productivity. For example, CrewAI might notice that a team is having trouble meeting deadlines and suggest a new project management workflow. It can also help automate routine tasks, freeing up team members to focus on more important work.
 

@@ -1,7 +1,7 @@
 ---
 title: "What is Precision and Recall"
 slug: "what-is-precision-and-recall"
-description: "Measurement of accuracy in AI predictions"
+description: "Measurement of accuracy in AI predictions. Learn what precision and recall is and understand the fundamentals of artificial intelligence."
 keywords: ["precision", "recall", "ai", "machine learning", "accuracy"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "deep-learning"]

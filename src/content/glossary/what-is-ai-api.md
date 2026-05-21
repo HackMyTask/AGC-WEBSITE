@@ -1,7 +1,7 @@
 ---
 title: "What is AI API"
 slug: "what-is-ai-api"
-description: "AI API explained in simple terms"
+description: "AI API explained in simple terms. Learn what ai api is and learn about the technology powering AI systems."
 keywords: ["artificial intelligence", "api", "machine learning", "software development", "technology"]
 cluster: "ai-infrastructure"
 related_terms: ["machine-learning-models", "natural-language-processing", "deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI API?
+## What is AI API?
 An AI API, or Application Programming Interface, is a way for different software systems to communicate with each other. It's like a messenger that helps machines talk to each other in a language they can understand. Think of it as a bridge that connects different computer programs, allowing them to share information and work together. This enables developers to build new applications and services that can tap into the power of artificial intelligence. For example, a developer can use an AI API to add image recognition capabilities to their app, without having to build the entire recognition system from scratch. The AI API takes care of the complex tasks, like analyzing images or understanding natural language, so the developer can focus on building the rest of the application.
 
 ## Think of It Like This

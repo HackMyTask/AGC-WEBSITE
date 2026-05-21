@@ -1,0 +1,29 @@
+term,slug,cluster,status,priority,keywords
+What is Gemini,what-is-gemini,ai-tools,pending,1,gemini
+What is Gradient Descent,what-is-gradient-descent,ai-basics,done,1,"gradient descent, optimization, learning rate, neural network training, backpropagation"
+What is Generative AI,what-is-generative-ai,ai-basics,pending,1,"generative AI, GenAI, content generation, AI creation, generative model"
+What is a GAN,what-is-a-gan,ai-basics,pending,1,a gan
+What is GPT,what-is-gpt,llms,done,1,"GPT, generative pretrained transformer, OpenAI GPT, LLM, transformer model"
+What is Google Assistant,what-is-google-assistant,ai-tools,done,2,google assistant
+What is Grammarly AI,what-is-grammarly-ai,ai-tools,done,2,grammarly ai
+What is GPU in AI,what-is-gpu-in-ai,ai-infrastructure,done,1,gpu in ai
+What is Google DeepMind,what-is-google-deepmind,ai-tools,pending,2,google deepmind
+What is General Knowledge,what-is-general-knowledge,ai-basics,done,2,general knowledge
+What is Generalization in AI,what-is-generalization-in-ai,ai-basics,done,2,generalization in ai
+What is Generalization,what-is-generalization,ai-basics,pending,2,"generalization, model generalization, learning general, unseen data, overfitting prevention"
+What is Generative vs Discriminative,what-is-generative-vs-discriminative,ai-basics,pending,2,"generative discriminative, model comparison, generative model, discriminative model, ML approaches"
+What is Grid Search,what-is-grid-search,ai-basics,pending,2,"grid search, hyperparameter tuning, parameter search, exhaustive search, model optimization"
+What is Greedy Algorithm,what-is-greedy-algorithm,ai-basics,pending,2,"greedy algorithm, local optimum, step-by-step, optimization, decision algorithm"
+What is Gaussian Process,what-is-gaussian-process,ai-basics,pending,2,"Gaussian process, GP, probabilistic model, kernel method, regression"
+What is Gating Mechanism,what-is-gating-mechanism,llms,pending,2,"gating mechanism, gate, information flow, LSTM gate, selective activation"
+What is GQA,what-is-gqa,llms,pending,2,"GQA, grouped query attention, multi-query attention, efficient attention, KV cache"
+What is Goal-Oriented Agent,what-is-goal-oriented-agent,ai-agents,pending,2,"goal-oriented agent, goal-based AI, objective driven, purpose agent, target achievement"
+What is GitHub Copilot,what-is-github-copilot,ai-tools,pending,2,"GitHub Copilot, AI coding assistant, code completion, Copilot, AI pair programmer"
+What is Gamma AI,what-is-gamma-ai,ai-tools,pending,2,"Gamma, AI presentation, slide deck, presentation AI, content creation"
+What is Glean AI,what-is-glean-ai,ai-tools,pending,2,"Glean, enterprise search, AI search, knowledge management, work AI"
+What is Galileo AI,what-is-galileo-ai,ai-tools,pending,2,"Galileo AI, UI design, AI interface, design generation, product design"
+What is GPU Computing,what-is-gpu-computing,ai-infrastructure,pending,2,"GPU computing, graphics processing, parallel computing, CUDA, GPU AI"
+What is Google Vertex AI,what-is-google-vertex-ai,ai-infrastructure,pending,2,"Vertex AI, Google Cloud, ML platform, GCP AI, model deployment"
+What is Guardrails,what-is-guardrails,ai-infrastructure,pending,2,"guardrails, AI guardrails, safety boundaries, content filter, responsible AI"
+What is GDPR AI,what-is-gdpr-ai,ai-safety,pending,2,"GDPR, data protection, privacy, AI regulation, EU privacy"
+What is Grasping in Robotics,what-is-grasping-in-robotics,ai-robotics,pending,2,"robot grasping, object grasping, pick and place, manipulation, grip AI"

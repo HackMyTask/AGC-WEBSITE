@@ -1,7 +1,7 @@
 ---
 title: "What is Backlog in AI Development"
 slug: "what-is-backlog-in-ai-development"
-description: "A list of tasks to be completed in AI project development."
+description: "A list of tasks to be completed in AI project development. Learn what backlog in ai development is and understand the fundamentals of artificial intelli..."
 keywords: ["AI development", "backlog", "project management", "task list", "prioritization"]
 cluster: "ai-basics"
 related_terms: ["agile-development", "project-management", "ai-model-training"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Backlog in AI Development?
+## What is Backlog in AI Development?
 A backlog in AI development is a list of tasks, features, or bugs that need to be addressed or resolved. It's like a to-do list for the development team, where they prioritize tasks based on importance and deadlines. The backlog is constantly updated as new tasks are added, completed, or removed. This helps the team stay focused on what needs to be done and ensures that the project is moving forward. For example, if an AI model is being developed to recognize images, the backlog might include tasks like "improve image recognition accuracy" or "fix bug causing incorrect image classification."
 
 ## Think of It Like This

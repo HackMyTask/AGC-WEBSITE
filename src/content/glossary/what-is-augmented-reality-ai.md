@@ -1,7 +1,7 @@
 ---
 title: "What is Augmented Reality AI"
 slug: "what-is-augmented-reality-ai"
-description: "Augmented Reality AI combines virtual and real worlds."
+description: "Augmented Reality AI combines virtual and real worlds. Learn what augmented reality ai is and use AI tools and applications in your daily life."
 keywords: ["augmented reality", "artificial intelligence", "virtual reality", "mixed reality", "computer vision"]
 cluster: "ai-tools"
 related_terms: ["what-is-artificial-intelligence", "what-is-computer-vision", "what-is-machine-learning"]

@@ -1,7 +1,7 @@
 ---
 title: "What is AI Detection"
 slug: "what-is-ai-detection"
-description: "AI Detection explains how artificial intelligence finds patterns."
+description: "AI Detection explains how artificial intelligence finds patterns. Learn what ai detection is and understand how to keep AI safe and trustworthy."
 keywords: ["artificial intelligence", "machine learning", "pattern recognition", "ai safety", "technology"]
 cluster: "ai-safety"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Detection?
+## What is AI Detection?
 AI Detection is a way artificial intelligence systems find and recognize patterns in data. This can be anything from images and videos to spoken words and written text. At a high level, AI Detection works by using machine learning algorithms, which are like recipes for the computer to follow. These algorithms help the computer learn from the data it's given, so it can make predictions or decisions about new data it encounters. For example, if you're trying to teach a computer to recognize pictures of dogs, you'd show it many pictures of dogs and tell it which ones are actually dogs. Over time, the computer would learn to recognize the patterns that make a dog a dog, like fur, four legs, and a tail. 
 
 ## Think of It Like This

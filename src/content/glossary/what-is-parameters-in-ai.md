@@ -1,7 +1,7 @@
 ---
 title: "What is Parameters in AI"
 slug: "what-is-parameters-in-ai"
-description: "Parameters in AI are adjustable values that help machines learn."
+description: "Parameters in AI are adjustable values that help machines learn. Learn what parameters in ai is and understand large language models and how they work."
 keywords: ["machine learning", "AI models", "data analysis", "algorithm", "computing"]
 cluster: "llms"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-neural-networks"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Parameters in AI?
+## What is Parameters in AI?
 Parameters in AI are the adjustable values that help machines learn from data. Think of them like the knobs on an old radio - you can tweak them to get the best signal. In AI, these knobs are the settings that a machine learning model uses to make predictions or take actions. For example, if you're trying to teach a computer to recognize pictures of cats, the parameters might be things like "how many edges to look for" or "what colors to focus on". The machine learning model adjusts these parameters as it learns from the data, trying to find the combination that works best. This process is called training, and it's how AI models get better at their tasks over time.
 
 ## Think of It Like This

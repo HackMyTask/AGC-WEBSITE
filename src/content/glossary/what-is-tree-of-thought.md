@@ -1,7 +1,7 @@
 ---
 title: "What is Tree of Thought"
 slug: "what-is-tree-of-thought"
-description: "Tree of Thought is a decision-making model."
+description: "Tree of Thought is a decision-making model. Learn what tree of thought is and get better results from AI through effective prompting."
 keywords: ["decision-making", "problem-solving", "artificial intelligence", "cognition", "logic"]
 cluster: "prompt-engineering"
 related_terms: ["decision-trees", "natural-language-processing", "machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Tree of Thought?
+## What is Tree of Thought?
 The Tree of Thought is a way to organize and visualize the steps involved in making a decision or solving a problem. It's like a flowchart, where each step is a node, and the nodes are connected by branches that represent different possible outcomes. This model is used in artificial intelligence to help computers make decisions or solve problems in a logical and methodical way. At a high level, it works by breaking down a complex problem into smaller, more manageable parts, and then analyzing each part to determine the best course of action. The Tree of Thought is a powerful tool for decision-making, as it allows computers to weigh the pros and cons of different options and choose the best one. By using this model, computers can make decisions that are more accurate and reliable, which is especially important in applications like healthcare, finance, and transportation.
 
 ## Think of It Like This

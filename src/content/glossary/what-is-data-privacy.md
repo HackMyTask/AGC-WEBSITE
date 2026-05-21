@@ -1,7 +1,7 @@
 ---
 title: "What is Data Privacy"
 slug: "what-is-data-privacy"
-description: "Data privacy protects personal info from misuse."
+description: "Data privacy protects personal info from misuse. Learn what data privacy is and understand how to keep AI safe and trustworthy."
 keywords: ["data protection", "online security", "personal info", "privacy laws", "safe data"]
 cluster: "ai-safety"
 related_terms: ["data-protection-laws", "online-security-measures", "personal-data-management"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Data Privacy?
+## What is Data Privacy?
 Data privacy is about keeping your personal information safe from people who shouldn't have it. It's like locking your door at home - you want to control who comes in and out. When you're online, you leave behind a trail of information, like your name, address, and what you like to buy. Data privacy helps make sure that trail doesn't get misused. It's a set of rules and practices that organizations follow to handle your personal data responsibly. This includes collecting, storing, and using your data in a way that respects your rights and keeps it secure.
 
 ## Think of It Like This

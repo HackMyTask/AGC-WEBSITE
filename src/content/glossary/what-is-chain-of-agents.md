@@ -1,7 +1,7 @@
 ---
 title: "What is Chain of Agents"
 slug: "what-is-chain-of-agents"
-description: "Chain of Agents explained in simple terms"
+description: "Chain of Agents explained in simple terms. Learn what chain of agents is and understand autonomous AI systems and how they operate."
 keywords: ["ai", "agents", "machine learning", "automation", "decision making"]
 cluster: "ai-agents"
 related_terms: ["what-is-multi-agent-systems", "introduction-to-reinforcement-learning", "understanding-artificial-intelligence"]

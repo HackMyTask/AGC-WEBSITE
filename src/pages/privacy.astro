@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Privacy Policy";
+const description = "Privacy Policy for AI Glossary for Beginners.";
+---
+
+<Layout title={title} description={description}>
+  <article class="max-w-2xl prose prose-invert">
+    <h1 class="text-4xl font-bold mb-8 text-white">Privacy Policy</h1>
+    <p class="text-slate-300 mb-4"><strong>Last updated:</strong> May 21, 2026</p>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-3">Information We Collect</h2>
+      <p class="text-slate-300 mb-3">We do not collect personal information beyond standard web analytics. Like most websites, we may collect anonymized aggregate data about page visits using Cloudflare Web Analytics.</p>
+      <p class="text-slate-300 mb-3">We do not use cookies, tracking scripts, or third-party analytics other than Cloudflare's privacy-first analytics, which does not track individual users.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-3">Search</h2>
+      <p class="text-slate-300 mb-3">Our search functionality runs entirely in your browser using Pagefind. No search queries are sent to any server.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-3">Third-Party Services</h2>
+      <p class="text-slate-300 mb-3">This site is hosted on Cloudflare Pages. Cloudflare may process your IP address and request metadata for security and performance purposes.</p>
+      <p class="text-slate-300 mb-3">We use Google Fonts for typography. Your browser fetches these fonts from Google's servers.</p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-3">Contact</h2>
+      <p class="text-slate-300">If you have questions about this privacy policy, please <a href="mailto:hello@ai-glossary.example.com" class="text-accent hover:underline">contact us</a>.</p>
+    </section>
+  </article>
+</Layout>

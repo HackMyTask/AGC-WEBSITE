@@ -27,11 +27,14 @@ jobs:
 
           python3 << 'EOF'
           import csv
+          import glob
           from collections import Counter
 
-          with open('data/terms.csv', 'r') as f:
-              reader = csv.DictReader(f)
-              slugs = [row['slug'] for row in reader]
+          slugs = []
+          for f in sorted(glob.glob('data/terms_*.csv')):
+              with open(f, 'r') as fh:
+                  reader = csv.DictReader(fh)
+                  slugs.extend(row['slug'] for row in reader)
 
           duplicates = [slug for slug, count in Counter(slugs).items() if count > 1]
 
@@ -50,15 +53,17 @@ jobs:
 
           python3 << 'EOF'
           import csv
+          import glob
           import os
           from pathlib import Path
 
           # Read all valid slugs
           valid_slugs = set()
-          with open('data/terms.csv', 'r') as f:
-              reader = csv.DictReader(f)
-              for row in reader:
-                  valid_slugs.add(row['slug'])
+          for f in sorted(glob.glob('data/terms_*.csv')):
+              with open(f, 'r') as fh:
+                  reader = csv.DictReader(fh)
+                  for row in reader:
+                      valid_slugs.add(row['slug'])
 
           # Check all markdown files
           broken_links = []
@@ -94,33 +99,27 @@ jobs:
 
           python3 << 'EOF'
           import csv
+          import glob
           import re
 
           errors = []
 
-          with open('data/terms.csv', 'r') as f:
-              reader = csv.DictReader(f)
-              for i, row in enumerate(reader, start=2):
-                  # Check required fields
-                  if not row.get('term'):
-                      errors.append(f"Row {i}: missing term")
-                  if not row.get('slug'):
-                      errors.append(f"Row {i}: missing slug")
-
-                  # Validate slug format
-                  slug = row.get('slug', '')
-                  if slug and not re.match(r'^[a-z0-9-]+$', slug):
-                      errors.append(f"Row {i}: invalid slug format '{slug}'")
-
-                  # Validate status
-                  status = row.get('status', '')
-                  if status not in ['pending', 'done', 'skip', 'failed']:
-                      errors.append(f"Row {i}: invalid status '{status}'")
-
-                  # Validate priority
-                  priority = row.get('priority', '')
-                  if priority not in ['1', '2']:
-                      errors.append(f"Row {i}: invalid priority '{priority}'")
+          for f in sorted(glob.glob('data/terms_*.csv')):
+              with open(f, 'r') as fh:
+                  for i, row in enumerate(csv.DictReader(fh), start=2):
+                      if not row.get('term'):
+                          errors.append(f"{f} row {i}: missing term")
+                      if not row.get('slug'):
+                          errors.append(f"{f} row {i}: missing slug")
+                      slug = row.get('slug', '')
+                      if slug and not re.match(r'^[a-z0-9-]+$', slug):
+                          errors.append(f"{f} row {i}: invalid slug format '{slug}'")
+                      status = row.get('status', '')
+                      if status not in ['pending', 'done', 'skip', 'failed']:
+                          errors.append(f"{f} row {i}: invalid status '{status}'")
+                      priority = row.get('priority', '')
+                      if priority not in ['1', '2']:
+                          errors.append(f"{f} row {i}: invalid priority '{priority}'")
 
           if errors:
               print(f"⚠️ Found {len(errors)} CSV errors:")
@@ -139,6 +138,7 @@ jobs:
 
           python3 << 'EOF'
           import csv
+          import glob
           from pathlib import Path
           from collections import defaultdict
 
@@ -147,12 +147,12 @@ jobs:
           priority_count = defaultdict(int)
           cluster_count = defaultdict(int)
 
-          with open('data/terms.csv', 'r') as f:
-              reader = csv.DictReader(f)
-              for row in reader:
-                  status_count[row['status']] += 1
-                  priority_count[row['priority']] += 1
-                  cluster_count[row['cluster']] += 1
+          for f in sorted(glob.glob('data/terms_*.csv')):
+              with open(f, 'r') as fh:
+                  for row in csv.DictReader(fh):
+                      status_count[row['status']] += 1
+                      priority_count[row['priority']] += 1
+                      cluster_count[row['cluster']] += 1
 
           # Count generated files
           glossary_dir = Path('src/content/glossary')

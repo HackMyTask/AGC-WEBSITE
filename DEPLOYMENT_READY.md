@@ -121,7 +121,7 @@ AGC-WEBSITE/
 │   ├── maintenance.yml         ← Weekly checks
 │   └── deploy.yml              ← Cloudflare deployment
 ├── content/glossary/           ← Generated articles
-├── data/terms.csv              ← 50 seed terms
+├── data/terms_*.csv            ← Per-letter term files
 ├── scripts/
 │   ├── api_client.py           ← AI provider abstraction
 │   ├── generate.py             ← Main CLI
@@ -224,7 +224,7 @@ Each workflow run shows:
 
 **Generation produces no articles?**
 - Check `logs/quality_failures.log` in workflow logs
-- Verify `data/terms.csv` has pending terms
+- Verify `data/terms_*.csv` has pending terms
 - Check API key is valid
 
 **Need to disable?**

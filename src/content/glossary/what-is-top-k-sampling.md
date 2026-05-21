@@ -1,7 +1,7 @@
 ---
 title: "What is Top-K Sampling"
 slug: "what-is-top-k-sampling"
-description: "Top-K Sampling is a method for selecting the most likely outcomes."
+description: "Top-K Sampling is a method for selecting the most likely outcomes. Learn what top-k sampling is and get better results from AI through effective prompting."
 keywords: ["artificial intelligence", "machine learning", "natural language processing", "language models", "sampling methods"]
 cluster: "prompt-engineering"
 related_terms: ["what-is-language-model", "how-does-text-generation-work", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Top-K Sampling?
+## What is Top-K Sampling?
 
 Top-K Sampling is a technique used in artificial intelligence to help machines make decisions. It's a way for computers to narrow down a huge list of possibilities to just the most likely ones. Imagine you're trying to write a sentence, and you need the computer to suggest the next word. There are thousands of possible words to choose from, but most of them wouldn't make sense in that context. Top-K Sampling helps the computer pick the top few words that are most likely to be the correct choice. This is done by assigning a score to each possibility, and then selecting the top-scoring ones. The "K" in Top-K Sampling refers to the number of top possibilities that the computer will consider.
 

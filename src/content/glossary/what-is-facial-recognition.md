@@ -1,7 +1,7 @@
 ---
 title: "What is Facial Recognition"
 slug: "what-is-facial-recognition"
-description: "Facial Recognition identifies people by their face."
+description: "Facial Recognition identifies people by their face. Learn what facial recognition is and understand the fundamentals of artificial intelligence."
 keywords: ["facial", "recognition", "ai", "biometrics", "security"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "deep-learning", "biometrics"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Facial Recognition?
+## What is Facial Recognition?
 Facial recognition is a way to identify people by using their face. It's like a super-accurate name tag that uses a computer to match your face to who you are. Here's how it works: a special computer program takes a picture of your face and then looks for matches in a big database of other faces. The program checks things like the distance between your eyes, the shape of your nose, and the curve of your jaw to find a match. This is done using something called machine learning, which is like a powerful tool that helps computers learn from data. In this case, the data is pictures of faces. The computer looks at many pictures, learns what makes each face unique, and then uses that knowledge to identify new faces.
 
 ## Think of It Like This

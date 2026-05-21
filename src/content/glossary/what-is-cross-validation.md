@@ -1,7 +1,7 @@
 ---
 title: "What is Cross Validation"
 slug: "what-is-cross-validation"
-description: "Cross validation is a method to test AI models"
+description: "Cross validation is a method to test AI models. Learn what cross validation is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "model testing", "cross validation", "data science"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-data-science", "what-is-artificial-intelligence"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Cross Validation?
+## What is Cross Validation?
 Cross validation is a way to test how well an artificial intelligence (AI) model works. Imagine you're trying to predict how well a student will do on a test based on their past grades. You would use the student's past grades to create a model that makes predictions. But, you need to make sure the model is accurate. That's where cross validation comes in. It's a method that helps you test the model by using some of the data to train the model and the rest to test it. This way, you can see how well the model performs on data it hasn't seen before. Think of it like trying out a recipe: you use some ingredients to make the dish and then test it with a separate group of people to see if they like it.
 
 ## Think of It Like This

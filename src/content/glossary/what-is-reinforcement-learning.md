@@ -1,7 +1,7 @@
 ---
 title: "What is Reinforcement Learning"
 slug: "what-is-reinforcement-learning"
-description: "Reinforcement Learning is a type of AI that learns by trial and error."
+description: "Reinforcement Learning is a type of AI that learns by trial and error. Learn what reinforcement learning is and understand the fundamentals of artificia..."
 keywords: ["Artificial Intelligence", "Machine Learning", "Deep Learning", "AI Training", "Autonomous Systems"]
 cluster: "ai-basics"
 related_terms: ["what-is-deep-learning", "what-is-machine-learning", "what-is-artificial-intelligence"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Reinforcement Learning?
+## What is Reinforcement Learning?
 Reinforcement Learning is a type of Artificial Intelligence that helps machines learn by interacting with their environment. It's like a child learning to ride a bike - they try, fall, and try again until they get it right. In Reinforcement Learning, a computer program or "agent" takes actions in a virtual or real-world environment and receives feedback in the form of rewards or penalties. The goal is to learn a strategy that maximizes the rewards over time. This process involves trial and error, where the agent adjusts its actions based on the feedback it receives. For example, a robot learning to pick up objects might receive a reward for successfully grasping an object and a penalty for dropping it.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is Deep Learning"
 slug: "what-is-deep-learning"
-description: "A type of machine learning that uses many layers."
+description: "A type of machine learning that uses many layers. Learn what deep learning is and understand the fundamentals of artificial intelligence."
 keywords: ["Machine Learning", "Artificial Intelligence", "Neural Networks", "AI Models", "Computer Science"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-artificial-intelligence", "what-is-neural-networks"]

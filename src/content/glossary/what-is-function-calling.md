@@ -1,7 +1,7 @@
 ---
 title: "What is Function Calling"
 slug: "what-is-function-calling"
-description: "Function calling is a way computers reuse code."
+description: "Function calling is a way computers reuse code. Learn what function calling is and understand autonomous AI systems and how they operate."
 keywords: ["programming", "code", "functions", "algorithms", "computation"]
 cluster: "ai-agents"
 related_terms: ["what-is-an-algorithm", "introduction-to-programming", "basics-of-computation"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Function Calling?
+## What is Function Calling?
 Function calling is a way for computers to reuse code, making their programs more efficient and easier to maintain. Think of code like a recipe: when you want to make a cake, you follow a series of steps. In computer programming, these steps are called functions. A function is a block of code that performs a specific task, like making a cake. When a computer needs to perform that task, it "calls" the function, which means it executes the code inside the function. This way, the computer doesn't have to rewrite the same code every time it needs to make a cake - it can just call the function. This saves time, reduces errors, and makes the program more modular.
 
 ## Think of It Like This

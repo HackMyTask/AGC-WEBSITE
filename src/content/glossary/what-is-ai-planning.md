@@ -1,7 +1,7 @@
 ---
 title: "What is AI Planning"
 slug: "what-is-ai-planning"
-description: "AI planning helps machines make decisions and take actions."
+description: "AI planning helps machines make decisions and take actions. Learn what ai planning is and understand autonomous AI systems and how they operate."
 keywords: ["artificial intelligence", "machine learning", "problem solving", "decision making", "automation"]
 cluster: "ai-agents"
 related_terms: ["introduction-to-artificial-intelligence", "machine-learning-basics", "natural-language-processing"]

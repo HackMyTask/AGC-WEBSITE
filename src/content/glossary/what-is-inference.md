@@ -1,7 +1,7 @@
 ---
 title: "What is Inference"
 slug: "what-is-inference"
-description: "Inference is a process used by AI to make predictions or decisions based on data."
+description: "Inference is a process used by AI to make predictions or decisions based on data. Learn what inference is and understand the fundamentals of artificial..."
 keywords: ["artificial intelligence", "machine learning", "prediction", "decision making", "data analysis"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "natural-language-processing", "deep-learning"]

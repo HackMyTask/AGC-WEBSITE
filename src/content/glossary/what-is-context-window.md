@@ -1,7 +1,7 @@
 ---
 title: "What is Context Window"
 slug: "what-is-context-window"
-description: "Context window explains how AI understands text."
+description: "Context window explains how AI understands text. Learn what context window is and understand large language models and how they work."
 keywords: ["context window", "ai", "language models", "machine learning", "natural language processing"]
 cluster: "llms"
 related_terms: ["what-is-language-model", "what-is-natural-language-processing", "what-is-machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Context Window?
+## What is Context Window?
 A context window is like a frame that helps artificial intelligence (AI) understand the meaning of text by looking at the words surrounding it. Think of it as a window that moves over a sentence or paragraph, examining the context in which each word is used. This context is crucial because words can have multiple meanings, and the only way to figure out which meaning is intended is by looking at the words nearby. For instance, the word "bank" can refer to a financial institution or the side of a river. A context window helps AI determine which definition is more likely based on the surrounding words. The size of the context window can vary, and it's an important factor in determining how well the AI can understand the text.
 
 ## Think of It Like This

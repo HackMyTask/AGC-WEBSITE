@@ -1,7 +1,7 @@
 ---
 title: "What is JSON Mode in AI"
 slug: "what-is-json-mode-in-ai"
-description: "JSON Mode is a way for computers to talk to each other."
+description: "JSON Mode is a way for computers to talk to each other. Learn what json mode in ai is and get better results from AI through effective prompting."
 keywords: ["JSON", "AI", "computer language", "data exchange", "programming"]
 cluster: "prompt-engineering"
 related_terms: ["what-is-json", "introduction-to-ai", "basics-of-programming"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is JSON Mode in AI?
+## What is JSON Mode in AI?
 JSON Mode in AI is a way for computers to share and understand information. It's like a common language that computers can use to talk to each other. JSON stands for JavaScript Object Notation, which is a format for storing and exchanging data between computers. At a high level, JSON Mode works by allowing computers to send and receive data in a structured format, making it easy for them to understand and use the information. This is important in AI because it enables computers to communicate with each other and with humans in a way that's efficient and accurate. For example, when you ask a virtual assistant like Siri or Alexa to do something, it uses JSON Mode to send your request to the computer servers that process the information.
 
 ## Think of It Like This

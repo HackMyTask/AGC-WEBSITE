@@ -1,7 +1,7 @@
 ---
 title: "What is AI Bias"
 slug: "what-is-ai-bias"
-description: "AI bias refers to unfair outcomes in AI decisions."
+description: "AI bias refers to unfair outcomes in AI decisions. Learn what ai bias is and understand how to keep AI safe and trustworthy."
 keywords: ["artificial intelligence", "machine learning", "algorithmic bias", "fairness", "discrimination"]
 cluster: "ai-safety"
 related_terms: ["machine-learning", "deep-learning", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Bias?
+## What is AI Bias?
 
 AI bias happens when artificial intelligence systems make decisions that are unfair or discriminatory. This can occur when the data used to train the AI system is biased, meaning it doesn't accurately represent the real world. For example, if an AI system is trained on data that mostly includes white, middle-aged men, it may not perform well on data from other groups. As a result, the AI system may make decisions that are unfair to people who are not well-represented in the data. This can lead to problems like incorrect predictions, unfair treatment, or even discrimination. AI bias can affect many areas of life, including hiring, lending, and law enforcement.
 

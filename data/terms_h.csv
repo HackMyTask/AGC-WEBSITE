@@ -1,0 +1,20 @@
+term,slug,cluster,status,priority,keywords
+What is Hallucination in AI,what-is-hallucination-in-ai,ai-basics,done,1,hallucination in ai
+What is Hyperparameter Tuning,what-is-hyperparameter-tuning,ai-basics,pending,1,"hyperparameter tuning, hyperparameter optimization, model tuning, grid search, AutoML"
+What is Hugging Face,what-is-hugging-face,ai-tools,pending,1,"Hugging Face, HF, AI community, model hub, open-source AI"
+What is Hallucination Prevention,what-is-hallucination-prevention,ai-safety,pending,2,hallucination prevention
+What is Human in the Loop AI,what-is-human-in-the-loop-ai,ai-agents,pending,1,human in the loop ai
+What is Heuristics in AI,what-is-heuristics-in-ai,ai-basics,done,2,heuristics in ai
+What is Heuristic,what-is-heuristic,ai-basics,pending,2,"heuristic, problem solving, rule of thumb, mental shortcut, approximation"
+What is Human-in-the-Loop,what-is-human-in-the-loop,ai-basics,pending,2,"human in the loop, HITL, human oversight, human feedback, interactive ML"
+What is Human-Centered AI,what-is-human-centered-ai,ai-basics,pending,2,"human-centered AI, HCAI, human AI interaction, user-centered AI, ethical AI design"
+What is High-Dimensional Data,what-is-high-dimensional-data,ai-basics,pending,2,"high-dimensional data, many features, curse of dimensionality, sparse data, multidimensional"
+What is Hybrid AI,what-is-hybrid-ai,ai-basics,pending,2,"hybrid AI, symbolic AI, neural symbolic, combined AI, neuro-symbolic"
+What is Hyperautomation,what-is-hyperautomation,ai-basics,pending,2,"hyperautomation, intelligent automation, RPA AI, process automation, automated everything"
+What is Human Agent Interaction,what-is-human-agent-interaction,ai-agents,pending,2,"human agent interaction, HAI, human AI team, agent handoff, human oversight"
+What is HeyGen AI,what-is-heygen-ai,ai-tools,pending,2,"HeyGen, AI video, avatar, video translation, AI presenter, video generation"
+What is Harvey AI,what-is-harvey-ai,ai-tools,pending,2,"Harvey AI, legal AI, law firm AI, legal assistant, AI lawyer"
+What is HNSW,what-is-hnsw,ai-infrastructure,pending,2,"HNSW, hierarchical navigable small world, ANN algorithm, vector search, graph index"
+What is Hugging Face Transformers,what-is-hugging-face-transformers,ai-infrastructure,pending,2,"Hugging Face, Transformers, model library, NLP library, AI models"
+What is Humanoid Robot,what-is-humanoid-robot,ai-robotics,pending,2,"humanoid robot, human-like robot, bipedal, humanoid, android"
+What is HumanEval Benchmark,what-is-humaneval-benchmark,ai-research,pending,2,"HumanEval, coding benchmark, code generation, function completion, OpenAI benchmark"

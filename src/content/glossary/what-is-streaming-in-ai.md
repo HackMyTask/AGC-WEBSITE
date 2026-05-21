@@ -1,7 +1,7 @@
 ---
 title: "What is Streaming in AI"
 slug: "what-is-streaming-in-ai"
-description: "Streaming in AI means processing data in real-time."
+description: "Streaming in AI means processing data in real-time. Learn what streaming in ai is and learn about the technology powering AI systems."
 keywords: ["streaming", "AI", "real-time", "data", "processing"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-real-time-processing", "what-is-data-processing", "what-is-artificial-intelligence"]

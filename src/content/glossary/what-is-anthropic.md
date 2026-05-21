@@ -1,7 +1,7 @@
 ---
 title: "What is Anthropic"
 slug: "what-is-anthropic"
-description: "Anthropic is an AI company creating human-centered AI models"
+description: "Anthropic is an AI company creating human-centered AI models. Learn what anthropic is and use AI tools and applications in your daily life."
 keywords: ["anthropic", "ai company", "human-centered ai", "language models", "ai safety"]
 cluster: "ai-tools"
 related_terms: ["what-is-llama", "what-is-chatbot", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Anthropic?
+## What is Anthropic?
 Anthropic is a company that works on creating artificial intelligence models. These models are designed to be helpful and safe for humans to use. At a high level, Anthropic focuses on building language models that can understand and respond to human input in a way that's helpful and easy to use. This is different from some other AI models that might be more focused on specific tasks, like recognizing pictures or playing games. Think of Anthropic like a team of researchers and engineers working together to create AI that's designed to assist and augment human capabilities, rather than just performing a specific function. They use a range of techniques, including machine learning and natural language processing, to build their models.
 
 ## Think of It Like This

@@ -1,7 +1,7 @@
 ---
 title: "What is Copilot"
 slug: "what-is-copilot"
-description: "An AI assistant that helps with tasks."
+description: "An AI assistant that helps with tasks. Learn what copilot is and use AI tools and applications in your daily life."
 keywords: ["artificial intelligence", "ai assistant", "productivity tool", "coding aid", "language model"]
 cluster: "ai-tools"
 related_terms: ["what-is-chatgpt", "what-is-language-model", "what-is- machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Copilot?
+## What is Copilot?
 Copilot is a type of artificial intelligence (AI) designed to assist humans with various tasks, especially those that involve writing or coding. At its core, Copilot is a computer program that uses natural language processing to understand what you're trying to do and then helps you complete the task. It works by analyzing the context of what you're doing and providing suggestions or completing tasks for you. For example, if you're writing code, Copilot can suggest the next line of code based on what you've written so far. Think of it like having a personal assistant who's really good at understanding what you need and helping you get it done. This AI assistant is trained on a massive amount of data, which enables it to learn patterns and relationships between different pieces of information.
 
 ## Think of It Like This

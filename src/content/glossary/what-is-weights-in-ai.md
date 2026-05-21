@@ -1,7 +1,7 @@
 ---
 title: "What is Weights in AI"
 slug: "what-is-weights-in-ai"
-description: "Weights in AI control importance of data."
+description: "Weights in AI control importance of data. Learn what weights in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "neural networks", "deep learning", "data analysis"]
 cluster: "ai-basics"
 related_terms: ["what-is-neural-networks", "what-is-deep-learning", "what-is-machine-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Weights in AI?
+## What is Weights in AI?
 Weights in AI are essentially numbers that control how important each piece of data is when making a decision. Think of a scale where some data points are heavy and others are light - the heavy ones get more attention. In artificial intelligence, specifically in machine learning, these weights are crucial because they help the computer learn from the data it's given. For instance, if we're trying to teach a computer to recognize pictures of dogs, the weights would determine how much attention the computer pays to different features like fur, ears, or tails. This process allows the computer to make accurate predictions or decisions based on the data. At a high level, the goal is to adjust these weights so that the computer gets better and better at its task over time.
 
 ## Think of It Like This

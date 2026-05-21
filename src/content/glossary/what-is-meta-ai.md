@@ -1,7 +1,7 @@
 ---
 title: "What is Meta AI"
 slug: "what-is-meta-ai"
-description: "Meta AI is a tool for creating artificial intelligence models"
+description: "Meta AI is a tool for creating artificial intelligence models. Learn what meta ai is and use AI tools and applications in your daily life."
 keywords: ["artificial intelligence", "machine learning", "meta", "ai models", "facebook"]
 cluster: "ai-tools"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-deep-learning"]

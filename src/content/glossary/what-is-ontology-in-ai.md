@@ -1,7 +1,7 @@
 ---
 title: "What is Ontology in AI"
 slug: "what-is-ontology-in-ai"
-description: "Ontology in AI helps computers understand meanings."
+description: "Ontology in AI helps computers understand meanings. Learn what ontology in ai is and learn about the technology powering AI systems."
 keywords: ["artificial intelligence", "machine learning", "data organization", "information retrieval", "knowledge representation"]
 cluster: "ai-infrastructure"
 related_terms: ["natural-language-processing", "machine-learning", "data-organization"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Ontology in AI?
+## What is Ontology in AI?
 Ontology in AI is a way to help computers understand the meaning of things. It's like creating a big dictionary that explains what words, phrases, and ideas are related to each other. This dictionary, or ontology, is used by artificial intelligence systems to make sense of the vast amount of data they process. At a high level, ontology works by defining concepts, such as "person" or "city," and then describing how these concepts are connected. For example, a person lives in a city, and a city is part of a country. By understanding these relationships, computers can better comprehend and generate human-like language.
 
 ## Think of It Like This

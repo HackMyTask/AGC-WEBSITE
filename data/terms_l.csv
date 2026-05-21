@@ -1,0 +1,26 @@
+term,slug,cluster,status,priority,keywords
+What is an LLM,what-is-an-llm,ai-basics,pending,1,an llm
+What is Loss Function,what-is-loss-function,ai-basics,done,1,"loss function, cost function, optimization, model training, error function"
+What is Learning Rate,what-is-learning-rate,ai-basics,done,1,learning rate
+What is Llama,what-is-llama,llms,pending,1,llama
+What is LangChain,what-is-langchain,ai-agents,pending,1,"LangChain, LLM framework, AI development, chain of thought, LLM orchestration"
+What is LoRA,what-is-lora,llms,done,1,"LoRA, low-rank adaptation, fine-tuning, parameter-efficient, model adaptation"
+What is Latency in AI,what-is-latency-in-ai,ai-infrastructure,done,2,latency in ai
+What is Latent Representation,what-is-latent-representation,ai-basics,pending,2,latent representation
+What is Labeled Data,what-is-labeled-data,ai-basics,pending,1,labeled data
+What is Lazy Learning,what-is-lazy-learning,ai-basics,pending,2,lazy learning
+What is Linear Regression,what-is-linear-regression,ai-basics,pending,2,"linear regression, linear model, regression, prediction line, simple regression"
+What is Logit,what-is-logit,llms,pending,2,"logit, raw score, unnormalized probability, model output, softmax input"
+What is Logit Bias,what-is-logit-bias,llms,pending,2,"logit bias, token bias, output adjustment, probability shift, generation control"
+What is LORA Fine-Tuning,what-is-lora-fine-tuning,llms,pending,2,"LoRA, low-rank adaptation, parameter-efficient, adapter, fine-tuning method"
+What is Large Action Model,what-is-large-action-model,ai-agents,pending,2,"large action model, LAM, action model, agent model, action prediction"
+What is Lovable,what-is-lovable,ai-tools,pending,2,"Lovable, AI app builder, no-code builder, app generator, full-stack AI"
+What is Luma AI,what-is-luma-ai,ai-tools,pending,2,"Luma AI, 3D capture, 3D AI, NeRF, 3D modeling"
+What is Leonardo AI,what-is-leonardo-ai,ai-tools,pending,2,"Leonardo AI, AI image, game art, image generation, AI art tool"
+What is Lindy AI,what-is-lindy-ai,ai-tools,pending,2,"Lindy, AI employee, AI worker, automation AI, business AI"
+What is Lavender AI,what-is-lavender-ai,ai-tools,pending,2,"Lavender, sales email, email AI, sales assistant, outreach AI"
+What is LlamaIndex,what-is-llamaindex,ai-infrastructure,pending,2,"LlamaIndex, data framework, LLM data, RAG framework, document index"
+What is LangSmith,what-is-langsmith,ai-infrastructure,pending,2,"LangSmith, LLM observability, tracing, evaluation, LangChain monitoring"
+What is LLM Observability,what-is-llm-observability,ai-infrastructure,pending,2,"LLM observability, tracing, monitoring, LLM analytics, prompt analytics"
+What is Language Identification,what-is-language-identification,ai-voice,pending,2,"language identification, language detection, auto language, language recognition, multilingual"
+What is LiDAR AI,what-is-lidar-ai,ai-robotics,pending,2,"LiDAR, laser scanning, 3D sensing, depth sensing, light detection"

@@ -74,7 +74,7 @@ All visible in workflow run logs on GitHub.
 
 **Generation produces no articles?**
 - Check `logs/quality_failures.log` in workflow logs
-- Verify `data/terms.csv` has pending terms
+- Verify `data/terms_*.csv` has pending terms
 - Check API key is valid
 
 **Need to disable?**

@@ -1,7 +1,7 @@
 ---
 title: "What is Deepfake"
 slug: "what-is-deepfake"
-description: "A fake audio or video made using AI."
+description: "A fake audio or video made using AI. Learn what deepfake is and use AI tools and applications in your daily life."
 keywords: ["deep learning", "artificial intelligence", "machine learning", "fake news", "media manipulation"]
 cluster: "ai-tools"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Deepfake?
+## What is Deepfake?
 
 A deepfake is a type of fake audio or video that is made using artificial intelligence (AI). This means that a computer program uses complex algorithms to create a new piece of media, like a video or audio clip, that looks or sounds like it was created by someone else. At a high level, deepfakes work by using a type of AI called deep learning, which is a way of teaching computers to recognize patterns in data. This allows the computer to learn what a person's face or voice looks or sounds like, and then create a new version of it. For example, a deepfake might be a video of a famous person saying something they never actually said, or an audio clip of a friend's voice that was actually created by a computer.
 

@@ -1,7 +1,7 @@
 ---
 title: "What is Prompt Engineering"
 slug: "what-is-prompt-engineering"
-description: "Crafting effective instructions for AI systems"
+description: "Crafting effective instructions for AI systems. Learn what prompt engineering is and get better results from AI through effective prompting."
 keywords: ["AI instructions", "language models", "natural language processing", "machine learning", "human-computer interaction"]
 cluster: "prompt-engineering"
 related_terms: ["natural-language-processing", "language-models", "human-computer-interaction"]

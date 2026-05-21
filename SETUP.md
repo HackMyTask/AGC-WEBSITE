@@ -146,7 +146,7 @@ Each workflow run shows:
 
 **Generation produces no articles:**
 - Check `logs/quality_failures.log` in workflow logs
-- Verify `data/terms.csv` has pending terms
+- Verify `data/terms_*.csv` has pending terms
 - Check daily token limit hasn't been exceeded
 
 **Deployment fails:**
@@ -169,7 +169,7 @@ gh workflow run generate-content.yml -f priority=1
 npm run generate:single -- what-is-rag
 
 # Then commit and push
-git add content/glossary/ data/terms.csv
+git add content/glossary/ data/terms_*.csv
 git commit -m "chore: regenerate what-is-rag"
 git push
 ```
@@ -220,7 +220,7 @@ Add to workflow after deployment:
 3. **Test locally first:** Run `npm run generate:dry-run` before enabling auto-generation
 4. **Keep secrets secure:** Never commit `.env` or API keys
 5. **Review generated content:** Spot-check articles for quality
-6. **Update terms.csv regularly:** Add new terms to keep pipeline active
+6. **Update terms files regularly:** Add new terms to the appropriate `data/terms_{letter}.csv` file
 
 ## Disabling Workflows
 

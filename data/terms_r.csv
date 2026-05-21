@@ -1,0 +1,42 @@
+term,slug,cluster,status,priority,keywords
+What is RAG,what-is-rag,llms,done,1,"RAG, retrieval augmented generation, knowledge retrieval, LLM knowledge, AI search retrieval"
+What is Retrieval Augmented Generation,what-is-retrieval-augmented-generation,llms,pending,1,"retrieval augmented generation, RAG, knowledge retrieval, LLM augmentation, grounded generation"
+What is Regularization,what-is-regularization,ai-basics,pending,1,regularization
+What is Reinforcement Learning,what-is-reinforcement-learning,ai-basics,done,1,"reinforcement learning, RL, reward system, agent learning, trial and error"
+What is Role Prompting,what-is-role-prompting,prompt-engineering,done,1,role prompting
+What is Runway ML,what-is-runway-ml,ai-tools,done,2,runway ml
+What is ReAct Prompting,what-is-react-prompting,ai-agents,done,2,react prompting
+What is RLHF,what-is-rlhf,llms,done,1,rlhf
+What is Recommendation System,what-is-recommendation-system,ai-basics,done,1,recommendation system
+What is Retrieval in AI,what-is-retrieval-in-ai,ai-infrastructure,done,1,retrieval in ai
+What is Reasoning Engine,what-is-reasoning-engine,ai-agents,pending,1,reasoning engine
+What is Responsible AI,what-is-responsible-ai,ai-safety,pending,1,"responsible AI, ethical AI, trustworthy AI, AI principles, fair AI"
+What is ROC Curve,what-is-roc-curve,ai-basics,pending,2,"ROC curve, receiver operating characteristic, true positive rate, false positive rate, AUC"
+What is R squared,what-is-r-squared,ai-basics,pending,2,"R squared, coefficient of determination, variance explained, goodness of fit, regression metric"
+What is Rule-Based AI,what-is-rule-based-ai,ai-basics,pending,2,"rule-based AI, expert system, if-then rules, symbolic AI, deterministic AI"
+What is Reinforcement Learning from Human Feedback,what-is-reinforcement-learning-from-human-feedback,ai-basics,pending,2,"RLHF, human feedback, AI alignment, reward model, preference learning"
+What is Random Search,what-is-random-search,ai-basics,pending,2,"random search, hyperparameter tuning, random sampling, optimization, search method"
+What is Rate Limiting,what-is-rate-limiting,llms,pending,2,"rate limit, API limit, request limit, throttling, usage quota"
+What is Reasoning Model,what-is-reasoning-model,llms,pending,2,"reasoning model, thinking model, chain-of-thought, logic AI, step-by-step"
+What is Residual Connection,what-is-residual-connection,llms,pending,2,"residual connection, skip connection, ResNet, gradient flow, deep network"
+What is ReAct Pattern,what-is-react-pattern,ai-agents,pending,2,"ReAct, reasoning acting, think act, agent pattern, thought action"
+What is Research Agent,what-is-research-agent,ai-agents,pending,2,"research agent, AI researcher, research assistant, information gathering, analysis agent"
+What is ReWOO Pattern,what-is-rewoo-pattern,ai-agents,pending,2,"ReWOO, reasoning without observation, agent efficiency, plan then act, optimization"
+What is Reasoning Loop,what-is-reasoning-loop,ai-agents,pending,2,"reasoning loop, thought loop, agent reasoning, iterative thinking, self-reflection"
+What is Reflection in Agents,what-is-reflection-in-agents,ai-agents,pending,2,"reflection, self-reflection, agent reflection, self-critique, improvement cycle"
+What is Replit AI,what-is-replit-ai,ai-tools,pending,2,"Replit, Replit AI, AI coding environment, cloud IDE, AI developer"
+What is Runway AI,what-is-runway-ai,ai-tools,pending,2,"Runway, AI video, video generation, RunwayML, AI filmmaking"
+What is Rytr AI,what-is-rytr-ai,ai-tools,pending,2,"Rytr, AI writing, content assistant, AI copywriting, budget AI writer"
+What is Remini AI,what-is-remini-ai,ai-tools,pending,2,"Remini, AI photo enhancer, image upscale, photo restoration, AI enhancement"
+What is Remove bg,what-is-remove-bg,ai-tools,pending,2,"remove.bg, background removal, image background, AI background, photo editing"
+What is Reclaim AI,what-is-reclaim-ai,ai-tools,pending,2,"Reclaim, AI scheduling, calendar AI, productivity, time management"
+What is Reflect AI,what-is-reflect-ai,ai-tools,pending,2,"Reflect, AI notes, note-taking, linked notes, AI knowledge"
+What is Relevance AI,what-is-relevance-ai,ai-tools,pending,2,"Relevance AI, AI agents, no-code agents, AI team, agent platform"
+What is Regie AI,what-is-regie-ai,ai-tools,pending,2,"Regie, AI sales, sales writing, outreach, sales automation, AI copy"
+What is Replicate,what-is-replicate,ai-infrastructure,pending,2,"Replicate, cloud inference, model API, AI deployment, model hosting"
+What is Ray AI,what-is-ray-ai,ai-infrastructure,pending,2,"Ray, distributed AI, parallel computing, AI scaling, ML framework"
+What is Responsible AI Development,what-is-responsible-ai-development,ai-safety,pending,2,"responsible AI, AI development, ethical development, safe AI, best practices"
+What is Real-Time Voice AI,what-is-real-time-voice-ai,ai-voice,pending,2,"real-time voice, live voice, streaming voice, low-latency voice, voice AI"
+What is Robotics,what-is-robotics,ai-robotics,pending,2,"robotics, robot, automation, robotic system, mechanical AI"
+What is Robot Learning,what-is-robot-learning,ai-robotics,pending,2,"robot learning, robot training, robotic AI, learn robot, robot skill"
+What is Robotic Arm,what-is-robotic-arm,ai-robotics,pending,2,"robotic arm, robot arm, manipulator, industrial robot, arm automation"

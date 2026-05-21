@@ -1,7 +1,7 @@
 ---
 title: "What is Meta Prompting"
 slug: "what-is-meta-prompting"
-description: "A technique to improve AI performance by generating better prompts"
+description: "A technique to improve AI performance by generating better prompts. Learn what meta prompting is and get better results from AI through effective prompt..."
 keywords: ["AI", "prompting", "meta", "language models", "natural language processing"]
 cluster: "prompt-engineering"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Meta Prompting?
+## What is Meta Prompting?
 Meta prompting is a technique used to improve the performance of artificial intelligence (AI) models, particularly those that understand and generate human-like language. At a high level, it works by generating better prompts or questions that can be used to interact with these AI models. Think of a prompt like a question you would ask a smart assistant, like "What's the weather like today?" But instead of just asking a simple question, meta prompting involves creating a series of prompts that help the AI model understand the context and provide a more accurate response. This can be done by providing additional information or clarifying the question in a way that helps the AI model give a better answer. For example, instead of just asking "What's the weather like?", a meta prompt might ask "I'm planning a trip to the beach tomorrow, what's the weather forecast for the next 24 hours?" This additional context helps the AI model provide a more relevant and accurate response.
 
 ## Think of It Like This

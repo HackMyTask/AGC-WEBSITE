@@ -1,7 +1,7 @@
 ---
 title: "What is Transfer Learning"
 slug: "what-is-transfer-learning"
-description: "Transfer learning is a technique where AI models use pre-existing knowledge."
+description: "Transfer learning is a technique where AI models use pre-existing knowledge. Learn what transfer learning is and understand large language models and ho..."
 keywords: ["machine learning", "artificial intelligence", "deep learning", "neural networks", "computer science"]
 cluster: "llms"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-neural-networks"]

@@ -6,6 +6,20 @@ const description = "Learn about our mission to explain AI simply for everyone."
 ---
 
 <Layout title={title} description={description}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AI Glossary for Beginners",
+      "url": "https://ailibrary.site",
+      "description": "AI explained simply for normal humans. Learn AI concepts in plain language.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@ai-glossary.example.com",
+        "contactType": "customer support"
+      }
+    })} />
+  </Fragment>
   <article class="max-w-2xl">
     <h1 class="text-4xl font-bold mb-8">About AI Glossary</h1>
 

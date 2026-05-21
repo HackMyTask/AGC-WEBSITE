@@ -1,7 +1,7 @@
 ---
 title: "What is AI in Healthcare"
 slug: "what-is-ai-in-healthcare"
-description: "AI improves healthcare by helping doctors diagnose and treat patients."
+description: "AI improves healthcare by helping doctors diagnose and treat patients. Learn what ai in healthcare is and understand the fundamentals of artificial inte..."
 keywords: ["healthcare", "artificial intelligence", "machine learning", "medical technology", "health tech"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI in Healthcare?
+## What is AI in Healthcare?
 AI in healthcare refers to the use of artificial intelligence to improve medical care. It's like having a super smart computer that can help doctors and nurses do their jobs better. This computer can look at lots of information, like medical images and patient records, and help make decisions about how to treat patients. For example, AI can help doctors diagnose diseases like cancer by looking at medical images like X-rays and MRIs. It works by using machine learning, which is a type of AI that can learn from data, to find patterns in the images that might not be visible to the human eye. This can help doctors make more accurate diagnoses and develop treatment plans that are tailored to each patient's needs.
 
 ## Think of It Like This

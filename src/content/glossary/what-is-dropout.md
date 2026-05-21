@@ -1,7 +1,7 @@
 ---
 title: "What is Dropout"
 slug: "what-is-dropout"
-description: "Dropout prevents AI models from overfitting."
+description: "Dropout prevents AI models from overfitting. Learn what dropout is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "neural networks", "overfitting", "regularization"]
 cluster: "ai-basics"
 related_terms: ["what-is-overfitting", "what-is-regularization", "what-is-neural-network"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Dropout?
+## What is Dropout?
 Dropout is a technique used in artificial intelligence to prevent something called overfitting. Overfitting happens when a model is too closely fit to the data it was trained on, making it perform poorly on new, unseen data. Imagine you're trying to learn a new language, and you only practice with one person - you'll get really good at understanding that person, but you might struggle to understand others. Dropout helps by randomly "dropping out" or ignoring some of the model's connections during training, so it doesn't rely too heavily on any one piece of information. This makes the model more general and better at handling new situations. Think of it like a teacher who makes sure you're not just memorizing one example, but can apply what you've learned to many different problems.
 
 ## Think of It Like This

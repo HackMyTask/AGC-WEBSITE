@@ -1,7 +1,7 @@
 ---
 title: "What is GPU in AI"
 slug: "what-is-gpu-in-ai"
-description: "GPU explains the role of graphics cards in AI processing"
+description: "GPU explains the role of graphics cards in AI processing. Learn what gpu in ai is and learn about the technology powering AI systems."
 keywords: ["GPU", "AI", "graphics cards", "machine learning", "computing"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-cpu-in-ai", "what-is-tpu-in-ai", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is GPU in AI?
+## What is GPU in AI?
 A GPU, or Graphics Processing Unit, is a special type of computer chip that helps with complex calculations. In the context of Artificial Intelligence, GPUs play a crucial role in speeding up machine learning tasks. Normally, a computer's central processing unit (CPU) handles most tasks, but CPUs can be slow when dealing with large amounts of data. That's where GPUs come in – they're designed to handle many small tasks simultaneously, making them perfect for AI calculations. Imagine a CPU as a very smart, but slow, worker who can only do one task at a time, while a GPU is like a team of workers who can do many tasks quickly.
 
 ## Think of It Like This

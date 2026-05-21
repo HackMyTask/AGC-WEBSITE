@@ -1,7 +1,7 @@
 ---
 title: "What is Inductive Learning"
 slug: "what-is-inductive-learning"
-description: "Inductive learning is a method of making predictions based on past data."
+description: "Inductive learning is a method of making predictions based on past data. Learn what inductive learning is and understand the fundamentals of artificial..."
 keywords: ["machine learning", "artificial intelligence", "prediction", "pattern recognition", "data analysis"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-supervised-learning", "what-is-deep-learning"]

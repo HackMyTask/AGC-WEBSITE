@@ -1,7 +1,7 @@
 ---
 title: "What is Recommendation System"
 slug: "what-is-recommendation-system"
-description: "A system suggesting items based on user behavior."
+description: "A system suggesting items based on user behavior. Learn what recommendation system is and understand the fundamentals of artificial intelligence."
 keywords: ["recommendation", "personalization", "machine learning", "user experience", "suggestions"]
 cluster: "ai-basics"
 related_terms: ["natural-language-processing", "machine-learning", "deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Recommendation System?
+## What is Recommendation System?
 A recommendation system is a type of computer program that suggests items or products to users based on their behavior, preferences, or interests. It works by analyzing data about the user, such as their past purchases, search history, or ratings, and then using that information to predict what they might like in the future. This can be done using various techniques, including something called "collaborative filtering," which looks at the behavior of similar users to make recommendations. For example, if you've bought several books by the same author, a recommendation system might suggest other books by that author or similar authors. The system is constantly learning and improving its suggestions as it gets more data about the user.
 
 ## Think of It Like This

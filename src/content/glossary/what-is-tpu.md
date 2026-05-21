@@ -1,7 +1,7 @@
 ---
 title: "What is TPU"
 slug: "what-is-tpu"
-description: "Custom computer chip for AI tasks"
+description: "Custom computer chip for AI tasks. Learn what tpu is and learn about the technology powering AI systems."
 keywords: ["tpu", "tensor", "google", "ai hardware", "machine learning"]
 cluster: "ai-infrastructure"
 related_terms: ["what-is-ai", "machine-learning", "neural-networks"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is TPU?
+## What is TPU?
 A TPU, or Tensor Processing Unit, is a special kind of computer chip designed specifically for artificial intelligence (AI) tasks. It's made by Google and is used to speed up machine learning processes, like image recognition, natural language processing, and more. At a high level, a TPU works by breaking down complex AI tasks into smaller parts and solving them quickly, using a lot of simple calculations all at once. This is different from a regular computer chip, which is better at doing one complex task at a time. Think of it like a sports car: a regular chip is like a reliable sedan, while a TPU is like a Formula 1 car, built for speed and agility in a specific area. TPUs are also designed to be extremely energy-efficient, which means they can do a lot of work without using too much power.
 
 ## Think of It Like This

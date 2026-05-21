@@ -1,7 +1,7 @@
 ---
 title: "What is AI Model"
 slug: "what-is-ai-model"
-description: "A computer program that learns from data"
+description: "A computer program that learns from data. Learn what ai model is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "computer program", "data analysis", "predictive model"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-neural-network"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Model?
+## What is AI Model?
 An AI model is a computer program that uses data to make predictions or decisions. It's like a recipe for your computer, telling it exactly what to do with the information it receives. The program looks at the data, finds patterns, and learns from it. This process is called training, and it's how the model gets better at making predictions over time. Think of it like a student learning from a teacher - the more data the model gets, the more it learns and the better it becomes. For example, if you're trying to teach a computer to recognize pictures of dogs, you would feed it a lot of pictures of dogs and tell it which ones are actually dogs. The model would then learn what makes a dog a dog and be able to recognize new pictures of dogs it has never seen before.
 
 ## Think of It Like This

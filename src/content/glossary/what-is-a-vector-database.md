@@ -1,7 +1,7 @@
 ---
 title: "What is a Vector Database"
 slug: "what-is-a-vector-database"
-description: "A vector database stores complex data like images and texts as vectors."
+description: "A vector database stores complex data like images and texts as vectors. Learn what a vector database is and learn about the technology powering AI systems."
 keywords: ["vector", "database", "artificial intelligence", "machine learning", "data storage"]
 cluster: "ai-infrastructure"
 related_terms: ["natural-language-processing", "machine-learning-models", "data-preprocessing"]

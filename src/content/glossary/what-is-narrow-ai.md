@@ -1,7 +1,7 @@
 ---
 title: "What is Narrow AI"
 slug: "what-is-narrow-ai"
-description: "Narrow AI is a type of artificial intelligence focused on one task."
+description: "Narrow AI is a type of artificial intelligence focused on one task. Learn what narrow ai is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "narrow ai", "ai basics", "technology"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-deep-learning"]

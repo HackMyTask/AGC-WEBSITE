@@ -1,7 +1,7 @@
 ---
 title: "What is RLHF"
 slug: "what-is-rlhf"
-description: "RLHF is a way to train AI models to be more accurate."
+description: "RLHF is a way to train AI models to be more accurate. Learn what rlhf is and understand large language models and how they work."
 keywords: ["AI training", "language models", "machine learning", "natural language processing", "conversational AI"]
 cluster: "llms"
 related_terms: ["what-is-llm", "how-does-chatbot-work", "natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is RLHF?
+## What is RLHF?
 RLHF stands for Reinforcement Learning from Human Feedback. It's a technique used to train artificial intelligence (AI) models, especially those that understand and generate human-like language. Think of AI models like super-smart computers that can learn from data. To train them, we need to show them lots of examples and tell them when they're right or wrong. RLHF is a way to do this by having humans provide feedback on the AI's responses. This feedback helps the AI learn what's good and what's not, so it can improve over time. The goal is to create AI models that can have natural conversations with people, answering questions and providing helpful information.
 
 ## Think of It Like This

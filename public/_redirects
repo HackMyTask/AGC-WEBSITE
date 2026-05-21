@@ -1,0 +1,5 @@
+# Redirect Cloudflare Pages default domain to custom domain
+https://agc-website.pages.dev/* https://ailibrary.site/:splat 301
+
+# Redirect www to non-www (optional)
+https://www.ailibrary.site/* https://ailibrary.site/:splat 301

@@ -1,7 +1,7 @@
 ---
 title: "What is Epoch in Machine Learning"
 slug: "what-is-epoch-in-machine-learning"
-description: "Epoch is a term used in machine learning to describe a cycle of training."
+description: "Epoch is a term used in machine learning to describe a cycle of training. Learn what epoch in machine learning is and understand the fundamentals of art..."
 keywords: ["machine learning", "training cycle", "artificial intelligence", "neural networks", "deep learning"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-neural-network", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Epoch in Machine Learning?
+## What is Epoch in Machine Learning?
 An epoch is a term used in machine learning to describe a cycle of training where a model learns from a dataset. Think of a dataset like a big library with lots of books. Each book represents a single piece of information, like an image or a sentence. When a model goes through an epoch, it reads every book in the library once. The model then uses what it learned from those books to make predictions or decisions. This process is repeated many times, with the model getting a little better each time, until it becomes really good at making accurate predictions. The number of epochs can vary depending on the complexity of the task and the size of the dataset.
 
 ## Think of It Like This

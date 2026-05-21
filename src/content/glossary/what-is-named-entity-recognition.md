@@ -1,7 +1,7 @@
 ---
 title: "What is Named Entity Recognition"
 slug: "what-is-named-entity-recognition"
-description: "Identify names in text with AI."
+description: "Identify names in text with AI. Learn what named entity recognition is and understand the fundamentals of artificial intelligence."
 keywords: ["natural language processing", "machine learning", "text analysis", "information extraction", "artificial intelligence"]
 cluster: "ai-basics"
 related_terms: ["natural-language-processing", "machine-learning", "part-of-speech-tagging"]

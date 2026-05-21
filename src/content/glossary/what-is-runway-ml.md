@@ -1,7 +1,7 @@
 ---
 title: "What is Runway ML"
 slug: "what-is-runway-ml"
-description: "Runway ML is a platform for building AI models"
+description: "Runway ML is a platform for building AI models. Learn what runway ml is and use AI tools and applications in your daily life."
 keywords: ["machine learning", "artificial intelligence", "ai tools", "ml platform", "creative ai"]
 cluster: "ai-tools"
 related_terms: ["what-is-machine-learning", "what-is-deep-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Runway ML?
+## What is Runway ML?
 
 Runway ML is a platform that helps people build and use artificial intelligence models. It's designed to be user-friendly, so you don't need to be an expert in coding or machine learning to use it. Runway ML allows you to create models that can generate text, images, and other types of content. It works by providing a simple interface where you can upload your data, choose a model, and train it to perform a specific task. For example, you could use Runway ML to build a model that generates realistic images of animals or a model that writes short stories. The platform takes care of the complex technical details, so you can focus on building and using your AI model.
 

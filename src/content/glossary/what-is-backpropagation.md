@@ -1,7 +1,7 @@
 ---
 title: "What is Backpropagation"
 slug: "what-is-backpropagation"
-description: "Backpropagation is a way AI learns from mistakes"
+description: "Backpropagation is a way AI learns from mistakes. Learn what backpropagation is and understand the fundamentals of artificial intelligence."
 keywords: ["backpropagation", "machine learning", "artificial intelligence", "neural networks", "deep learning"]
 cluster: "ai-basics"
 related_terms: ["what-is-machine-learning", "what-is-neural-network", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Backpropagation?
+## What is Backpropagation?
 Backpropagation is a way artificial intelligence (AI) systems learn from their mistakes. Imagine you're trying to hit a target with a ball, but you keep missing. To get better, you need to adjust your aim based on how far off you were. Backpropagation is like adjusting your aim, but for AI. It helps the system figure out what went wrong and how to improve next time. This process involves looking at the difference between what the AI thought would happen and what actually happened, and then using that information to make adjustments. Think of it as a feedback loop that helps the AI get closer to its goal.
 
 ## Think of It Like This

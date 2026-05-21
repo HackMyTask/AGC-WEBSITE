@@ -1,7 +1,7 @@
 ---
 title: "What is AI Chatbot"
 slug: "what-is-ai-chatbot"
-description: "A computer program that talks to humans."
+description: "A computer program that talks to humans. Learn what ai chatbot is and use AI tools and applications in your daily life."
 keywords: ["AI", "chatbot", "computer program", "artificial intelligence", "machine learning"]
 cluster: "ai-tools"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-natural-language-processing"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is AI Chatbot?
+## What is AI Chatbot?
 An AI chatbot is a computer program designed to have conversations with humans, either through text or voice interactions. It uses artificial intelligence to understand what you're saying and respond in a way that's helpful and relevant. Imagine you're talking to a customer service representative, but instead of a human, it's a computer program that's answering your questions and solving your problems. At a high level, chatbots work by using something called natural language processing, which is like a super-smart translator that helps the computer understand what you're saying. The chatbot then uses this understanding to look up information, make decisions, and generate a response that's sent back to you.
 
 ## Think of It Like This

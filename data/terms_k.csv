@@ -1,0 +1,12 @@
+term,slug,cluster,status,priority,keywords
+What is Knowledge Graph,what-is-knowledge-graph,ai-infrastructure,pending,1,"knowledge graph, semantic network, relationship graph, entity relationship, AI knowledge"
+What is Knowledge Base,what-is-knowledge-base,ai-infrastructure,pending,1,knowledge base
+What is Keyword Extraction,what-is-keyword-extraction,ai-basics,pending,2,keyword extraction
+What is Kernel Method,what-is-kernel-method,ai-basics,pending,2,"kernel method, kernel trick, SVM, non-linear transformation, feature mapping"
+What is Knowledge Representation,what-is-knowledge-representation,ai-basics,pending,2,"knowledge representation, KR, symbolic AI, knowledge base, formal knowledge"
+What is KFold Cross-Validation,what-is-kfold-cross-validation,ai-basics,pending,2,"k-fold cross-validation, cross validation, model validation, k-fold, data splitting"
+What is KV Cache,what-is-kv-cache,llms,pending,2,"KV cache, key-value cache, attention cache, inference optimization, transformer cache"
+What is Knowledge Agent,what-is-knowledge-agent,ai-agents,pending,2,"knowledge agent, research agent, information agent, knowledge retrieval, fact agent"
+What is Krisp AI,what-is-krisp-ai,ai-tools,pending,2,"Krisp, noise cancellation, AI audio, voice clarity, meeting AI"
+What is Kubernetes for AI,what-is-kubernetes-for-ai,ai-infrastructure,pending,2,"Kubernetes, K8s, orchestration, AI deployment, container management"
+What is Kubeflow,what-is-kubeflow,ai-infrastructure,pending,2,"Kubeflow, Kubernetes ML, ML pipeline, cloud native, AI platform"

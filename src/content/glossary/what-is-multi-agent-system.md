@@ -1,7 +1,7 @@
 ---
 title: "What is Multi Agent System"
 slug: "what-is-multi-agent-system"
-description: "A system with multiple AI agents working together"
+description: "A system with multiple AI agents working together. Learn what multi agent system is and understand autonomous AI systems and how they operate."
 keywords: ["multi-agent", "artificial intelligence", "AI agents", "cooperation", "autonomy"]
 cluster: "ai-agents"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-deep-learning"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Multi Agent System?
+## What is Multi Agent System?
 A Multi Agent System is a type of artificial intelligence where multiple agents work together to achieve a common goal. These agents can be thought of as individual computers or robots that are connected and can communicate with each other. Each agent has its own capabilities and limitations, but by working together, they can accomplish more complex tasks than any single agent could alone. This is similar to how humans work together in a team to achieve a common objective. In a Multi Agent System, each agent makes its own decisions based on the information it receives from other agents, and the system as a whole can adapt to changing circumstances. The key concept here is autonomy - each agent can act independently, but they still work together towards a shared goal.
 
 ## Think of It Like This

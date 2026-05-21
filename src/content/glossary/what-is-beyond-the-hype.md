@@ -1,7 +1,7 @@
 ---
 title: "What is Beyond the Hype"
 slug: "what-is-beyond-the-hype"
-description: "Going past the excitement to understand AI"
+description: "Going past the excitement to understand AI. Learn what beyond the hype is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "machine learning", "hype", "technology", "innovation"]
 cluster: "ai-basics"
 related_terms: ["understanding-ai", "machine-learning-basics", "ai-in-daily-life"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Beyond the Hype?
+## What is Beyond the Hype?
 Beyond the Hype refers to looking past the excitement and expectations surrounding artificial intelligence (AI) to understand what it can really do and how it works. AI is a type of computer science that enables machines to think and learn like humans. At a high level, AI systems use something called machine learning, which is like a set of instructions that helps computers learn from data, such as pictures, words, or sounds. This process allows AI systems to improve their performance on a task over time, similar to how humans learn from experience. For instance, imagine you're trying to recognize different types of dogs - the more pictures of dogs you see, the better you become at identifying them. AI works in a similar way, using lots of data to learn and make decisions.
 
 ## Think of It Like This

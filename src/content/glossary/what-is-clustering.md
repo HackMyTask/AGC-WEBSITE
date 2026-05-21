@@ -1,7 +1,7 @@
 ---
 title: "What is Clustering"
 slug: "what-is-clustering"
-description: "Clustering groups similar things together."
+description: "Clustering groups similar things together. Learn what clustering is and understand the fundamentals of artificial intelligence."
 keywords: ["clustering", "machine learning", "ai", "pattern recognition", "data analysis"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "pattern-recognition", "data-analysis"]

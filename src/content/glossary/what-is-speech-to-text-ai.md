@@ -1,7 +1,7 @@
 ---
 title: "What is Speech to Text AI"
 slug: "what-is-speech-to-text-ai"
-description: "AI that converts spoken words to text"
+description: "AI that converts spoken words to text. Learn what speech to text ai is and use AI tools and applications in your daily life."
 keywords: ["speech recognition", "voice to text", "voice assistants", "natural language processing", "transcription"]
 cluster: "ai-tools"
 related_terms: ["what-is-natural-language-processing", "what-is-speech-recognition", "what-is-voice-assistant"]
@@ -11,7 +11,7 @@ author: "AI Glossary Team"
 schema_type: "DefinedTerm"
 ---
 
-## What is What is Speech to Text AI?
+## What is Speech to Text AI?
 
 Speech to Text AI is a type of artificial intelligence that can listen to spoken words and convert them into written text. This technology uses complex algorithms to recognize the sounds and patterns of human speech, allowing it to accurately transcribe spoken language into text. At a high level, it works by first capturing the audio signal of a person's voice, then using machine learning models to identify the individual sounds and words being spoken. These sounds are then matched to a vast database of language patterns and vocabulary, enabling the AI to generate a written transcript of the spoken words. This process happens quickly and often in real-time, making it a powerful tool for communication and productivity.
 

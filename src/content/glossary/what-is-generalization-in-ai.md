@@ -1,7 +1,7 @@
 ---
 title: "What is Generalization in AI"
 slug: "what-is-generalization-in-ai"
-description: "AI models learning to apply rules to new situations"
+description: "AI models learning to apply rules to new situations. Learn what generalization in ai is and understand the fundamentals of artificial intelligence."
 keywords: ["machine learning", "artificial intelligence", "deep learning", "neural networks", "pattern recognition"]
 cluster: "ai-basics"
 related_terms: ["machine-learning", "deep-learning", "neural-networks"]

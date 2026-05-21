@@ -1,7 +1,7 @@
 ---
 title: "What is the Chinese Room Argument"
 slug: "what-is-the-chinese-room-argument"
-description: "A thought experiment about AI understanding."
+description: "A thought experiment about AI understanding. Learn what the chinese room argument is and understand the fundamentals of artificial intelligence."
 keywords: ["artificial intelligence", "Chinese Room", "thought experiment", "Searle", "cognition"]
 cluster: "ai-basics"
 related_terms: ["what-is-artificial-intelligence", "what-is-machine-learning", "what-is-natural-language-processing"]
