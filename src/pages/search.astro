@@ -23,14 +23,14 @@ const description = "Search the AI Glossary";
     </div>
   </div>
 
-  <script>
+  <script is:inline>
     const searchInput = document.getElementById('search-input');
     const resultsContainer = document.getElementById('search-results');
     let pagefind = null;
 
     async function getPagefind() {
       if (!pagefind) {
-        pagefind = await import(/* @vite-ignore */ '/pagefind/pagefind.js');
+        pagefind = await import('/pagefind/pagefind.js');
       }
       return pagefind;
     }
