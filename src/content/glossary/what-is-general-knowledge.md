@@ -28,7 +28,3 @@ The key thing to remember about general knowledge is that it's a foundation for 
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-machine-learning, what-is-natural-language-processing
-
-## Related Terms
-
-None

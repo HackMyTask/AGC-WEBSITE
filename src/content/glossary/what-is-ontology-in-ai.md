@@ -28,7 +28,3 @@ The key thing to remember about ontology in AI is that it's a way to help comput
 
 ## Related Terms
 natural-language-processing, machine-learning, data-organization
-
-## Related Terms
-
-None

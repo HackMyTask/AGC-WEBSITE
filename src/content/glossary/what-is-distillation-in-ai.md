@@ -28,7 +28,3 @@ The key thing to remember about distillation is that it's a way to transfer know
 
 ## Related Terms
 machine-learning, neural-networks, deep-learning
-
-## Related Terms
-
-None

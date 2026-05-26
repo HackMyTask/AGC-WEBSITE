@@ -28,7 +28,3 @@ The key thing to remember about text classification is that it's a way to automa
 
 ## Related Terms
 natural-language-processing, machine-learning, sentiment-analysis
-
-## Related Terms
-
-None

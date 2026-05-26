@@ -28,7 +28,3 @@ The key thing to remember about Siri is that it's a virtual assistant designed t
 
 ## Related Terms
 what-is-alexa, what-is-google-assistant, what-is-cortana
-
-## Related Terms
-
-None

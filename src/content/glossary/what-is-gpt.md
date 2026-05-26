@@ -28,7 +28,3 @@ The key thing to remember about GPT is that it's a powerful tool for generating 
 
 ## Related Terms
 language-models, natural-language-processing, chatbots
-
-## Related Terms
-
-None

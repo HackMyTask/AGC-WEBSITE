@@ -33,7 +33,3 @@ The key takeaway is that AutoGPT is a powerful artificial intelligence model tha
 
 ## Related Terms
 what-is-gpt, what-is-machine-learning, what-is-artificial-intelligence
-
-## Related Terms
-
-None

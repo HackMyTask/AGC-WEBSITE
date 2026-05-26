@@ -28,7 +28,3 @@ The core idea of AI safety is to prevent AI systems from causing harm, whether i
 
 ## Related Terms
 introduction-to-artificial-intelligence, machine-learning-basics, data-privacy
-
-## Related Terms
-
-None

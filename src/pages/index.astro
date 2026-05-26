@@ -34,13 +34,13 @@ allArticles.forEach(article => {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "AI Glossary for Beginners",
-      "url": "https://ailibrary.site",
+      "url": Astro.site.origin,
       "description": description,
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://ailibrary.site/search?q={search_term_string}"
+          "urlTemplate": Astro.site.origin + "/search?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }

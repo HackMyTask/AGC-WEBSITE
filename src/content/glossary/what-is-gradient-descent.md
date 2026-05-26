@@ -33,7 +33,3 @@ The key thing to remember about Gradient Descent is that it's a method for findi
 
 ## Related Terms
 what-is-machine-learning, what-is-neural-network, what-is-deep-learning
-
-## Related Terms
-
-None

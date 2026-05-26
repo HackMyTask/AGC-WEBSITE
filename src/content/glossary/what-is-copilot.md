@@ -28,7 +28,3 @@ The key thing to remember about Copilot is that it's designed to assist humans, 
 
 ## Related Terms
 what-is-chatgpt, what-is-language-model, what-is-machine-learning
-
-## Related Terms
-
-None

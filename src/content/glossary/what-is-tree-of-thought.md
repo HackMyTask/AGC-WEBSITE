@@ -28,7 +28,3 @@ The key thing to remember about the Tree of Thought is that it's a powerful tool
 
 ## Related Terms
 decision-trees, natural-language-processing, machine-learning
-
-## Related Terms
-
-None

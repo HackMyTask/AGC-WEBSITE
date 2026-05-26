@@ -28,7 +28,3 @@ The key thing to remember about AI search is that it's designed to make finding 
 
 ## Related Terms
 natural-language-processing, machine-learning, information-retrieval
-
-## Related Terms
-
-None

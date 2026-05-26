@@ -28,7 +28,3 @@ The key thing to remember about neural networks is that they're designed to lear
 
 ## Related Terms
 machine-learning, deep-learning, natural-language-processing
-
-## Related Terms
-
-None

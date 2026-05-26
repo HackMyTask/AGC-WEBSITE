@@ -28,7 +28,3 @@ The key takeaway from explainability is that it's about transparency and trust i
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-machine-learning, what-is-accountability
-
-## Related Terms
-
-None

@@ -28,7 +28,3 @@ The key takeaway is that prompt chaining is a powerful technique for improving t
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
-
-## Related Terms
-
-None

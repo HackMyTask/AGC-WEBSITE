@@ -28,7 +28,3 @@ The key thing to remember about feature engineering is that it's all about prepa
 
 ## Related Terms
 machine-learning, natural-language-processing, data-preprocessing
-
-## Related Terms
-
-None

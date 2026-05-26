@@ -28,7 +28,3 @@ The key thing to remember about AI is that it's a tool designed to make your lif
 
 ## Related Terms
 machine-learning, deep-learning, natural-language-processing
-
-## Related Terms
-
-None

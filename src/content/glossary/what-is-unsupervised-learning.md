@@ -28,7 +28,3 @@ The key thing to remember about unsupervised learning is that it helps computers
 
 ## Related Terms
 what-is-supervised-learning, what-is-reinforcement-learning, what-is-deep-learning
-
-## Related Terms
-
-None

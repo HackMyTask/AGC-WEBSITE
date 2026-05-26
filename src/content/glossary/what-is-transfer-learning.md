@@ -33,7 +33,3 @@ The key thing to remember about transfer learning is that it allows AI models to
 
 ## Related Terms
 what-is-machine-learning, what-is-deep-learning, what-is-neural-networks
-
-## Related Terms
-
-None

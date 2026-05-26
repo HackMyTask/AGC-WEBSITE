@@ -28,7 +28,3 @@ The key takeaway is that AI Ethics is essential for ensuring that artificial int
 
 ## Related Terms
 machine-learning, deep-learning, natural-language-processing
-
-## Related Terms
-
-None

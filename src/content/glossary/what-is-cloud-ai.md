@@ -28,7 +28,3 @@ The key thing to remember about Cloud AI is that it's a way of accessing powerfu
 
 ## Related Terms
 machine-learning, natural-language-processing, computer-vision
-
-## Related Terms
-
-None

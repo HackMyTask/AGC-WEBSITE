@@ -28,7 +28,3 @@ The key thing to remember about AI upscaling is that it's a powerful tool that c
 
 ## Related Terms
 what-is-ai, what-is-machine-learning, what-is-computer-vision
-
-## Related Terms
-
-None

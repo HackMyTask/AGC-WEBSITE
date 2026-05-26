@@ -28,7 +28,3 @@ The key thing to remember about discriminative AI is that it's all about learnin
 
 ## Related Terms
 what-is-supervised-learning, what-is-neural-network, what-is-deep-learning
-
-## Related Terms
-
-None

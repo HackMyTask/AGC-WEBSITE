@@ -28,7 +28,3 @@ The key thing to remember about TPUs is that they're specialized computer chips 
 
 ## Related Terms
 what-is-ai, machine-learning, neural-networks, deep-learning
-
-## Related Terms
-
-None

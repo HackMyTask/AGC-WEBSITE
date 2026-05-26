@@ -28,7 +28,3 @@ The key thing to remember about RAG models is that they combine the ability to f
 
 ## Related Terms
 what-is-llm, what-is-nlp, what-is-information-retrieval
-
-## Related Terms
-
-None

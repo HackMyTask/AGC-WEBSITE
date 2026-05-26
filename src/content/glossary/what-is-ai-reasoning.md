@@ -28,7 +28,3 @@ The key thing to remember about AI Reasoning is that it's a way for computers to
 
 ## Related Terms
 machine-learning, natural-language-processing, decision-tree
-
-## Related Terms
-
-None

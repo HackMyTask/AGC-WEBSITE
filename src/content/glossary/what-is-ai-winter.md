@@ -28,7 +28,3 @@ The key thing to remember about AI Winter is that it's a natural part of the inn
 
 ## Related Terms
 machine-learning, deep-learning, natural-language-processing
-
-## Related Terms
-
-None

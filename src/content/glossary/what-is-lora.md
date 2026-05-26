@@ -28,7 +28,3 @@ The most important thing to remember about LoRA is that it's a technique that he
 
 ## Related Terms
 transformers, language models, fine-tuning
-
-## Related Terms
-
-None

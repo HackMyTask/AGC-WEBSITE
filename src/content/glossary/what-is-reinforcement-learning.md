@@ -28,7 +28,3 @@ The key thing to remember about Reinforcement Learning is that it's a type of AI
 
 ## Related Terms
 what-is-deep-learning, what-is-machine-learning, what-is-artificial-intelligence
-
-## Related Terms
-
-None

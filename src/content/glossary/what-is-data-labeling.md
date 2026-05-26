@@ -33,7 +33,3 @@ The key to data labeling is that it provides context and explanations to help AI
 
 ## Related Terms
 machine-learning, natural-language-processing, computer-vision
-
-## Related Terms
-
-None

@@ -28,7 +28,3 @@ The key takeaway is that AI Monitoring is essential for ensuring that AI systems
 
 ## Related Terms
 machine-learning, natural-language-processing, computer-vision
-
-## Related Terms
-
-None

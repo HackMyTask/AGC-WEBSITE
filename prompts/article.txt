@@ -20,7 +20,7 @@ Follow this exact structure (including the --- frontmatter delimiters):
 ---
 title: "{TITLE}"
 slug: "{SLUG}"
-description: "WRITE_A_CLEAR_ONE_SENTENCE_DESCRIPTION_MAX_160_CHARS"
+description: "WRITE_A_CLEAR_ONE_SENTENCE_DESCRIPTION_MAX_140_CHARS"
 keywords: ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]
 cluster: "{CLUSTER}"
 related_terms: ["related-slug-1", "related-slug-2", "related-slug-3"]

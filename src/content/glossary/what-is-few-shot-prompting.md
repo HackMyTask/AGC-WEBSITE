@@ -28,7 +28,3 @@ The one thing to remember about Few Shot Prompting is that it's a way of trainin
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3, language models, natural language processing, prompt engineering
-
-## Related Terms
-
-None

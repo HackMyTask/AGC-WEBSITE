@@ -33,7 +33,3 @@ The key thing to remember about the Transformer Architecture is that it's a type
 
 ## Related Terms
 natural-language-processing, deep-learning, neural-networks
-
-## Related Terms
-
-None

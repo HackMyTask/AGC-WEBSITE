@@ -28,7 +28,3 @@ The key takeaway is that Role Prompting helps AI models understand their role an
 
 ## Related Terms
 what-is-prompt-engineering, what-is-language-model, what-is-conversational-ai
-
-## Related Terms
-
-None

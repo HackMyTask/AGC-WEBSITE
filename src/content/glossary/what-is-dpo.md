@@ -33,7 +33,3 @@ The key thing to remember about a DPO is that they are responsible for protectin
 
 ## Related Terms
 what-is-gdpr, data-privacy, information-security
-
-## Related Terms
-
-None

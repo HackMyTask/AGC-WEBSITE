@@ -28,7 +28,3 @@ The key thing to remember about AI code generation is that it's a tool designed 
 
 ## Related Terms
 what-is-artificial-intelligence, machine-learning, natural-language-processing
-
-## Related Terms
-
-None

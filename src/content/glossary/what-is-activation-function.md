@@ -28,7 +28,3 @@ The key takeaway is that an activation function is a mathematical function that 
 
 ## Related Terms
 what-is-neural-network, what-is-deep-learning, what-is-machine-learning
-
-## Related Terms
-
-None

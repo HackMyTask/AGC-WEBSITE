@@ -28,7 +28,3 @@ The main thing to remember about dropout is that it helps prevent overfitting by
 
 ## Related Terms
 what-is-overfitting, what-is-regularization, what-is-neural-network
-
-## Related Terms
-
-None

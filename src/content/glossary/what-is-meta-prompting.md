@@ -28,7 +28,3 @@ The key thing to remember about meta prompting is that it's a technique used to 
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
-
-## Related Terms
-
-None

@@ -28,7 +28,3 @@ The key thing to remember about data privacy is that it's about controlling your
 
 ## Related Terms
 data-protection-laws, online-security-measures, personal-data-management
-
-## Related Terms
-
-None

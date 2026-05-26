@@ -28,7 +28,3 @@ The key concept to remember about Multi Agent Systems is that they are all about
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-machine-learning, what-is-deep-learning
-
-## Related Terms
-
-None

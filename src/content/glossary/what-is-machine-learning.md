@@ -28,7 +28,3 @@ The key thing to remember about Machine Learning is that it's a type of Artifici
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-deep-learning, what-is-natural-language-processing
-
-## Related Terms
-
-None

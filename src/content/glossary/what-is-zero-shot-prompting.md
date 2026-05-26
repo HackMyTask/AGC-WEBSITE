@@ -28,7 +28,3 @@ The key thing to remember about Zero Shot Prompting is that it allows AI to do t
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
-
-## Related Terms
-
-None

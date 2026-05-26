@@ -33,7 +33,3 @@ The key thing to remember about deepfakes is that they're created using complex 
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-machine-learning, what-is-natural-language-processing
-
-## Related Terms
-
-None

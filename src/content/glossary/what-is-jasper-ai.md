@@ -33,7 +33,3 @@ The key thing to remember about Jasper AI is that it's a tool designed to assist
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
-
-## Related Terms
-
-None

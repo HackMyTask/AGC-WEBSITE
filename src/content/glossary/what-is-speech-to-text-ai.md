@@ -33,7 +33,3 @@ The key thing to remember about Speech to Text AI is that it's a powerful tool t
 
 ## Related Terms
 what-is-natural-language-processing, what-is-speech-recognition, what-is-voice-assistant
-
-## Related Terms
-
-None

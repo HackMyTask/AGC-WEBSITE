@@ -28,7 +28,3 @@ The key thing to remember about AI Guardrails is that they are essential for ens
 
 ## Related Terms
 ai-bias, explainable-ai, ai-regulation
-
-## Related Terms
-
-None

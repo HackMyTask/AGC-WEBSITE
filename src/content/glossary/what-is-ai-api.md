@@ -28,7 +28,3 @@ The key thing to remember about AI APIs is that they act as a bridge between dif
 
 ## Related Terms
 machine-learning-models, natural-language-processing, deep-learning
-
-## Related Terms
-
-None

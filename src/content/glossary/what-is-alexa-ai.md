@@ -28,7 +28,3 @@ The key thing to remember about Alexa AI is that it's a powerful tool that can m
 
 ## Related Terms
 smart-home-devices, virtual-assistants, natural-language-processing
-
-## Related Terms
-
-None

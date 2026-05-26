@@ -28,7 +28,3 @@ Deep learning is a powerful tool that helps computers make decisions by using ma
 
 ## Related Terms
 what-is-machine-learning, what-is-artificial-intelligence, what-is-neural-networks
-
-## Related Terms
-
-None

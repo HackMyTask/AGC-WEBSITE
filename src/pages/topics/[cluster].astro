@@ -33,7 +33,7 @@ const allArticles = await getCollection('glossary');
 const articles = allArticles.filter(a => a.data.cluster === cluster);
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
-const siteURL = "https://ailibrary.site";
+const siteURL = Astro.site.origin;
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -57,7 +57,7 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": siteURL + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Topics", "item": siteURL + "/topics" },
+        { "@type": "ListItem", "position": 2, "name": "Topics" },
         { "@type": "ListItem", "position": 3, "name": meta.name, "item": canonicalURL }
       ]
     }

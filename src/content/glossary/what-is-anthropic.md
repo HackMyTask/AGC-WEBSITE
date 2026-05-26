@@ -28,7 +28,3 @@ The one thing to remember about Anthropic is that they're focused on creating AI
 
 ## Related Terms
 what-is-llama, what-is-chatbot, what-is-natural-language-processing
-
-## Related Terms
-
-None

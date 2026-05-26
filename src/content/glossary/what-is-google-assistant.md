@@ -28,7 +28,3 @@ The key thing to remember about Google Assistant is that it's a virtual helper t
 
 ## Related Terms
 what-is-alexa, what-is-siri, what-is-ok-google
-
-## Related Terms
-
-None

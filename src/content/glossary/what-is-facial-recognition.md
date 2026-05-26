@@ -28,7 +28,3 @@ The key thing to remember about facial recognition is that it's a powerful tool 
 
 ## Related Terms
 machine-learning, deep-learning, biometrics
-
-## Related Terms
-
-None

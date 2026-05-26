@@ -28,7 +28,3 @@ The key thing to remember about AI writing assistants is that they're designed t
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3, natural language processing, machine learning
-
-## Related Terms
-
-None

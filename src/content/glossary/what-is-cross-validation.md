@@ -28,7 +28,3 @@ The one thing to remember about cross validation is that it's a way to test how 
 
 ## Related Terms
 what-is-machine-learning, what-is-data-science, what-is-artificial-intelligence
-
-## Related Terms
-
-None

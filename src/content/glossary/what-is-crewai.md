@@ -33,7 +33,3 @@ The key thing to remember about CrewAI is that it's a tool designed to help team
 
 ## Related Terms
 what-is-artificial-intelligence, machine-learning-basics, natural-language-processing
-
-## Related Terms
-
-None

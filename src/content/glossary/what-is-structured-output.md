@@ -28,7 +28,3 @@ The key thing to remember about structured output is that it's all about making 
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
-
-## Related Terms
-
-None

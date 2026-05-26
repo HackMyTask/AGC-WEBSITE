@@ -28,7 +28,3 @@ The key thing to remember about cognitive computing is that it's all about simul
 
 ## Related Terms
 machine-learning, natural-language-processing, neural-networks
-
-## Related Terms
-
-None

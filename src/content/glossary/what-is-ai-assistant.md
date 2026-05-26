@@ -28,7 +28,3 @@ The key thing to remember about AI assistants is that they're designed to make y
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-machine-learning, what-is-chatbot
-
-## Related Terms
-
-None

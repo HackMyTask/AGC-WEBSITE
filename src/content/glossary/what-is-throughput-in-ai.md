@@ -28,7 +28,3 @@ The key takeaway is that throughput in AI refers to the speed at which a system 
 
 ## Related Terms
 what-is-ai, machine-learning, natural-language-processing
-
-## Related Terms
-
-None

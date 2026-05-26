@@ -28,7 +28,3 @@ The key thing to remember about RLHF is that it's a technique used to train AI m
 
 ## Related Terms
 what-is-llm, how-does-chatbot-work, natural-language-processing
-
-## Related Terms
-
-None

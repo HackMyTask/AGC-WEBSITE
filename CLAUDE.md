@@ -181,7 +181,7 @@ BATCH_SIZE=20                 # Default batch size
 ### Astro Config
 
 - Output: static (100% SSG, no runtime)
-- Site URL: https://ai-glossary.example.com (update for production)
+- Site URL: https://ailibrary.site
 - Tailwind integration enabled
 
 ## Common Tasks

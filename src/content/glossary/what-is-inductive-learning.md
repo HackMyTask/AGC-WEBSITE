@@ -28,7 +28,3 @@ The key thing to remember about inductive learning is that it's a way of making 
 
 ## Related Terms
 what-is-machine-learning, what-is-supervised-learning, what-is-deep-learning
-
-## Related Terms
-
-None

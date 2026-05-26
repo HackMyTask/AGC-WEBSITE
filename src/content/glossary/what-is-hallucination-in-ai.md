@@ -28,7 +28,3 @@ The key thing to remember about AI hallucination is that it's a flaw in AI syste
 
 ## Related Terms
 what-is-ai, how-does-machine-learning-work, what-is-deep-learning
-
-## Related Terms
-
-None
