@@ -28,3 +28,7 @@ The key takeaway is that MCPs are specialized processors designed to handle comp
 
 ## Related Terms
 what-is-cloud-computing, introduction-to-machine-learning, microprocessor-explained
+
+## Related Terms
+
+None

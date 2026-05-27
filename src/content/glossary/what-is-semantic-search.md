@@ -33,3 +33,7 @@ The key thing to remember about semantic search is that it's all about understan
 
 ## Related Terms
 natural-language-processing, information-retrieval, contextual-search
+
+## Related Terms
+
+None

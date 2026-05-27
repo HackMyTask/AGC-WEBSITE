@@ -28,3 +28,7 @@ The key thing to remember about Weaviate is that it's a powerful tool for making
 
 ## Related Terms
 what-is-vector-search, what-is-natural-language-processing, what-is-machine-learning
+
+## Related Terms
+
+None

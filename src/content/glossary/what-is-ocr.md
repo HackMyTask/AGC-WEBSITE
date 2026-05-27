@@ -28,3 +28,7 @@ The key thing to remember about OCR is that it bridges the gap between printed a
 
 ## Related Terms
 image-recognition, natural-language-processing, machine-learning
+
+## Related Terms
+
+None

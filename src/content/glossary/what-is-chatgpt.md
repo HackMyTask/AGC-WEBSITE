@@ -28,3 +28,7 @@ The most important thing to remember about ChatGPT is that it's a tool designed 
 
 ## Related Terms
 what-is-ai, natural-language-processing, machine-learning
+
+## Related Terms
+
+None

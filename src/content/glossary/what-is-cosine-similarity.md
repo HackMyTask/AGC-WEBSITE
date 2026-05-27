@@ -33,3 +33,7 @@ The key thing to remember about cosine similarity is that it measures the angle 
 
 ## Related Terms
 natural-language-processing, vector-space-model, recommendation-systems
+
+## Related Terms
+
+None

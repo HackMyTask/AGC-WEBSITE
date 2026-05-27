@@ -28,3 +28,7 @@ The key thing to remember about AI chatbots is that they're designed to have con
 
 ## Related Terms
 what-is-artificial-intelligence, what-is-machine-learning, what-is-natural-language-processing
+
+## Related Terms
+
+None

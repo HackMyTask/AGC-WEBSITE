@@ -28,3 +28,7 @@ The key thing to remember about AI in healthcare is that it's a tool that can he
 
 ## Related Terms
 what-is-machine-learning, what-is-deep-learning, what-is-natural-language-processing
+
+## Related Terms
+
+None

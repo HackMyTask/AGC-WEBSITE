@@ -28,3 +28,7 @@ The main thing to remember about Grammarly AI is that it's a tool designed to he
 
 ## Related Terms
 what-is-ai, natural-language-processing, machine-learning
+
+## Related Terms
+
+None

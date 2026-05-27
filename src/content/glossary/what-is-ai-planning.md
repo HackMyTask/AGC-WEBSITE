@@ -28,3 +28,7 @@ The key idea to remember is that AI planning is about enabling machines to make 
 
 ## Related Terms
 introduction-to-artificial-intelligence, machine-learning-basics, natural-language-processing
+
+## Related Terms
+
+None

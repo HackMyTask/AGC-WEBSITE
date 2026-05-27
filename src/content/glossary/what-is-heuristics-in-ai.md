@@ -28,3 +28,7 @@ The key thing to remember about heuristics in AI is that it's a way for computer
 
 ## Related Terms
 machine-learning, natural-language-processing, computer-vision
+
+## Related Terms
+
+None

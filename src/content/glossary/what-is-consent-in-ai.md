@@ -28,3 +28,7 @@ The key thing to remember about consent in AI is that it's about giving users co
 
 ## Related Terms
 data-privacy, algorithmic-bias, ai-ethics
+
+## Related Terms
+
+None

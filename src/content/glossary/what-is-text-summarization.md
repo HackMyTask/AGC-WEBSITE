@@ -33,3 +33,7 @@ The key thing to remember about text summarization is that it's a tool designed 
 
 ## Related Terms
 natural-language-processing, machine-learning, information-retrieval
+
+## Related Terms
+
+None

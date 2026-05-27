@@ -28,3 +28,7 @@ The key thing to remember about batch normalization is that it helps neural netw
 
 ## Related Terms
 what-is-neural-network, what-is-deep-learning, what-is-machine-learning
+
+## Related Terms
+
+None

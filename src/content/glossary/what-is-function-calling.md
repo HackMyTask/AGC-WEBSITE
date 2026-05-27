@@ -28,3 +28,7 @@ The key thing to remember about function calling is that it's a way for computer
 
 ## Related Terms
 what-is-an-algorithm, introduction-to-programming, basics-of-computation, principles-of-software-design
+
+## Related Terms
+
+None

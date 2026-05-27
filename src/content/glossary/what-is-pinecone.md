@@ -28,3 +28,7 @@ The key thing to remember about Pinecone is that it's a powerful tool for findin
 
 ## Related Terms
 vector-database, approximate-nearest-neighbors, natural-language-processing
+
+## Related Terms
+
+None

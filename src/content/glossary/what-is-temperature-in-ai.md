@@ -28,3 +28,7 @@ The key thing to remember about temperature in AI is that it controls the level 
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
+
+## Related Terms
+
+None

@@ -28,3 +28,7 @@ The key thing to remember about AI startups is that they're using artificial int
 
 ## Related Terms
 what-is-artificial-intelligence, machine-learning-basics, natural-language-processing
+
+## Related Terms
+
+None

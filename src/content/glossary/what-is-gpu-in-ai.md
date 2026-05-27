@@ -28,3 +28,7 @@ The key thing to remember about GPUs in AI is that they significantly speed up c
 
 ## Related Terms
 what-is-cpu-in-ai, what-is-tpu-in-ai, what-is-deep-learning
+
+## Related Terms
+
+None

@@ -33,3 +33,7 @@ The key thing to remember about AI background removal is that it's a powerful to
 
 ## Related Terms
 image-segmentation, object-detection, computer-vision
+
+## Related Terms
+
+None

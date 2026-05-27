@@ -28,3 +28,7 @@ The key takeaway is that accuracy in AI is about how well a model can make corre
 
 ## Related Terms
 what-is-ai, machine-learning-basics, deep-learning-explained
+
+## Related Terms
+
+None

@@ -28,3 +28,7 @@ The one thing to remember about backpropagation is that it's a way AI systems le
 
 ## Related Terms
 what-is-machine-learning, what-is-neural-network, what-is-deep-learning
+
+## Related Terms
+
+None

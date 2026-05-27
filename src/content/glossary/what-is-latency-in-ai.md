@@ -28,3 +28,7 @@ To sum it up, latency in AI is the time delay between input and response. It's c
 
 ## Related Terms
 response-time-optimization, ai-performance-metrics, real-time-processing
+
+## Related Terms
+
+None

@@ -28,3 +28,7 @@ The key thing to remember about vector databases is that they store complex data
 
 ## Related Terms
 natural-language-processing, machine-learning-models, data-preprocessing
+
+## Related Terms
+
+None

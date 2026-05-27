@@ -28,3 +28,7 @@ The key thing to remember about JSON Mode is that it's a format for exchanging d
 
 ## Related Terms
 what-is-json, introduction-to-ai, basics-of-programming, json-data-exchange, computer-languages
+
+## Related Terms
+
+None

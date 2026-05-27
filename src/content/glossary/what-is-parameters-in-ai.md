@@ -28,3 +28,7 @@ The key thing to remember about parameters in AI is that they're adjustable valu
 
 ## Related Terms
 what-is-machine-learning, what-is-deep-learning, what-is-neural-networks
+
+## Related Terms
+
+None

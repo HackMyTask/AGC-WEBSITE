@@ -28,3 +28,7 @@ The key thing to remember about AI Detection is that it's a powerful tool that h
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
+
+## Related Terms
+
+None

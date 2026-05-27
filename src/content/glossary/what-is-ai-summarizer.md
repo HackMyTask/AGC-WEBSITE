@@ -28,3 +28,7 @@ The key thing to remember about AI Summarizers is that they can save you time an
 
 ## Related Terms
 natural-language-processing, machine-learning, text-analysis
+
+## Related Terms
+
+None

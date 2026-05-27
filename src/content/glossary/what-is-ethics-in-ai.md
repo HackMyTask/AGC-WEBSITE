@@ -28,3 +28,7 @@ The core concept of ethics in AI is to ensure that AI systems are designed and d
 
 ## Related Terms
 what-is-ai, what-is-machine-learning, what-is-deep-learning
+
+## Related Terms
+
+None

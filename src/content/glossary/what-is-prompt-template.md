@@ -28,3 +28,7 @@ The key thing to remember about prompt templates is that they help you provide c
 
 ## Related Terms
 related-slug-1, related-slug-2, related-slug-3
+
+## Related Terms
+
+None

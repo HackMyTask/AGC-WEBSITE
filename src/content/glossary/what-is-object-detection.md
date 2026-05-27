@@ -28,3 +28,7 @@ The key thing to remember about object detection is that it's a type of artifici
 
 ## Related Terms
 image-classification, machine-learning, computer-vision
+
+## Related Terms
+
+None
